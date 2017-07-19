@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="renderer" content="webkit|ie-comp|ie-stand">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>汇众联合</title>
+   <!--字体图标-->
+   <link rel="stylesheet" href="font/style.css">
+   <!--样式表-->
+   <link rel="stylesheet" href="js/layer/mobile/need/layer.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/global.css">
+
+   <!--本页css-->
+   <link rel="stylesheet" href="css/index.css">
+
+   <!--js库文件-->
+   <script src="js/jquery/jquery.min.js"></script>
+   <script src="js/bootstrap/bootstrap.min.js"></script>
+   <script src="js/layer/layer.js"></script>
+   <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/global.js"></script>
+   <script src="js/login-mod.js"></script>
+
+   <!--[if lt IE 9]>
+   <script src="js/placeholder.js"></script>
+   <script src="js/html5.js"></script>
+   <script src="js/respond.js"></script>
+   <![endif]-->
+</head>
+<body>
+<!--顶部导航-->
+<nav class="navbar navbar-fixed-top">
+   <div class="container">
+      <div class="navbar-header">
+         <a class="logo navbar-brand" href="index.html">
+            <img src="https://img.sandbox.qixinyun.com/hzlh-logo.png" alt="" class="logo1">
+            <img src="https://img.sandbox.qixinyun.com/hzlh-logo2.png" alt="" class="logo2">
+         </a>
+         <button type="button" class="navbar-toggle collapsed but-ico" data-toggle="collapse"
+                 data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+      </div>
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right ul-list2">
+            <li class="nav-item">
+               <a href="javascript:login()">登录</a>
+            </li>
+            <li class="nav-item">
+               <a href="javascript:register()">注册</a>
+            </li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item active">
+               <a href="index.html">首页</a>
+            </li>
+            <li class="nav-item">
+               <a href="javascript:">中介超市</a>
+            </li>
+            <li class="nav-item">
+               <a href="javascript:">金融超市</a>
+            </li>
+            <li class="nav-item">
+               <a href="javascript:">人才超市</a>
+            </li>
+            <li class="nav-item">
+               <a href="javascript:">股权路演</a>
+            </li>
+            <li class="nav-item">
+               <a href="javascript:">产销对接</a>
+            </li>
+         </ul>
+      </div>
+
+   </div>
+</nav>
+<!--头部-->
+<header class="index">
+   <div class="container">
+      <div class="slogan-wrap">
+         <div class="slogan wow fadeInUp">
+            <p class="name">统筹规划，稳步推进</p>
+            <p class="slogan-title">Comprehensive and flexible acquiring, issuing and payment processing solutions for
+               demanding customer</p>
+            <!--<p class="play-video  wow bounceIn hidden-xs hidden-sm" data-wow-delay="1s" id="play_video"
+               onclick="playVideo()">-->
+            <p class="play-video  wow bounceIn" data-wow-delay="1s" id="play_video" onclick="msg()">
+               <span>观看视频</span>
+            </p>
+         </div>
+      </div>
+   </div>
+</header>
+
+<!--主体-->
+<section>
+   <!--中介超市-->
+   <div class="agent">
+      <div class="container">
+         <div class="industry-top">
+            <p class="title">中介超市</p>
+            <p class="p2">一站式企业服务超市，解决企业成长中的“烦恼”。</p>
+         </div>
+         <div class="agent-sec">
+            <img src="https://img.sandbox.qixinyun.com/hzlh-agent-00.png" alt="" class="img1 hidden-xs">
+            <img src="https://img.sandbox.qixinyun.com/hzlh-agent-001.png" alt="" class="img1 visible-xs">
+         </div>
+      </div>
+   </div>
+   <!--金融超市-->
+   <div class="financial">
+      <div class="row">
+         <div class="col-sm-3 col-xs-6 fina-bj">
+            <a href="javascript:">
+               <span class="icon-chaoshi"></span>
+               <p class="tit">金融超市</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d">
+            <a href="javascript:">
+               <span class="icon-dashujv"></span>
+               <p class="tit">大数据手段</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d fina-d2 hidden-xs">
+            <a href="javascript:">
+               <span class="icon-jrcp"></span>
+               <p class="tit">金融产品库</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d">
+            <a href="javascript:">
+               <span class="icon-bgzj"></span>
+               <p class="tit">企业信用报告</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d fina-d2 visible-xs">
+            <a href="javascript:">
+               <span class="icon-jrcp"></span>
+               <p class="tit">金融产品库</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d hidden-xs">
+            <a href="javascript:">
+               <span class="icon-gl"></span>
+               <p class="tit">融贷需求库</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d fina-d2">
+            <a href="javascript:">
+               <span class="icon-sxxz"></span>
+               <p class="tit">双向推送</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d visible-xs">
+            <a href="javascript:">
+               <span class="icon-gl"></span>
+               <p class="tit">融贷需求库</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d">
+            <a href="javascript:">
+               <span class="icon-chaxun"></span>
+               <p class="tit">查询匹配</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+         <div class="col-sm-3 col-xs-6 fina-d fina-d2">
+            <a href="javascript:">
+               <span class="icon-sh"></span>
+               <p class="tit">线上审核</p>
+               <p class="p2">依托标准化的金融产品库，以及集成企业信用报告的企业融贷需求库通过大数据手段实现银企信息的双向推送搜索比对查询匹配及线上审核。</p>
+            </a>
+         </div>
+      </div>
+   </div>
+   <!--人才超市-->
+   <div class="talent">
+      <div class="container">
+         <div class="industry-top">
+            <p class="title">人才超市</p>
+            <p class="p2">与大中专院校、科研机构合作，建立健全专家和人才库为区域中小企业与专家搭建沟通桥梁为企业提供英才推荐。</p>
+         </div>
+         <div class="talent-sec">
+            <div class="row">
+               <div class="talent-s col-md-4 col-xs-4">
+                  <a href="javascript:">
+                     <img src="https://img.sandbox.qixinyun.com/hzlh-talent-01.png" alt="">
+                     <div>
+                        <p class="tit">合作人群</p>
+                        <p class="p1">与大中专院校、科研机构合作，建立健全专家和人才库，为区域中小企业与专家搭建沟通桥梁</p>
+                     </div>
+                  </a>
+               </div>
+               <div class="talent-s col-md-4 col-xs-4">
+                  <a href="javascript:">
+                     <img src="https://img.sandbox.qixinyun.com/hzlh-talent-02.png" alt="">
+                     <div>
+                        <p class="tit">合作人群</p>
+                        <p class="p1">与大中专院校、科研机构合作，建立健全专家和人才库，为区域中小企业与专家搭建沟通桥梁</p>
+                     </div>
+                  </a>
+               </div>
+               <div class="talent-s col-md-4 col-xs-4">
+                  <a href="javascript:">
+                     <img src="https://img.sandbox.qixinyun.com/hzlh-talent-03.png" alt="">
+                     <div>
+                        <p class="tit">合作人群</p>
+                        <p class="p1">与大中专院校、科研机构合作，建立健全专家和人才库，为区域中小企业与专家搭建沟通桥梁</p>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--介绍-->
+   <div class="make">
+      <div class="container">
+         <p class="p1">充分利用大数据、云计算等信息技术手段建立方便、快捷、高效的信息沟通交流渠道，帮助企业特别是中小企业提供基于信用框架下的中介服务对接</p>
+         <p class="p2">Make full use of big data, cloud computing and other information technology to establish a
+            convenient, fast and efficient information communication channels,</p>
+      </div>
+   </div>
+   <!--股权路演-->
+   <div class="equity">
+      <div class="container">
+         <div class="industry-top row">
+            <div class="fr">
+               <p class="title">股权路演 <span>Equity roadshow</span></p>
+               <p class="p2">以项目路演为特色，聚焦创业者“产品、运营、现金流”三大核心需求，为成长型企业提供股权融通渠道。</p>
+            </div>
+         </div>
+         <div class="equity-sec">
+            <div class="picMarquee-left">
+               <div class="bd">
+                  <ul class="picList">
+                     <li>
+                        <a href="javascript:"><img class="img1" src="https://img.sandbox.qixinyun.com/hzlh-video.png" alt=""></a>
+                     </li>
+                     <li>
+                        <a href="javascript:"><img class="img1" src="https://img.sandbox.qixinyun.com/hzlh-video.png" alt=""></a>
+                     </li>
+                     <li>
+                        <a href="javascript:"><img class="img1" src="https://img.sandbox.qixinyun.com/hzlh-video.png" alt=""></a>
+                     </li>
+                     <li>
+                        <a href="javascript:"><img class="img1" src="https://img.sandbox.qixinyun.com/hzlh-video.png" alt=""></a>
+                     </li>
+                     <li>
+                        <a href="javascript:"><img class="img1" src="https://img.sandbox.qixinyun.com/hzlh-video.png" alt=""></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <script type="text/javascript">
+
+            </script>
+         </div>
+      </div>
+   </div>
+   <!--产销对接-->
+   <div class="production">
+      <div class="container">
+         <div class="industry-top">
+            <p class="title">产销对接 <span>Production and marketing</span></p>
+            <p class="p2">以企业产和销为中心，贯通企业上下游，解决企业“买难买难”搭建企业朋友圈。解决企业“买难买难”搭建企业朋友圈。</p>
+         </div>
+         <img src="https://img.sandbox.qixinyun.com/hzlh-prod-01.png" alt="" class="prod-img1">
+         <img src="https://img.sandbox.qixinyun.com/hzlh-prod-02.png" alt="" class="prod-img2">
+         <img src="https://img.sandbox.qixinyun.com/hzlh-prod-03.png" alt="" class="prod-img3">
+      </div>
+   </div>
+   <!--立即加入-->
+   <div class="insight-info">
+      <div class="container">
+         <div class="industry-top">
+            <p class="title">立即加入</p>
+            <p class="p2">JOIN US</p>
+         </div>
+         <div class="industry-form">
+            <div class="forms">
+               <form action="" id="signupForm" method="get">
+                  <div class="ind-d1 row">
+                     <div class="ind-item fl">
+                        <input type="text" id="name" class="int">
+                        <label for="name">姓名</label>
+                     </div>
+                     <div class="ind-item fr">
+                        <input type="tel" id="tel" class="int">
+                        <label for="tel">电话</label>
+                     </div>
+                     <div class="ind-item fl">
+                        <input type="text" id="gs" class="int">
+                        <label for="gs">QQ号码</label>
+                     </div>
+                     <div class="ind-item fr">
+                        <input type="text" id="ssbm" class="int">
+                        <label for="ssbm">兴趣</label>
+                     </div>
+                     <div class="ind-item fl">
+                        <input type="tel" id="age" class="int">
+                        <label for="age">年龄</label>
+                     </div>
+                     <div class="ind-item fr">
+                        <input type="email" id="email" class="int">
+                        <label for="email">邮箱</label>
+                     </div>
+                  </div>
+                  <div class="ind-d3">
+                     <p id="yz">请填写完善信息</p>
+                     <input type="button" id="submit" value="立刻注册">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!--首页底部-->
+<footer>
+   <div class="container">
+      <div class="row">
+         <div class="foot-l col-md-7 col-sm-9 col-xs-12">
+            <div class="row">
+               <ul class="col-xs-4">
+                  <li class="title"><a href="javascript:">新手指导</a></li>
+                  <li class=""><a href="javascript:">信息发布</a></li>
+                  <li class=""><a href="javascript:">常见问题</a></li>
+               </ul>
+               <ul class="col-xs-4">
+                  <li class="title"><a href="javascript:">业务内容</a></li>
+                  <li class=""><a href="javascript:">天网征信</a></li>
+                  <li class=""><a href="javascript:">天时产销</a></li>
+                  <li class=""><a href="javascript:">天道融贷</a></li>
+                  <li class=""><a href="javascript:">天才培训</a></li>
+               </ul>
+               <ul class="col-xs-4">
+                  <li class="title"><a href="javascript:">关于我们</a></li>
+                  <li class=""><a href="javascript:">企信云介绍</a></li>
+                  <li class=""><a href="javascript:">专家团队</a></li>
+                  <li class=""><a href="javascript:">商务合作</a></li>
+                  <li class=""><a href="javascript:">联系我们</a></li>
+                  <li class=""><a href="javascript:">合作伙伴</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="foot-c col-md-3 col-xs-8 hidden-sm">
+            <div>
+               <span class="title">咨询电话</span>
+               <p>010-83629322</p>
+            </div>
+            <div>
+               <span class="title">客服邮箱</span>
+               <p>postmaster@qixinyun.com</p>
+            </div>
+         </div>
+         <div class="foot-r col-md-2 col-sm-3 col-xs-4">
+            <p class="title">关注企信云</p>
+            <img src="https://img.sandbox.qixinyun.com/hzlh-ewm.jpg" alt="">
+         </div>
+      </div>
+   </div>
+</footer>
+
+<!--登录弹窗-->
+<div class="model">
+   <form action="">
+      <p class="title">汇众联合账号登录</p>
+      <div class="d1">
+         <span class="s1 icon-login"></span>
+         <input type="text" placeholder="请输入账号">
+         <span class="s2 fr">x</span>
+      </div>
+      <div class="d1">
+         <span class="s1 icon-password"></span>
+         <input type="password" placeholder="请输入密码">
+         <span class="s2 fr">x</span>
+      </div>
+      <div class="d2">
+         <label for="jm"><input type="checkbox" id="jm"> 记住密码</label>
+      </div>
+      <input type="submit" value="立即登录" class="sub">
+      <div class="d3">
+         <p>可使用以下方式登录</p>
+         <ul class="row">
+            <li class="fl"><a href="javascript:" class="icon-phone"></a></li>
+            <li class="fl"><a href="javascript:" class="icon-qq"></a></li>
+            <li class="fl"><a href="javascript:" class="icon-weibo"></a></li>
+         </ul>
+      </div>
+   </form>
+</div>
+
+<!--本页js-->
+<script src="js/index.js"></script>
+
+</body>
+</html>

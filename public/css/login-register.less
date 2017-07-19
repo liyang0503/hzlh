@@ -1,0 +1,331 @@
+@import "global";
+
+//PC注册
+@media screen and (min-width: 768px) {
+   //   头部
+   header {
+      div.container {
+         div.reg-head {
+            border-bottom: 1px solid #dedede;
+            padding: 25px 30px 15px;
+            box-shadow: 0 5px 10px -1px #ddd;
+            span.s1 {
+               display: inline-block;
+               vertical-align: middle;
+               font-size: 18px;
+               border-left: 1px solid #dedede;
+               color: #666;
+               line-height: 120%;
+               margin-left: 10px;
+               padding-left: 10px;
+            }
+            div.rt {
+               a {
+                  display: inline-block;
+                  vertical-align: middle;
+                  width: 62px;
+                  height: 30px;
+                  line-height: 30px;
+                  border: 1px solid #bfbfbf;
+                  border-radius: 2px;
+                  text-align: center;
+                  background: #f3f3f3;
+               }
+            }
+         }
+      }
+   }
+
+   //   主体
+   section {
+      div.container {
+         padding: 60px 120px;
+         div.row {
+            div.reg-sec-le {
+               div.d1 {
+                  margin-bottom: 22px;
+                  span.s1 {
+                     display: inline-block;
+                     vertical-align: middle;
+                     width: 50px;
+                     font-weight: bold;
+                     text-align: right;
+                     margin-right: 5px;
+                  }
+                  > input {
+                     width: 350px;
+                     height: 40px;
+                     border: 1px solid #e8e8e8;
+                     padding: 2px 12px;
+                     &.submit {
+                        border: none;
+                        background: @bj;
+                        color: #fff;
+                        font-size: 16px;
+                     }
+                  }
+                  div.dd1 {
+                     display: inline-block;
+                     vertical-align: middle;
+                     width: 350px;
+                  }
+                  &.d2 {
+                     margin-bottom: 10px;
+                  }
+               }
+            }
+            div.reg-sec-rt {
+               width: 342px;
+               div.panel-heading {
+                  text-align: center;
+                  font-size: 16px;
+                  font-weight: bold;
+                  color: #666;
+               }
+               div.panel-body {
+                  text-align: center;
+                  padding: 25px;
+                  div.d1 {
+                     margin-bottom: 10px;
+                     img {
+                        border: 1px solid #ddd;
+                     }
+                     p {
+                        padding: 5px 0;
+                     }
+                  }
+                  div.d2 {
+                     a {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        border-radius: 50%;
+                        background: #dcdcdc;
+                        color: #fff;
+                        font-size: 18px;
+                        margin: 0 5px;
+                        &:hover {
+                           background: #ffc000;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   footer
+   footer {
+      div.container {
+         text-align: center;
+      }
+   }
+}
+
+//ipad注册
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   //   主体
+   section {
+      div.container {
+         padding: 60px 0;
+         div.row {
+            div.reg-sec-rt {
+               width: 255px;
+            }
+         }
+      }
+   }
+}
+
+//手机登录、注册
+@media screen and (max-width: 767px) {
+   //公共样式
+   div.lz-bj {
+      height: 100vh;
+      background-image: url("https://img.sandbox.qixinyun.com/hzlh-login-bj.jpg");
+      background-size: cover;
+      a.logo {
+         display: block;
+         img {
+            display: block;
+            max-width: 100%;
+            margin: auto;
+         }
+      }
+      input.login-sub {
+         -webkit-appearance: none;
+         border: none;
+         width: 100%;
+         border-radius: 25px;
+         height: 30px;
+         font-size: 1.8rem;
+         color: #fff;
+         background: @bj;
+         margin: 15px 0;
+      }
+      a.login-zc {
+         display: block;
+         border: 1px solid @bj;
+         height: 30px;
+         line-height: 28px;
+         text-align: center;
+         color: @bj;
+         font-size: 1.8rem;
+         border-radius: 25px;
+      }
+   }
+
+   //手机登录
+   div.login {
+      padding: 10% 12%;
+      div.login-sec {
+         margin-top: 15%;
+         div.d1 {
+            margin: 25px 0;
+            span {
+               width: 30px;
+               height: 30px;
+               line-height: 27px;
+               text-align: center;
+               border-radius: 50%;
+               border: 2px solid @bj;
+               color: @bj;
+               font-size: 1.8rem;
+            }
+            input {
+               width: 85%;
+               height: 30px;
+               border: none;
+               border-bottom: 1px solid #9a99ce;
+               background: transparent;
+               padding: 2px 5px;
+            }
+         }
+         div.d2 {
+            margin: 8px 0 15px;
+            text-align: center;
+            a {
+               color: #9a99cd;
+               span {
+                  display: inline-block;
+                  vertical-align: middle;
+                  margin-left: 15px;
+                  border: 1px solid @bj;
+                  width: 14px;
+                  height: 14px;
+                  text-align: center;
+                  line-height: 12px;
+                  border-radius: 50%;
+                  font-size: 1.2rem;
+               }
+            }
+         }
+         div.d3 {
+            margin: 10px auto 0;
+            text-align: center;
+            p {
+               color: @bj;
+            }
+            ul {
+               li {
+                  display: inline-block;
+                  vertical-align: middle;
+                  margin: 10px;
+                  a {
+                     display: block;
+                     width: 40px;
+                     height: 40px;
+                     line-height: 40px;
+                     border-radius: 50%;
+                     background: #dcdcdc;
+                     text-align: center;
+                     font-size: 2rem;
+                     color: #fff;
+                     &:hover {
+                        background: #ffc000;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //手机注册
+   div.register {
+      padding: 10% 5%;
+      div.register-sec {
+         margin-top: 15%;
+         div.d1 {
+            margin: 22px 0;
+            span {
+               width: 75px;
+               height: 30px;
+               line-height: 30px;
+               text-align: right;
+               color: @bj;
+               font-size: 1.4rem;
+            }
+            input {
+               width: 78%;
+               height: 30px;
+               border: none;
+               border-bottom: 1px solid #9a99ce;
+               background: transparent;
+               padding: 2px 5px;
+            }
+         }
+         a.login-zc {
+            display: block;
+            border: none;
+            height: 30px;
+            line-height: 28px;
+            text-align: center;
+            color: @bj;
+            font-size: 1.4rem;
+            border-radius: 25px;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 450px) {
+   //手机注册
+   div.register {
+      div.register-sec {
+         margin-top: 15%;
+         div.d1 {
+            input {
+               width: 76%;
+               height: 30px;
+               border: none;
+               border-bottom: 1px solid #9a99ce;
+               background: transparent;
+               padding: 2px 5px;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 360px) {
+   //手机注册
+   div.register {
+      div.register-sec {
+         margin-top: 15%;
+         div.d1 {
+            input {
+               width: 72%;
+               height: 30px;
+               border: none;
+               border-bottom: 1px solid #9a99ce;
+               background: transparent;
+               padding: 2px 5px;
+            }
+         }
+      }
+   }
+}

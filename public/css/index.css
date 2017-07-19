@@ -1,0 +1,1045 @@
+*,
+p,
+ul {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font: 14px/1.8 "微软雅黑";
+  color: #333;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  body {
+    font: 1.4rem/1.6 "微软雅黑";
+  }
+}
+:focus {
+  outline: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+table {
+  border-spacing: 0;
+}
+label {
+  font-weight: normal;
+  margin: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+header,
+nav,
+section,
+footer {
+  display: block;
+  width: 100%;
+}
+/********************************************************************************************************************/
+/************** 登录弹窗 ****************/
+.layui-layer-page {
+  border-radius: 5px !important;
+  width: 452px !important;
+}
+div.model {
+  display: none;
+  padding: 5px 86px;
+}
+div.model p.title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+div.model div.d1 {
+  width: 100%;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #e8e8e8;
+  margin: 15px auto;
+}
+div.model div.d1 span.s1 {
+  font-size: 18px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+div.model div.d1 input {
+  width: 180px;
+  border: none;
+}
+div.model div.d1 span.s2 {
+  font-size: 18px;
+  padding: 0 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+div.model input.sub {
+  border: none;
+  background: #4749ad;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  height: 37px;
+  border-radius: 2px;
+}
+div.model div.d3 {
+  margin: 10px auto 0;
+}
+div.model div.d3 p {
+  color: #888;
+}
+div.model div.d3 ul li {
+  margin: 5px 10px 0 0;
+}
+div.model div.d3 ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #dcdcdc;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+div.model div.d3 ul li a:hover {
+  background: #ffc000;
+}
+a:hover,
+a:focus {
+  color: #4749ad;
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1400px;
+  }
+}
+@media screen and (min-width: 320px) {
+  nav {
+    z-index: 9999;
+    background: transparent;
+    transition: all 0.1s ease-in-out 0s;
+    height: 64px;
+  }
+  nav div.container .navbar-header button span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+  }
+  nav div.container .navbar-header .navbar-brand {
+    height: 64px;
+    padding: 20px 0;
+  }
+  nav div.container .navbar-header .navbar-brand img.logo2 {
+    display: none;
+  }
+  nav div.container .navbar-collapse ul li {
+    height: 64px;
+    padding: 16px;
+  }
+  nav div.container .navbar-collapse ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  nav div.container .navbar-collapse ul li a:hover {
+    background: transparent;
+  }
+  nav div.container .navbar-collapse ul li.nav-item a {
+    border: 1px solid transparent;
+    border-left-width: 5px;
+  }
+  nav div.container .navbar-collapse ul li.nav-item:hover a,
+  nav div.container .navbar-collapse ul li.nav-item.active a {
+    border-color: #fff;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 {
+    margin-left: 10px;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li {
+    padding: 16px 5px;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li a {
+    color: #9b9b9f;
+  }
+  nav.scroll2 {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  nav.scroll {
+    background: #fafafa;
+    box-shadow: 0 0 5px 1px #ddd;
+  }
+  nav.scroll div.container .navbar-header .navbar-brand img.logo1 {
+    display: none;
+  }
+  nav.scroll div.container .navbar-header .navbar-brand img.logo2 {
+    display: block;
+  }
+  nav.scroll div.container .navbar-collapse ul li.nav-item a {
+    color: #4749ad;
+  }
+  nav.scroll div.container .navbar-collapse ul li.nav-item:hover a,
+  nav.scroll div.container .navbar-collapse ul li.nav-item.active a {
+    border-color: #4749ad;
+  }
+  nav.scroll div.container .navbar-collapse ul.ul-list2 li a {
+    color: #9b9b9f;
+  }
+  header.index {
+    height: 100vh;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header.index .container {
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    z-index: 50;
+  }
+  header.index .container .slogan-wrap {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    color: #fff;
+  }
+  header.index .container .slogan-wrap .slogan {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    margin: -10px 0 0 -50%;
+  }
+  header.index .container .slogan-wrap .slogan p.name {
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+  header.index .container .slogan-wrap .slogan p.slogan-title {
+    width: 510px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  header.index .container .slogan-wrap .slogan p.play-video {
+    margin-top: 30px;
+  }
+  header.index .container .slogan-wrap .slogan p.play-video span {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.61);
+    border-radius: 30px;
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #4749ad;
+  }
+  section div.industry-top {
+    text-align: center;
+  }
+  section div.industry-top p.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  section div.industry-top p.p2 {
+    font-size: 20px;
+  }
+  section div.agent {
+    padding: 56px 0;
+    height: 622px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section div.agent div.agent-sec {
+    padding: 10px 0;
+  }
+  section div.agent div.agent-sec img.img1 {
+    display: block;
+    width: 100%;
+  }
+  section div.financial {
+    height: 718px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-fina-bj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  section div.financial div.row > div {
+    height: 359px;
+    padding: 20px 3%;
+    text-align: center;
+  }
+  section div.financial div.row > div a {
+    display: block;
+    letter-spacing: 1px;
+  }
+  section div.financial div.row > div a p.tit {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  section div.financial div.row > div a p.p2 {
+    font-size: 18px;
+    height: 128px;
+    overflow: hidden;
+  }
+  section div.financial div.row > div.fina-d a {
+    color: #000;
+  }
+  section div.financial div.row > div.fina-d a span {
+    display: block;
+    font-size: 140px;
+    margin: 30px auto;
+  }
+  section div.financial div.row > div.fina-d a p.p2 {
+    display: none;
+  }
+  section div.financial div.row > div.fina-d.fina-d2 {
+    background: rgba(145, 111, 227, 0.39);
+  }
+  section div.financial div.row > div.fina-d.fina-d2 a {
+    color: #fff;
+  }
+  section div.financial div.row > div.fina-bj {
+    background: rgba(14, 16, 42, 0.66) !important;
+  }
+  section div.financial div.row > div.fina-bj a {
+    color: #fff;
+  }
+  section div.financial div.row > div.fina-bj a span {
+    display: block;
+    font-size: 80px;
+    margin: auto;
+  }
+  section div.financial div.row > div.fina-bj a p.tit {
+    font-size: 30px;
+  }
+  section div.financial div.row > div.fina-bj a p.p2 {
+    display: block;
+  }
+  section div.talent {
+    padding: 30px 0 56px;
+  }
+  section div.talent div.container div.industry-top {
+    width: 800px;
+    height: 220px;
+    margin: auto;
+    padding: 25px 135px 0;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-ces-01.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  section div.talent div.container div.industry-top p.title {
+    margin-bottom: 30px;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s {
+    padding: 0 50px;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a > img {
+    display: block;
+    width: 100%;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -100%;
+    padding: 5px 30px 10px;
+    background: rgba(250, 250, 250, 0.79);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div p.tit {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-ces-03.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div p.p1 {
+    font-size: 16px;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a:hover div {
+    bottom: 0;
+  }
+  section div.make {
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-make.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 203px;
+    text-align: center;
+    padding-top: 75px;
+  }
+  section div.make div.container p {
+    font-size: 16px;
+    color: #fff;
+  }
+  section div.make div.container p.p1 {
+    letter-spacing: 3px;
+  }
+  section div.make div.container p.p2 {
+    font-family: Arial;
+  }
+  section div.equity {
+    padding: 56px 0;
+    background: #f9f9f9;
+  }
+  section div.equity div.container div.industry-top {
+    text-align: left;
+  }
+  section div.equity div.container div.industry-top div {
+    width: 961px;
+    height: 295px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-ces-04.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  section div.equity div.container div.industry-top div p.title {
+    padding-left: 545px;
+    margin-bottom: 45px;
+  }
+  section div.equity div.container div.industry-top div p.title span {
+    display: block;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: normal;
+  }
+  section div.equity div.container div.industry-top div p.p2 {
+    padding: 0 200px;
+  }
+  section div.equity div.container div.equity-sec {
+    padding: 30px 0;
+  }
+  section div.equity div.container div.equity-sec .picMarquee-left {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  section div.equity div.container div.equity-sec .picMarquee-left .bd ul {
+    overflow: hidden;
+    zoom: 1;
+  }
+  section div.equity div.container div.equity-sec .picMarquee-left .bd ul li {
+    float: left;
+    width: 25%;
+    _display: inline;
+    overflow: hidden;
+    text-align: center;
+  }
+  section div.equity div.container div.equity-sec .picMarquee-left .bd ul li a {
+    display: block;
+    width: 100%;
+  }
+  section div.equity div.container div.equity-sec .picMarquee-left .bd ul li a img.img1 {
+    display: block;
+    width: 100%;
+    height: 207px;
+  }
+  section div.production {
+    padding: 56px 0;
+  }
+  section div.production div.container {
+    position: relative;
+    padding-top: 45px;
+  }
+  section div.production div.container div.industry-top {
+    width: 684px;
+    height: 525px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-ces-02.png");
+    background-repeat: no-repeat;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+  }
+  section div.production div.container div.industry-top p.title {
+    position: relative;
+    top: -20px;
+  }
+  section div.production div.container div.industry-top p.title span {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 100%;
+  }
+  section div.production div.container div.industry-top p.p2 {
+    font-size: 14px;
+    padding: 0 70px;
+  }
+  section div.production div.container > img {
+    position: absolute;
+  }
+  section div.production div.container img.prod-img1 {
+    left: 370px;
+    bottom: 0;
+  }
+  section div.production div.container img.prod-img2 {
+    right: 5%;
+    bottom: 30px;
+  }
+  section div.production div.container img.prod-img3 {
+    right: 0;
+    top: 0;
+  }
+  section div.insight-info {
+    height: 714px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 56px 0;
+    color: #fff;
+    font-weight: 100;
+  }
+  section div.insight-info div.container div.industry-form {
+    width: 830px;
+    margin: 45px auto 16px;
+    padding: 35px;
+    background: rgba(249, 249, 249, 0.11);
+    border-radius: 5px;
+    border: 5px solid rgba(170, 170, 170, 0.11);
+  }
+  section div.insight-info div.container div.industry-form div.forms {
+    width: 560px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d1 {
+    margin: 0;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d1 div.ind-item {
+    margin-bottom: 20px;
+    width: 252px;
+    height: 46px;
+    padding-top: 18px;
+    position: relative;
+    z-index: 2;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d1 div.ind-item input {
+    display: block;
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #eee;
+    height: 28px;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d1 div.ind-item label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: -1;
+    color: #999;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d3 {
+    margin-top: 30px;
+    position: relative;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d3 input {
+    -webkit-appearance: none;
+    border: none;
+    display: block;
+    width: 130px;
+    height: 35px;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+    background: #6699ff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d3 input:hover {
+    box-shadow: 0 3px 6px 0 rgba(6, 20, 48, 0.2), 0 8px 16px 0 rgba(7, 21, 48, 0.38);
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d3 p {
+    display: none;
+    position: absolute;
+    height: 22px;
+    line-height: 22px;
+    top: -30px;
+    left: 0;
+    text-align: center;
+    color: red;
+    font-size: 12px;
+    width: 100%;
+  }
+  footer {
+    padding: 30px 0 60px;
+    font-size: 12px;
+    color: #fff;
+    background: #363636;
+  }
+  footer div.container {
+    max-width: 1060px;
+  }
+  footer div.container .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  footer div.container div.foot-l ul:first-child {
+    padding-left: 0;
+  }
+  footer div.container div.foot-l ul li a {
+    display: block;
+    color: #fff;
+  }
+  footer div.container div.foot-l ul li a:hover {
+    color: #7275ff;
+  }
+  footer div.container div.foot-c div {
+    margin-bottom: 20px;
+  }
+  footer div.container div.foot-r .title {
+    margin-bottom: 30px;
+  }
+  footer div.container div.foot-r img {
+    display: block;
+    width: 100%;
+    max-width: 120px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav div.container .navbar-collapse ul li {
+    padding: 16px 0;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 {
+    margin-left: 0;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li {
+    padding: 16px 0;
+  }
+  section div.industry-top {
+    text-align: center;
+  }
+  section div.industry-top p.title {
+    font-size: 1.4rem;
+  }
+  section div.industry-top p.p2 {
+    font-size: 1.4rem;
+  }
+  section div.agent {
+    height: auto;
+  }
+  section div.financial {
+    height: auto;
+  }
+  section div.financial div.row > div {
+    height: 160px;
+    padding: 20px 3%;
+  }
+  section div.financial div.row > div a span {
+    font-size: 7.6rem !important;
+    margin: 0 auto 15px !important;
+  }
+  section div.financial div.row > div a p.tit {
+    font-size: 2rem !important;
+    margin-bottom: 0 !important;
+  }
+  section div.financial div.row > div a p.p2 {
+    display: none !important;
+  }
+  section div.talent {
+    padding: 30px 0 56px;
+  }
+  section div.talent div.container div.industry-top {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-size: 35%;
+    background-position: right 100px top 0;
+    margin-bottom: 15px;
+  }
+  section div.talent div.container div.industry-top p.title {
+    padding-left: 35%;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+  section div.talent div.container div.industry-top p.p2 {
+    padding: 0 25% 0 15%;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s {
+    padding: 0 10px;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div {
+    bottom: 0;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div p.tit {
+    background-size: 100%;
+    font-size: 1.4rem;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div p.p1 {
+    font-size: 1rem;
+  }
+  section div.make {
+    height: auto;
+    padding: 30px 15px;
+  }
+  section div.make div.container p {
+    font-size: 1.4rem;
+  }
+  section div.make div.container p.p1 {
+    letter-spacing: 1px;
+  }
+  section div.equity {
+    padding: 30px 0;
+  }
+  section div.equity div.container div.industry-top {
+    text-align: left;
+  }
+  section div.equity div.container div.industry-top div {
+    width: 100%;
+    height: 160px;
+    background-size: 57%;
+    background-position: right 15px;
+  }
+  section div.equity div.container div.industry-top div p.title {
+    text-align: center;
+    padding: 0;
+    padding-left: 60%;
+    margin-bottom: 15px;
+  }
+  section div.equity div.container div.industry-top div p.title span {
+    font-size: 1.2rem;
+  }
+  section div.equity div.container div.industry-top div p.p2 {
+    padding: 0 30px 0 30%;
+  }
+  section div.equity div.container div.equity-sec {
+    padding: 0;
+  }
+  section div.equity div.container div.equity-sec .picMarquee-left .bd ul li a img.img1 {
+    height: auto;
+  }
+  section div.production div.container {
+    padding-top: 0;
+  }
+  section div.production div.container div.industry-top {
+    width: 450px;
+    height: 260px;
+    background-size: 68%;
+  }
+  section div.production div.container div.industry-top p.title {
+    font-size: 1.6rem;
+    top: -15px;
+  }
+  section div.production div.container div.industry-top p.title span {
+    font-size: 1.4rem;
+  }
+  section div.production div.container div.industry-top p.p2 {
+    padding: 0 20px;
+    position: relative;
+    top: -12px;
+  }
+  section div.production div.container img.prod-img1 {
+    width: 35%;
+    left: 19%;
+    bottom: 0;
+  }
+  section div.production div.container img.prod-img2 {
+    width: 35%;
+    right: 15%;
+    bottom: 10%;
+  }
+  section div.production div.container img.prod-img3 {
+    width: 25%;
+    right: 5%;
+    top: -8%;
+  }
+  section div.insight-info {
+    height: auto;
+  }
+  section div.insight-info div.container div.industry-form {
+    width: 65%;
+  }
+  section div.insight-info div.container div.industry-form div.forms {
+    width: 100%;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d1 div.ind-item {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    height: 50px;
+  }
+  nav div.container {
+    width: 100%;
+    padding: 0 3%;
+  }
+  nav div.container.bj-col {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  nav div.container .navbar-header .navbar-brand {
+    height: 50px;
+    padding: 13px 0;
+  }
+  nav div.container .navbar-collapse ul li {
+    height: 50px;
+    padding: 5px 16px;
+  }
+  header.index .container .slogan-wrap .slogan p.name {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+  }
+  header.index .container .slogan-wrap .slogan p.slogan-title {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  section div.industry-top {
+    margin-bottom: 15px;
+  }
+  section div.industry-top p.title {
+    font-size: 2rem;
+  }
+  section div.industry-top p.p2 {
+    font-size: 1.4rem;
+  }
+  section div.agent {
+    padding: 30px 0;
+    height: auto;
+  }
+  section div.agent div.agent-sec {
+    padding: 10px 0;
+  }
+  section div.agent div.agent-sec img.img1 {
+    display: block;
+    width: 100%;
+  }
+  section div.financial {
+    height: auto;
+  }
+  section div.financial div.row > div {
+    height: 160px;
+    padding: 20px 3%;
+  }
+  section div.financial div.row > div a span {
+    font-size: 7.6rem !important;
+    margin: 0 auto 15px !important;
+  }
+  section div.financial div.row > div a p.tit {
+    font-size: 2rem !important;
+    margin-bottom: 0 !important;
+  }
+  section div.financial div.row > div a p.p2 {
+    display: none !important;
+  }
+  section div.talent {
+    padding: 30px 0;
+  }
+  section div.talent div.container div.industry-top {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-size: 60%;
+  }
+  section div.talent div.container div.industry-top p.title {
+    padding-left: 35%;
+  }
+  section div.talent div.container div.talent-sec {
+    margin-left: -3%;
+    margin-right: -3%;
+    overflow-y: scroll;
+  }
+  section div.talent div.container div.talent-sec div.row {
+    width: 260vw;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s {
+    padding: 0 15px;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div {
+    bottom: 0 !important;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div p.tit {
+    font-size: 1.6rem;
+  }
+  section div.talent div.container div.talent-sec div.row div.talent-s a div p.p1 {
+    font-size: 1.4rem;
+  }
+  section div.make {
+    height: auto;
+    padding: 20px 15px;
+  }
+  section div.make div.container p {
+    font-size: 1.2rem;
+  }
+  section div.make div.container p.p1 {
+    letter-spacing: 1px;
+  }
+  section div.equity {
+    padding: 30px 0;
+  }
+  section div.equity div.container div.industry-top {
+    text-align: left;
+  }
+  section div.equity div.container div.industry-top div {
+    width: 100%;
+    height: auto;
+    background-size: 80%;
+    background-position: right 15px;
+  }
+  section div.equity div.container div.industry-top div p.title {
+    text-align: center;
+    padding: 0;
+    padding-left: 43%;
+    margin-bottom: 5px;
+  }
+  section div.equity div.container div.industry-top div p.title span {
+    font-size: 1.4rem;
+  }
+  section div.equity div.container div.industry-top div p.p2 {
+    padding: 0;
+  }
+  section div.equity div.container div.equity-sec {
+    padding: 0;
+    margin-left: -3%;
+    margin-right: -3%;
+  }
+  section div.equity div.container div.equity-sec .picMarquee-left .bd ul li {
+    width: 50%;
+  }
+  section div.equity div.container div.equity-sec .picMarquee-left .bd ul li a img.img1 {
+    height: auto;
+  }
+  section div.production {
+    padding: 30px 0;
+  }
+  section div.production div.container {
+    padding-top: 0;
+    min-height: 512px;
+  }
+  section div.production div.container div.industry-top {
+    width: 100%;
+    height: 260px;
+    background-size: 85%;
+  }
+  section div.production div.container div.industry-top p.title span {
+    font-size: 1.4rem;
+  }
+  section div.production div.container div.industry-top p.p2 {
+    font-size: 1.4rem;
+    padding: 0 15px;
+    width: 80%;
+    position: relative;
+    top: -25px;
+  }
+  section div.production div.container img.prod-img1 {
+    width: 50%;
+    left: auto;
+    right: 12%;
+    top: 32%;
+  }
+  section div.production div.container img.prod-img2 {
+    width: 50%;
+    right: 37%;
+    bottom: auto;
+    top: 47%;
+  }
+  section div.production div.container img.prod-img3 {
+    width: 65%;
+    right: 30%;
+    top: auto;
+    bottom: 0;
+  }
+  section div.insight-info {
+    height: auto;
+  }
+  section div.insight-info div.container div.industry-form {
+    width: 100%;
+    padding: 10px 10px 30px;
+  }
+  section div.insight-info div.container div.industry-form div.forms {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d1 {
+    margin: 0;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d1 div.ind-item {
+    width: 46%;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d3 {
+    margin-top: 30px;
+    position: relative;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d3 input {
+    -webkit-appearance: none;
+    border: none;
+    display: block;
+    width: 130px;
+    height: 35px;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+    background: #6699ff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d3 input:hover {
+    box-shadow: 0 3px 6px 0 rgba(6, 20, 48, 0.2), 0 8px 16px 0 rgba(7, 21, 48, 0.38);
+  }
+  section div.insight-info div.container div.industry-form div.forms div.ind-d3 p {
+    display: none;
+    position: absolute;
+    height: 22px;
+    line-height: 22px;
+    top: -30px;
+    left: 0;
+    text-align: center;
+    color: red;
+    font-size: 12px;
+    width: 100%;
+  }
+  footer div.container div.foot-l {
+    margin-bottom: 15px;
+  }
+  footer div.container div.foot-c div {
+    margin-bottom: 20px;
+  }
+  footer div.container div.foot-r .title {
+    margin-bottom: 10px;
+  }
+  footer div.container div.foot-r img {
+    max-width: 80px;
+  }
+}

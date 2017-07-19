@@ -1,0 +1,301 @@
+a:hover,
+a:focus {
+  color: #2ac8be;
+}
+@media screen and (min-width: 320px) {
+  header.pc-ipad div.head-top {
+    background: #393939;
+    height: 32px;
+    line-height: 32px;
+  }
+  header.pc-ipad div.head-top div.container div.row ul li {
+    margin-left: 30px;
+  }
+  header.pc-ipad div.head-top div.container div.row ul li a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+  }
+  header.pc-ipad div.head-fot {
+    border-bottom: 8px solid #2ac8be;
+  }
+  header.pc-ipad div.head-fot div.container div.head-fh {
+    padding: 30px 0;
+  }
+  header.pc-ipad div.head-fot div.container div.head-fh div.search {
+    width: 350px;
+    height: 37px;
+    border: 1px solid #ddd;
+  }
+  header.pc-ipad div.head-fot div.container div.head-fh div.search input {
+    border: none;
+    height: 35px;
+  }
+  header.pc-ipad div.head-fot div.container div.head-fh div.search input.in1 {
+    width: 275px;
+    padding: 2px 10px;
+  }
+  header.pc-ipad div.head-fot div.container div.head-fh div.search input.in2 {
+    background: linear-gradient(to right, #5dcde1 0%, #54d1d6 45%, #43dac2 100%);
+    float: right;
+    width: 35px;
+    padding: 8px;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li {
+    line-height: 37px;
+    font-size: 18px;
+    margin-right: 60px;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li > a {
+    display: block;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li div.btn-group {
+    display: block;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li div.btn-group div.dropdown-toggle {
+    box-shadow: none;
+    cursor: pointer;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li div.btn-group div.dropdown-toggle span {
+    color: #999;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li div.btn-group .dropdown-menu {
+    border-color: #2ac8be;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li div.btn-group .dropdown-menu:before {
+    border-bottom-color: #2ac8be;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li div.btn-group .dropdown-menu > li > a {
+    color: #2ac8be;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list1 > li div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #2ac8be;
+    color: #fff;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list2 > li {
+    line-height: 37px;
+    font-size: 14px;
+    margin-right: 0;
+    margin-left: 60px;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list2 > li > a {
+    display: block;
+  }
+  section div.found {
+    padding-bottom: 10px;
+  }
+  section div.found div.container div.row div.found-le {
+    width: 920px;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top {
+    background: #f0f0f0;
+    height: 475px;
+    overflow: hidden;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+    margin-bottom: 0;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dt a {
+    display: block;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dt a img {
+    display: block;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dd {
+    padding: 0 10px;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dd.dd1 div {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dd.dd1 div a {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dd.dd2 {
+    padding: 13px 10px;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dd.dd2 span {
+    font-size: 18px;
+    color: #6699ff;
+    vertical-align: middle;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dd.dd2 a {
+    border: 1px solid #6699ff;
+    color: #6699ff;
+    border-radius: 15px;
+    padding: 0 12px;
+    margin-left: 12px;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dd.dd3 {
+    padding-bottom: 12px;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top dl dd.dd3 span {
+    font-size: 18px;
+    color: #f7b238;
+    vertical-align: middle;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top .poster-main {
+    width: 880px;
+    height: 467px;
+    position: relative;
+    margin: 0 auto;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top .poster-main a,
+  section div.found div.container div.row div.found-le div.found-le-top .poster-main img {
+    display: block;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top .poster-main .poster-list {
+    width: 880px;
+    height: 467px;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top .poster-main .poster-list .poster-item {
+    width: 200px;
+    height: 475px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  section div.found div.container div.row div.found-rt {
+    width: 265px;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-t {
+    padding: 5px 0;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-t span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2ac8be;
+    border-left: 4px solid #2ac8be;
+    padding-left: 10px;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-f a {
+    position: relative;
+    display: block;
+    color: #fff;
+    margin-bottom: 22px;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-f a > img {
+    width: 100%;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-f a div.ts {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 6px solid rgba(181, 181, 181, 0.6);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-f a div.ts div.d1 {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-f a div.ts div.d1 p.tit {
+    text-align: center;
+    padding: 5px 20px 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    line-height: 130%;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-f a div.ts div.d1 div.d2 {
+    padding-left: 35px;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-f a:hover div.ts {
+    opacity: 1;
+  }
+  section div.qua-top {
+    margin-bottom: 15px;
+  }
+  section div.qua-top span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2ac8be;
+    border-left: 5px solid #2ac8be;
+    padding-left: 15px;
+  }
+  section .progress {
+    height: 6px;
+  }
+  section div.quality {
+    padding: 25px 0;
+    background: #fdfdfd;
+  }
+  section div.quality div.container div.qua-sec {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  section div.quality div.container div.qua-sec > div {
+    padding: 5px 12px;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s1 a {
+    display: block;
+    position: relative;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s1 a > img {
+    width: 100%;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s1 a div.d1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: #fff;
+    padding: 30% 15%;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s1 a div.d1 p.p1 {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+    margin: 10px auto;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s {
+    border: 1px solid #ededed;
+    background: #fff;
+    height: 369px;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd1 a {
+    display: block;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd1 a img {
+    width: 100%;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd2 {
+    padding: 10px 15px;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd2 a.a1 {
+    display: block;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd2 div.bq {
+    margin: 12px 0;
+  }
+  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd2 div.bq span {
+    display: inline-block;
+    vertical-align: middle;
+    background: #f0f0f0;
+    color: #2ac8be;
+    padding: 0 8px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}

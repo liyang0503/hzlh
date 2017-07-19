@@ -1,0 +1,1117 @@
+@import "global";
+
+a:hover, a:focus {
+   color: @bj;
+}
+
+@media screen and (min-width: 1400px) {
+   .container {
+      width: 1400px;
+   }
+}
+
+//公共部分
+@media screen and (min-width: 320px) {
+   //导航
+   nav {
+      z-index: 9999;
+      background: transparent;
+      transition: all .1s ease-in-out 0s;
+      height: 64px;
+      div.container {
+         .navbar-header {
+            button {
+               span {
+                  display: block;
+                  width: 24px;
+                  height: 2px;
+                  border-radius: 1px;
+                  background: #fff;
+               }
+            }
+            .navbar-brand {
+               height: 64px;
+               padding: 20px 0;
+               img.logo2 {
+                  display: none;
+               }
+            }
+         }
+         .navbar-collapse {
+            ul {
+               li {
+                  height: 64px;
+                  padding: 16px;
+                  a {
+                     display: block;
+                     color: #fff;
+                     padding: 0 10px;
+                     line-height: 30px;
+                     &:hover {
+                        background: transparent;
+                     }
+                  }
+               }
+               li.nav-item {
+                  a {
+                     border: 1px solid transparent;
+                     border-left-width: 5px;
+                  }
+                  &:hover, &.active {
+                     a {
+                        border-color: #fff;
+                     }
+                  }
+               }
+               &.ul-list2 {
+                  margin-left: 10px;
+                  li {
+                     padding: 16px 5px;
+                     a {
+                        color: #9b9b9f;
+                     }
+                  }
+               }
+            }
+         }
+      }
+      &.scroll2 {
+         background: rgba(0, 0, 0, 0.8);
+      }
+      &.scroll {
+         background: #fafafa;
+         box-shadow: 0 0 5px 1px #ddd;
+         div.container {
+            .navbar-header {
+               .navbar-brand {
+                  img.logo1 {
+                     display: none;
+                  }
+                  img.logo2 {
+                     display: block;
+                  }
+               }
+            }
+            .navbar-collapse {
+               ul {
+                  li.nav-item {
+                     a {
+                        color: @bj;
+                     }
+                     &:hover, &.active {
+                        a {
+                           border-color: @bj;
+                        }
+                     }
+                  }
+                  &.ul-list2 {
+                     li {
+                        a {
+                           color: #9b9b9f;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //首页头部
+   header.index {
+      height: 100vh;
+      background-image: url("https://img.sandbox.qixinyun.com/hzlh-banner.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      .container {
+         position: relative;
+         height: 100%;
+         padding: 0;
+         margin: 0 auto;
+         z-index: 50;
+         .slogan-wrap {
+            position: relative;
+            width: 100%;
+            height: 60%;
+            color: #fff;
+            .slogan {
+               position: absolute;
+               bottom: 0;
+               left: 50%;
+               width: 100%;
+               margin: -10px 0 0 -50%;
+               p.name {
+                  font-size: 36px;
+                  letter-spacing: 1px;
+               }
+               p.slogan-title {
+                  width: 510px;
+                  font-size: 18px;
+                  margin-top: 20px;
+               }
+               p.play-video {
+                  margin-top: 30px;
+                  span {
+                     cursor: pointer;
+                     background: rgba(255, 255, 255, 0.61);
+                     border-radius: 30px;
+                     display: block;
+                     width: 120px;
+                     height: 40px;
+                     line-height: 40px;
+                     text-align: center;
+                     color: @bj;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //主体
+   section {
+      div.industry-top {
+         text-align: center;
+         p.title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+         }
+         p.p2 {
+            font-size: 20px;
+         }
+      }
+      //   中介超市
+      div.agent {
+         padding: 56px 0;
+         height: 622px;
+         background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         div.agent-sec {
+            padding: 10px 0;
+            img.img1 {
+               display: block;
+               width: 100%;
+            }
+         }
+      }
+      //   金融超市
+      div.financial {
+         height: 718px;
+         background-image: url("https://img.sandbox.qixinyun.com/hzlh-fina-bj.png");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         div.row {
+            > div {
+               height: 359px;
+               padding: 20px 3%;
+               text-align: center;
+               a {
+                  display: block;
+                  letter-spacing: 1px;
+                  p.tit {
+                     font-size: 27px;
+                     margin-bottom: 20px;
+                  }
+                  p.p2 {
+                     font-size: 18px;
+                     height: 128px;
+                     overflow: hidden;
+                  }
+               }
+               &.fina-d {
+                  a {
+                     color: #000;
+                     span {
+                        display: block;
+                        font-size: 140px;
+                        margin: 30px auto;
+                     }
+                     p.p2 {
+                        display: none;
+                     }
+                  }
+                  &.fina-d2 {
+                     background: rgba(145, 111, 227, 0.39);
+                     a {
+                        color: #fff;
+                     }
+                  }
+               }
+               &.fina-bj {
+                  background: rgba(14, 16, 42, 0.66) !important;
+                  a {
+                     color: #fff;
+                     span {
+                        display: block;
+                        font-size: 80px;
+                        margin: auto;
+                     }
+                     p.tit {
+                        font-size: 30px;
+                     }
+                     p.p2 {
+                        display: block;
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   人才超市
+      div.talent {
+         padding: 30px 0 56px;
+         div.container {
+            div.industry-top {
+               width: 800px;
+               height: 220px;
+               margin: auto;
+               padding: 25px 135px 0;
+               background-image: url("https://img.sandbox.qixinyun.com/hzlh-ces-01.png");
+               background-repeat: no-repeat;
+               background-position: top right;
+               p.title {
+                  margin-bottom: 30px;
+               }
+            }
+            div.talent-sec {
+               div.row {
+                  div.talent-s {
+                     padding: 0 50px;
+                     a {
+                        display: block;
+                        position: relative;
+                        overflow: hidden;
+                        > img {
+                           display: block;
+                           width: 100%;
+                        }
+                        div {
+                           position: absolute;
+                           width: 100%;
+                           left: 0;
+                           bottom: -100%;
+                           padding: 5px 30px 10px;
+                           background: rgba(250, 250, 250, 0.79);
+                           -webkit-transition: all 0.3s ease-out;
+                           -moz-transition: all 0.3s ease-out;
+                           -o-transition: all 0.3s ease-out;
+                           transition: all 0.3s ease-out;
+                           p.tit {
+                              text-align: center;
+                              font-size: 20px;
+                              font-weight: bold;
+                              background-image: url("https://img.sandbox.qixinyun.com/hzlh-ces-03.png");
+                              background-repeat: no-repeat;
+                              background-position: center;
+                           }
+                           p.p1 {
+                              font-size: 16px;
+                           }
+                        }
+                        &:hover {
+                           div {
+                              bottom: 0;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   介绍
+      div.make {
+         background-image: url("https://img.sandbox.qixinyun.com/hzlh-make.png");
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 203px;
+         text-align: center;
+         padding-top: 75px;
+         div.container {
+            p {
+               font-size: 16px;
+               color: #fff;
+            }
+            p.p1 {
+               letter-spacing: 3px;
+            }
+            p.p2 {
+               font-family: Arial;
+            }
+         }
+      }
+      //   股权路演
+      div.equity {
+         padding: 56px 0;
+         background: #f9f9f9;
+         div.container {
+            div.industry-top {
+               text-align: left;
+               div {
+                  width: 961px;
+                  height: 295px;
+                  background-image: url("https://img.sandbox.qixinyun.com/hzlh-ces-04.png");
+                  background-repeat: no-repeat;
+                  background-position: center bottom;
+                  p.title {
+                     padding-left: 545px;
+                     margin-bottom: 45px;
+                     span {
+                        display: block;
+                        font-size: 18px;
+                        line-height: 100%;
+                        font-weight: normal;
+                     }
+                  }
+                  p.p2 {
+                     padding: 0 200px;
+                  }
+               }
+            }
+            div.equity-sec {
+               padding: 30px 0;
+               .picMarquee-left {
+                  width: 100%;
+                  overflow: hidden;
+                  position: relative;
+                  .bd {
+                     ul {
+                        overflow: hidden;
+                        zoom: 1;
+                        li {
+                           float: left;
+                           width: 25%;
+                           _display: inline;
+                           overflow: hidden;
+                           text-align: center;
+                           a {
+                              display: block;
+                              width: 100%;
+                              img.img1 {
+                                 display: block;
+                                 width: 100%;
+                                 height: 207px;
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   产销对接
+      div.production {
+         padding: 56px 0;
+         div.container {
+            position: relative;
+            padding-top: 45px;
+            div.industry-top {
+               width: 684px;
+               height: 525px;
+               background-image: url("https://img.sandbox.qixinyun.com/hzlh-ces-02.png");
+               background-repeat: no-repeat;
+               text-align: left;
+               position: relative;
+               z-index: 2;
+               p.title {
+                  position: relative;
+                  top: -20px;
+                  span {
+                     display: block;
+                     font-size: 18px;
+                     font-weight: normal;
+                     line-height: 100%;
+                  }
+               }
+               p.p2 {
+                  font-size: 14px;
+                  padding: 0 70px;
+               }
+            }
+            > img {
+               position: absolute;
+            }
+            img.prod-img1 {
+               left: 370px;
+               bottom: 0;
+            }
+            img.prod-img2 {
+               right: 5%;
+               bottom: 30px;
+            }
+            img.prod-img3 {
+               right: 0;
+               top: 0;
+            }
+         }
+      }
+      //   立即加入
+      div.insight-info {
+         height: 714px;
+         background-image: url("https://img.sandbox.qixinyun.com/hzlh-bg3.jpg");
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         padding: 56px 0;
+         color: #fff;
+         font-weight: 100;
+         div.container {
+            div.industry-form {
+               width: 830px;
+               margin: 45px auto 16px;
+               padding: 35px;
+               background: rgba(249, 249, 249, 0.11);
+               border-radius: 5px;
+               border: 5px solid rgba(170, 170, 170, 0.11);
+               div.forms {
+                  width: 560px;
+                  margin: auto;
+                  font-size: 16px;
+                  font-weight: 100;
+                  div.ind-d1 {
+                     margin: 0;
+                     div.ind-item {
+                        margin-bottom: 20px;
+                        width: 252px;
+                        height: 46px;
+                        padding-top: 18px;
+                        position: relative;
+                        z-index: 2;
+                        input {
+                           display: block;
+                           width: 100%;
+                           border: none;
+                           background: transparent;
+                           border-bottom: 1px solid #eee;
+                           height: 28px;
+                        }
+                        label {
+                           position: absolute;
+                           left: 0;
+                           top: 10px;
+                           z-index: -1;
+                           color: #999;
+                           -webkit-transition: all 0.2s ease-in-out;
+                           -moz-transition: all 0.2s ease-in-out;
+                           -o-transition: all 0.2s ease-in-out;
+                           transition: all 0.2s ease-in-out;
+                        }
+                     }
+                  }
+                  div.ind-d3 {
+                     margin-top: 30px;
+                     position: relative;
+                     input {
+                        -webkit-appearance: none;
+                        border: none;
+                        display: block;
+                        width: 130px;
+                        height: 35px;
+                        margin: auto;
+                        color: #fff;
+                        font-size: 16px;
+                        background: #6699ff;
+                        -webkit-transition: all 0.2s ease-in-out;
+                        -moz-transition: all 0.2s ease-in-out;
+                        -o-transition: all 0.2s ease-in-out;
+                        transition: all 0.2s ease-in-out;
+                        border-radius: 5px;
+                        &:hover {
+                           box-shadow: 0 3px 6px 0 rgba(6, 20, 48, .2), 0 8px 16px 0 rgba(7, 21, 48, .38);
+                        }
+                     }
+                     p {
+                        display: none;
+                        position: absolute;
+                        height: 22px;
+                        line-height: 22px;
+                        top: -30px;
+                        left: 0;
+                        text-align: center;
+                        color: red;
+                        font-size: 12px;
+                        width: 100%;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   底部
+   footer {
+      padding: 30px 0 60px;
+      font-size: 12px;
+      color: #fff;
+      background: #363636;
+      div.container {
+         max-width: 1060px;
+         .title {
+            font-weight: bold;
+            margin-bottom: 5px;
+         }
+         div.foot-l {
+            ul {
+               &:first-child {
+                  padding-left: 0;
+               }
+               li {
+                  a {
+                     display: block;
+                     color: #fff;
+                     &:hover {
+                        color: @bj*1.6;
+                     }
+                  }
+               }
+            }
+         }
+         div.foot-c {
+            div {
+               margin-bottom: 20px;
+            }
+         }
+         div.foot-r {
+            .title {
+               margin-bottom: 30px;
+            }
+            img {
+               display: block;
+               width: 100%;
+               max-width: 120px;
+            }
+         }
+      }
+   }
+}
+
+//平板
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   //导航
+   nav {
+      div.container {
+         .navbar-collapse {
+            ul {
+               li {
+                  padding: 16px 0;
+               }
+               &.ul-list2 {
+                  margin-left: 0;
+                  li {
+                     padding: 16px 0;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //主体
+   section {
+      div.industry-top {
+         text-align: center;
+         p.title {
+            font-size: 1.4rem;
+         }
+         p.p2 {
+            font-size: 1.4rem;
+         }
+      }
+      //   中介超市
+      div.agent {
+         height: auto;
+      }
+      //   金融超市
+      div.financial {
+         height: auto;
+         div.row {
+            > div {
+               height: 160px;
+               padding: 20px 3%;
+               a {
+                  span {
+                     font-size: 7.6rem !important;
+                     margin: 0 auto 15px !important;
+                  }
+                  p.tit {
+                     font-size: 2rem !important;
+                     margin-bottom: 0 !important;
+                  }
+                  p.p2 {
+                     display: none !important;
+                  }
+               }
+            }
+         }
+      }
+      //   人才超市
+      div.talent {
+         padding: 30px 0 56px;
+         div.container {
+            div.industry-top {
+               width: 100%;
+               height: auto;
+               padding: 20px;
+               background-size: 35%;
+               background-position: right 100px top 0;
+               margin-bottom: 15px;
+               p.title {
+                  padding-left: 35%;
+                  font-size: 1.6rem;
+                  margin-bottom: 15px;
+               }
+               p.p2 {
+                  padding: 0 25% 0 15%;
+               }
+            }
+            div.talent-sec {
+               div.row {
+                  div.talent-s {
+                     padding: 0 10px;
+                     a {
+                        div {
+                           bottom: 0;
+                           p.tit {
+                              background-size: 100%;
+                              font-size: 1.4rem;
+                           }
+                           p.p1 {
+                              font-size: 1rem;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   介绍
+      div.make {
+         height: auto;
+         padding: 30px 15px;
+         div.container {
+            p {
+               font-size: 1.4rem;
+            }
+            p.p1 {
+               letter-spacing: 1px;
+            }
+         }
+      }
+      //   股权路演
+      div.equity {
+         padding: 30px 0;
+         div.container {
+            div.industry-top {
+               text-align: left;
+               div {
+                  width: 100%;
+                  height: 160px;
+                  background-size: 57%;
+                  background-position: right 15px;
+                  p.title {
+                     text-align: center;
+                     padding: 0;
+                     padding-left: 60%;
+                     margin-bottom: 15px;
+                     span {
+                        font-size: 1.2rem;
+                     }
+                  }
+                  p.p2 {
+                     padding: 0 30px 0 30%;
+                  }
+               }
+            }
+            div.equity-sec {
+               padding: 0;
+               .picMarquee-left {
+                  .bd {
+                     ul {
+                        li {
+                           a {
+                              img.img1 {
+                                 height: auto;
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   产销对接
+      div.production {
+         div.container {
+            padding-top: 0;
+            div.industry-top {
+               width: 450px;
+               height: 260px;
+               background-size: 68%;
+               p.title {
+                  font-size: 1.6rem;
+                  top: -15px;
+                  span {
+                     font-size: 1.4rem;
+                  }
+               }
+               p.p2 {
+                  padding: 0 20px;
+                  position: relative;
+                  top: -12px;
+               }
+            }
+            img.prod-img1 {
+               width: 35%;
+               left: 19%;
+               bottom: 0;
+            }
+            img.prod-img2 {
+               width: 35%;
+               right: 15%;
+               bottom: 10%;
+            }
+            img.prod-img3 {
+               width: 25%;
+               right: 5%;
+               top: -8%;
+            }
+         }
+      }
+      //   立即加入
+      div.insight-info {
+         height: auto;
+         div.container {
+            div.industry-form {
+               width: 65%;
+               div.forms {
+                  width: 100%;
+                  div.ind-d1 {
+                     div.ind-item {
+                        width: 46%;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+//手机
+@media screen and (max-width: 767px) {
+   //导航
+   nav {
+      height: 50px;
+      div.container {
+         width: 100%;
+         padding: 0 3%;
+         &.bj-col {
+            background: rgba(0, 0, 0, 0.8);
+         }
+         .navbar-header {
+            .navbar-brand {
+               height: 50px;
+               padding: 13px 0;
+            }
+         }
+         .navbar-collapse {
+            ul {
+               li {
+                  height: 50px;
+                  padding: 5px 16px;
+               }
+            }
+         }
+      }
+   }
+
+   //首页头部
+   header.index {
+      .container {
+         .slogan-wrap {
+            .slogan {
+               p.name {
+                  font-size: 2.6rem;
+                  letter-spacing: 1px;
+               }
+               p.slogan-title {
+                  width: 100%;
+                  font-size: 1.4rem;
+               }
+            }
+         }
+      }
+   }
+
+   //主体
+   section {
+      div.industry-top {
+         margin-bottom: 15px;
+         p.title {
+            font-size: 2rem;
+         }
+         p.p2 {
+            font-size: 1.4rem;
+         }
+      }
+      //   中介超市
+      div.agent {
+         padding: 30px 0;
+         height: auto;
+         div.agent-sec {
+            padding: 10px 0;
+            img.img1 {
+               display: block;
+               width: 100%;
+            }
+         }
+      }
+      //   金融超市
+      div.financial {
+         height: auto;
+         div.row {
+            > div {
+               height: 160px;
+               padding: 20px 3%;
+               a {
+                  span {
+                     font-size: 7.6rem !important;
+                     margin: 0 auto 15px !important;
+                  }
+                  p.tit {
+                     font-size: 2rem !important;
+                     margin-bottom: 0 !important;
+                  }
+                  p.p2 {
+                     display: none !important;
+                  }
+               }
+            }
+         }
+      }
+      //   人才超市
+      div.talent {
+         padding: 30px 0;
+         div.container {
+            div.industry-top {
+               width: 100%;
+               height: auto;
+               padding: 20px;
+               background-size: 60%;
+               p.title {
+                  padding-left: 35%;
+               }
+            }
+            div.talent-sec {
+               margin-left: -3%;
+               margin-right: -3%;
+               overflow-y: scroll;
+               div.row {
+                  width: 260vw;
+                  div.talent-s {
+                     padding: 0 15px;
+                     a {
+                        div {
+                           bottom: 0 !important;
+                           p.tit {
+                              font-size: 1.6rem;
+                           }
+                           p.p1 {
+                              font-size: 1.4rem;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   介绍
+      div.make {
+         height: auto;
+         padding: 20px 15px;
+         div.container {
+            p {
+               font-size: 1.2rem;
+            }
+            p.p1 {
+               letter-spacing: 1px;
+            }
+         }
+      }
+      //   股权路演
+      div.equity {
+         padding: 30px 0;
+         div.container {
+            div.industry-top {
+               text-align: left;
+               div {
+                  width: 100%;
+                  height: auto;
+                  background-size: 80%;
+                  background-position: right 15px;
+                  p.title {
+                     text-align: center;
+                     padding: 0;
+                     padding-left: 43%;
+                     margin-bottom: 5px;
+                     span {
+                        font-size: 1.4rem;
+                     }
+                  }
+                  p.p2 {
+                     padding: 0;
+                  }
+               }
+            }
+            div.equity-sec {
+               padding: 0;
+               margin-left: -3%;
+               margin-right: -3%;
+               .picMarquee-left {
+                  .bd {
+                     ul {
+                        li {
+                           width: 50%;
+                           a {
+                              img.img1 {
+                                 height: auto;
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   产销对接
+      div.production {
+         padding: 30px 0;
+         div.container {
+            padding-top: 0;
+            min-height: 512px;
+            div.industry-top {
+               width: 100%;
+               height: 260px;
+               background-size: 85%;
+               p.title {
+                  span {
+                     font-size: 1.4rem;
+                  }
+               }
+               p.p2 {
+                  font-size: 1.4rem;
+                  padding: 0 15px;
+                  width: 80%;
+                  position: relative;
+                  top: -25px;
+               }
+            }
+            img.prod-img1 {
+               width: 50%;
+               left: auto;
+               right: 12%;
+               top: 32%;
+            }
+            img.prod-img2 {
+               width: 50%;
+               right: 37%;
+               bottom: auto;
+               top: 47%;
+            }
+            img.prod-img3 {
+               width: 65%;
+               right: 30%;
+               top: auto;
+               bottom: 0;
+            }
+         }
+      }
+      //   立即加入
+      div.insight-info {
+         height: auto;
+         div.container {
+            div.industry-form {
+               width: 100%;
+               padding: 10px 10px 30px;
+               div.forms {
+                  width: 100%;
+                  font-size: 1.4rem;
+                  div.ind-d1 {
+                     margin: 0;
+                     div.ind-item {
+                        width: 46%;
+                     }
+                  }
+                  div.ind-d3 {
+                     margin-top: 30px;
+                     position: relative;
+                     input {
+                        -webkit-appearance: none;
+                        border: none;
+                        display: block;
+                        width: 130px;
+                        height: 35px;
+                        margin: auto;
+                        color: #fff;
+                        font-size: 16px;
+                        background: #6699ff;
+                        -webkit-transition: all 0.2s ease-in-out;
+                        -moz-transition: all 0.2s ease-in-out;
+                        -o-transition: all 0.2s ease-in-out;
+                        transition: all 0.2s ease-in-out;
+                        border-radius: 5px;
+                        &:hover {
+                           box-shadow: 0 3px 6px 0 rgba(6, 20, 48, .2), 0 8px 16px 0 rgba(7, 21, 48, .38);
+                        }
+                     }
+                     p {
+                        display: none;
+                        position: absolute;
+                        height: 22px;
+                        line-height: 22px;
+                        top: -30px;
+                        left: 0;
+                        text-align: center;
+                        color: red;
+                        font-size: 12px;
+                        width: 100%;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   底部
+   footer {
+      div.container {
+         div.foot-l {
+            margin-bottom: 15px;
+         }
+         div.foot-c {
+            div {
+               margin-bottom: 20px;
+            }
+         }
+         div.foot-r {
+            .title {
+               margin-bottom: 10px;
+            }
+            img {
+               max-width: 80px;
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,405 @@
+*,
+p,
+ul {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font: 14px/1.8 "微软雅黑";
+  color: #333;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  body {
+    font: 1.4rem/1.6 "微软雅黑";
+  }
+}
+:focus {
+  outline: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+table {
+  border-spacing: 0;
+}
+label {
+  font-weight: normal;
+  margin: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+header,
+nav,
+section,
+footer {
+  display: block;
+  width: 100%;
+}
+/********************************************************************************************************************/
+/************** 登录弹窗 ****************/
+.layui-layer-page {
+  border-radius: 5px !important;
+  width: 452px !important;
+}
+div.model {
+  display: none;
+  padding: 5px 86px;
+}
+div.model p.title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+div.model div.d1 {
+  width: 100%;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #e8e8e8;
+  margin: 15px auto;
+}
+div.model div.d1 span.s1 {
+  font-size: 18px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+div.model div.d1 input {
+  width: 180px;
+  border: none;
+}
+div.model div.d1 span.s2 {
+  font-size: 18px;
+  padding: 0 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+div.model input.sub {
+  border: none;
+  background: #4749ad;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  height: 37px;
+  border-radius: 2px;
+}
+div.model div.d3 {
+  margin: 10px auto 0;
+}
+div.model div.d3 p {
+  color: #888;
+}
+div.model div.d3 ul li {
+  margin: 5px 10px 0 0;
+}
+div.model div.d3 ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #dcdcdc;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+div.model div.d3 ul li a:hover {
+  background: #ffc000;
+}
+@media screen and (min-width: 768px) {
+  header div.container div.reg-head {
+    border-bottom: 1px solid #dedede;
+    padding: 25px 30px 15px;
+    box-shadow: 0 5px 10px -1px #ddd;
+  }
+  header div.container div.reg-head span.s1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    border-left: 1px solid #dedede;
+    color: #666;
+    line-height: 120%;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  header div.container div.reg-head div.rt a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #bfbfbf;
+    border-radius: 2px;
+    text-align: center;
+    background: #f3f3f3;
+  }
+  section div.container {
+    padding: 60px 120px;
+  }
+  section div.container div.row div.reg-sec-le div.d1 {
+    margin-bottom: 22px;
+  }
+  section div.container div.row div.reg-sec-le div.d1 span.s1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5px;
+  }
+  section div.container div.row div.reg-sec-le div.d1 > input {
+    width: 350px;
+    height: 40px;
+    border: 1px solid #e8e8e8;
+    padding: 2px 12px;
+  }
+  section div.container div.row div.reg-sec-le div.d1 > input.submit {
+    border: none;
+    background: #4749ad;
+    color: #fff;
+    font-size: 16px;
+  }
+  section div.container div.row div.reg-sec-le div.d1 div.dd1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+  }
+  section div.container div.row div.reg-sec-le div.d1.d2 {
+    margin-bottom: 10px;
+  }
+  section div.container div.row div.reg-sec-rt {
+    width: 342px;
+  }
+  section div.container div.row div.reg-sec-rt div.panel-heading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+  }
+  section div.container div.row div.reg-sec-rt div.panel-body {
+    text-align: center;
+    padding: 25px;
+  }
+  section div.container div.row div.reg-sec-rt div.panel-body div.d1 {
+    margin-bottom: 10px;
+  }
+  section div.container div.row div.reg-sec-rt div.panel-body div.d1 img {
+    border: 1px solid #ddd;
+  }
+  section div.container div.row div.reg-sec-rt div.panel-body div.d1 p {
+    padding: 5px 0;
+  }
+  section div.container div.row div.reg-sec-rt div.panel-body div.d2 a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #dcdcdc;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  section div.container div.row div.reg-sec-rt div.panel-body div.d2 a:hover {
+    background: #ffc000;
+  }
+  footer div.container {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section div.container {
+    padding: 60px 0;
+  }
+  section div.container div.row div.reg-sec-rt {
+    width: 255px;
+  }
+}
+@media screen and (max-width: 767px) {
+  div.lz-bj {
+    height: 100vh;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-login-bj.jpg");
+    background-size: cover;
+  }
+  div.lz-bj a.logo {
+    display: block;
+  }
+  div.lz-bj a.logo img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+  }
+  div.lz-bj input.login-sub {
+    -webkit-appearance: none;
+    border: none;
+    width: 100%;
+    border-radius: 25px;
+    height: 30px;
+    font-size: 1.8rem;
+    color: #fff;
+    background: #4749ad;
+    margin: 15px 0;
+  }
+  div.lz-bj a.login-zc {
+    display: block;
+    border: 1px solid #4749ad;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    color: #4749ad;
+    font-size: 1.8rem;
+    border-radius: 25px;
+  }
+  div.login {
+    padding: 10% 12%;
+  }
+  div.login div.login-sec {
+    margin-top: 15%;
+  }
+  div.login div.login-sec div.d1 {
+    margin: 25px 0;
+  }
+  div.login div.login-sec div.d1 span {
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #4749ad;
+    color: #4749ad;
+    font-size: 1.8rem;
+  }
+  div.login div.login-sec div.d1 input {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #9a99ce;
+    background: transparent;
+    padding: 2px 5px;
+  }
+  div.login div.login-sec div.d2 {
+    margin: 8px 0 15px;
+    text-align: center;
+  }
+  div.login div.login-sec div.d2 a {
+    color: #9a99cd;
+  }
+  div.login div.login-sec div.d2 a span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    border: 1px solid #4749ad;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 12px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+  }
+  div.login div.login-sec div.d3 {
+    margin: 10px auto 0;
+    text-align: center;
+  }
+  div.login div.login-sec div.d3 p {
+    color: #4749ad;
+  }
+  div.login div.login-sec div.d3 ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+  }
+  div.login div.login-sec div.d3 ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #dcdcdc;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+  }
+  div.login div.login-sec div.d3 ul li a:hover {
+    background: #ffc000;
+  }
+  div.register {
+    padding: 10% 5%;
+  }
+  div.register div.register-sec {
+    margin-top: 15%;
+  }
+  div.register div.register-sec div.d1 {
+    margin: 22px 0;
+  }
+  div.register div.register-sec div.d1 span {
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    color: #4749ad;
+    font-size: 1.4rem;
+  }
+  div.register div.register-sec div.d1 input {
+    width: 78%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #9a99ce;
+    background: transparent;
+    padding: 2px 5px;
+  }
+  div.register div.register-sec a.login-zc {
+    display: block;
+    border: none;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    color: #4749ad;
+    font-size: 1.4rem;
+    border-radius: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  div.register div.register-sec {
+    margin-top: 15%;
+  }
+  div.register div.register-sec div.d1 input {
+    width: 76%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #9a99ce;
+    background: transparent;
+    padding: 2px 5px;
+  }
+}
+@media screen and (max-width: 360px) {
+  div.register div.register-sec {
+    margin-top: 15%;
+  }
+  div.register div.register-sec div.d1 input {
+    width: 72%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #9a99ce;
+    background: transparent;
+    padding: 2px 5px;
+  }
+}
