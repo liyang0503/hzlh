@@ -2,32 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="renderer" content="webkit|ie-comp|ie-stand">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>汇众联合</title>
-    <!--字体图标-->
-    <link rel="stylesheet" href="font/style.css">
-    <!--样式表-->
-    <link rel="stylesheet" href="js/layer/mobile/need/layer.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/global.css">
+   <meta charset="UTF-8">
+   <meta name="renderer" content="webkit|ie-comp|ie-stand">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>汇众联合</title>
+   <!--字体图标-->
+   <link rel="stylesheet" href="font/style.css">
+   <!--样式表-->
+   <link rel="stylesheet" href="js/layer/mobile/need/layer.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/global.css">
 
-    <!--本页css-->
-    <link rel="stylesheet" href="css/equity.css">
+   <!--本页css-->
+   <link rel="stylesheet" href="css/equity.css">
 
-    <!--js库文件-->
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <script src="js/layer/layer.js"></script>
-    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/global.js"></script>
-    <script src="js/login-mod.js"></script>
+   <!--js库文件-->
+   <script src="js/jquery/jquery.min.js"></script>
+   <script src="js/bootstrap/bootstrap.min.js"></script>
+   <script src="js/layer/layer.js"></script>
+   <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/global.js"></script>
+   <script src="js/login-mod.js"></script>
 
-    <!--[if lt IE 9]>
+   <!--[if lt IE 9]>
    <script src="js/placeholder.js"></script>
    <script src="js/html5.js"></script>
    <script src="js/respond.js"></script>
@@ -35,300 +35,678 @@
 </head>
 
 <body>
-    <!--头部-->
-    <!--pc-->
-    <header class="pc-ipad hidden-xs">
-        <div class="head-top">
-            <div class="container">
-                <div class="row">
-                    <ul class="fr row">
-                        <li class="fl"><a href="javascript:">我的项目</a></li>
-                        <li class="fl"><a href="javascript:">我的消息</a></li>
-                        <li class="fl"><a href="javascript:login()">登录</a></li>
-                        <li class="fl"><a href="javascript:register()">注册</a></li>
-                    </ul>
-                </div>
+<!--头部-->
+<!--pc-->
+<header class="pc-ipad hidden-xs">
+   <div class="head-top">
+      <div class="container">
+         <div class="row">
+            <a href="index.html">汇众联合首页</a>
+            <ul class="fr row">
+               <li class="fl"><a href="javascript:">我的项目</a></li>
+               <li class="fl"><a href="javascript:">我的消息</a></li>
+               <li class="fl"><a href="javascript:login()">登录</a></li>
+               <li class="fl"><a href="javascript:register()">注册</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div class="head-fot">
+      <div class="container">
+         <div class="head-fh row">
+            <a href="equity.html" class="logo"><img src="https://img.sandbox.qixinyun.com/hzlh-equity-logo.png" alt=""></a>
+            <img src="https://img.sandbox.qixinyun.com/hzlh-equity-h-01.png" alt="">
+            <div class="search fr">
+               <form action="">
+                  <input class="in1" type="text" placeholder="搜索路演项目或类型">
+                  <input class="in2" type="image" src="https://img.sandbox.qixinyun.com/hzlh-equity-search.png">
+               </form>
             </div>
-        </div>
-        <div class="head-fot">
-            <div class="container">
-                <div class="head-fh row">
-                    <a href="equity.html" class="logo"><img src="images/hzlh-equity-logo.png" alt=""></a>
-                    <img src="images/hzlh-equity-h-01.png" alt="">
-                    <div class="search fr">
-                        <form action="">
-                            <input class="in1" type="text" placeholder="搜索路演项目或类型">
-                            <input class="in2" type="image" src="images/hzlh-equity-search.png">
-                        </form>
-                    </div>
-                </div>
-                <div class="head-f row">
-                    <ul class="h-list1 fl row">
-                        <li class="fl"><a href="javascript:">首页</a></li>
-                        <li class="fl">
-                            <div class="btn-group">
-                                <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    浏览项目 <span class="glyphicon glyphicon-menu-down"></span>
-                                </div>
-                                <ul class="dropdown-menu">
-                                    <li><a href="javascript:">项目一</a></li>
-                                    <li><a href="javascript:">项目二</a></li>
-                                    <li><a href="javascript:">项目三</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="fl">
-                            <a href="javascript:">新手帮助</a>
-                        </li>
-                    </ul>
-                    <ul class="h-list1 h-list2 fr row">
-                        <li class="fl"><a href="javascript:">发布项目</a></li>
-                        <li class="fl">
-                            <div class="btn-group">
-                                <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    我的路演 <span class="glyphicon glyphicon-menu-down"></span>
-                                </div>
-                                <ul class="dropdown-menu">
-                                    <li><a href="javascript:">项目一</a></li>
-                                    <li><a href="javascript:">项目二</a></li>
-                                    <li><a href="javascript:">项目三</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
+         </div>
+         <div class="head-f row">
+            <ul class="h-list1 fl row">
+               <li class="fl"><a href="equity.html">首页</a></li>
+               <li class="fl">
+                  <div class="btn-group">
+                     <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        浏览项目 <span class="glyphicon glyphicon-menu-down"></span>
+                     </div>
+                     <ul class="dropdown-menu">
+                        <li><a href="javascript:">项目一</a></li>
+                        <li><a href="javascript:">项目二</a></li>
+                        <li><a href="javascript:">项目三</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li class="fl">
+                  <a href="javascript:">新手帮助</a>
+               </li>
+            </ul>
+            <ul class="h-list1 h-list2 fr row">
+               <li class="fl"><a href="javascript:"><span class="icon-bianji"></span>发布项目</a></li>
+               <li class="fl">
+                  <div class="btn-group">
+                     <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        我的路演 <span class="glyphicon glyphicon-menu-down"></span>
+                     </div>
+                     <ul class="dropdown-menu">
+                        <li><a href="javascript:">项目一</a></li>
+                        <li><a href="javascript:">项目二</a></li>
+                        <li><a href="javascript:">项目三</a></li>
+                     </ul>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</header>
 
-    <!--主体-->
-    <section>
-        <!--发现-->
-        <div class="found">
-            <div class="container">
-                <div class="row">
-                    <div class="found-le fl">
-                        <div class="found-le-top">
-                            <div class="poster-main B_Demo">
-                                <div class="poster-btn poster-prev-btn"></div>
-                                <ul class="poster-list">
-                                    <li class="poster-item">
-                                        <dl>
-                                            <dt>
-                                 <a href="javascript:"><img src="images/hzlh-found-01.png" alt=""></a>
+<!--sj-->
+<header class="sj visible-xs navbar-fixed-top">
+   <div class="head-sj-top">
+      <a href="equity.html" class="logo"><img src="https://img.sandbox.qixinyun.com/hzlh-equity-logo2.png" alt=""></a>
+      <button type="button" class="navbar-toggle but-ico">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <ul class="secs">
+         <li><a href="index.html">汇众联合首页</a></li>
+         <li><a href="javascript:"><span class="icon-bianji"></span>发布项目</a></li>
+         <li><a href="javascript:">我的路演</a></li>
+      </ul>
+   </div>
+   <div class="head-sj-fot">
+      <ul class="row">
+         <li class="fl"><a href="equity.html">首页</a></li>
+         <li class="fl">
+            <div class="btn-group">
+               <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  浏览项目 <span class="glyphicon glyphicon-menu-down"></span>
+               </div>
+               <ul class="dropdown-menu">
+                  <li><a href="javascript:">项目一</a></li>
+                  <li><a href="javascript:">项目二</a></li>
+                  <li><a href="javascript:">项目三</a></li>
+               </ul>
+            </div>
+         </li>
+         <li class="fl"><a href="equity.html">新手帮助</a></li>
+      </ul>
+      <div class="search-wrapper">
+         <form action="">
+            <div class="input-holder">
+               <input type="text" class="search-input" placeholder="搜索企业">
+               <button type="submit" class="search-icon" onclick="searchToggle(this, event);"><span
+                  class="icon-search"></span></button>
+            </div>
+         </form>
+      </div>
+   </div>
+</header>
+
+<!--主体-->
+<section>
+   <!--发现-->
+   <div class="found">
+      <div class="container">
+         <div class="row">
+            <div class="found-le fl">
+               <div class="found-le-top">
+                  <div class="poster-main B_Demo">
+                     <div class="poster-btn poster-prev-btn"></div>
+                     <ul class="poster-list">
+                        <li class="poster-item">
+                           <dl>
+                              <dt>
+                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-01.png" alt=""></a>
                               </dt>
-                                            <dd class="dd1">
-                                                <div>
-                                                    <a href="javascript:">蓝天科技（452112）</a>
-                                                    <p>清洁能源供热服务 政策加码市场风口</p>
-                                                </div>
-                                            </dd>
-                                            <dd class="dd2 row">
-                                                <span class="icon-deng"></span>环保理念
-                                                <a href="javascript:" class="a1 fr">概念</a>
-                                                <a href="javascript:" class="a1 fr">环境</a>
-                                            </dd>
-                                            <dd class="dd3"><span class="icon-shoucang"></span>集多种环保技术，加大清洁能源利用</dd>
-                                        </dl>
-                                    </li>
-                                    <li class="poster-item">
-                                        <dl>
-                                            <dt>
-                                 <a href="javascript:"><img src="images/hzlh-found-02.png" alt=""></a>
+                              <dd class="dd1">
+                                 <div>
+                                    <a href="javascript:">蓝天科技（452112）</a>
+                                    <p>清洁能源供热服务 政策加码市场风口</p>
+                                 </div>
+                              </dd>
+                              <dd class="dd2 row">
+                                 <span class="icon-deng"></span>环保理念
+                                 <a href="javascript:" class="a1 fr">概念</a>
+                                 <a href="javascript:" class="a1 fr">环境</a>
+                              </dd>
+                              <dd class="dd3"><span class="icon-shoucang"></span>集多种环保技术，加大清洁能源利用</dd>
+                           </dl>
+                        </li>
+                        <li class="poster-item">
+                           <dl>
+                              <dt>
+                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-02.png" alt=""></a>
                               </dt>
-                                            <dd class="dd1">
-                                                <div>
-                                                    <a href="javascript:">蓝天科技（452112）</a>
-                                                    <p>清洁能源供热服务 政策加码市场风口</p>
-                                                </div>
-                                            </dd>
-                                            <dd class="dd2 row">
-                                                <span class="icon-deng"></span>环保理念
-                                                <a href="javascript:" class="a1 fr">概念</a>
-                                                <a href="javascript:" class="a1 fr">环境</a>
-                                            </dd>
-                                            <dd class="dd3"><span class="icon-shoucang"></span>集多种环保技术，加大清洁能源利用</dd>
-                                        </dl>
-                                    </li>
-                                    <li class="poster-item">
-                                        <dl>
-                                            <dt>
-                                 <a href="javascript:"><img src="images/hzlh-found-03.png" alt=""></a>
+                              <dd class="dd1">
+                                 <div>
+                                    <a href="javascript:">蓝天科技（452112）</a>
+                                    <p>清洁能源供热服务 政策加码市场风口</p>
+                                 </div>
+                              </dd>
+                              <dd class="dd2 row">
+                                 <span class="icon-deng"></span>环保理念
+                                 <a href="javascript:" class="a1 fr">概念</a>
+                                 <a href="javascript:" class="a1 fr">环境</a>
+                              </dd>
+                              <dd class="dd3"><span class="icon-shoucang"></span>集多种环保技术，加大清洁能源利用</dd>
+                           </dl>
+                        </li>
+                        <li class="poster-item">
+                           <dl>
+                              <dt>
+                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-03.png" alt=""></a>
                               </dt>
-                                            <dd class="dd1">
-                                                <div>
-                                                    <a href="javascript:">蓝天科技（452112）</a>
-                                                    <p>清洁能源供热服务 政策加码市场风口</p>
-                                                </div>
-                                            </dd>
-                                            <dd class="dd2 row">
-                                                <span class="icon-deng"></span>环保理念
-                                                <a href="javascript:" class="a1 fr">概念</a>
-                                                <a href="javascript:" class="a1 fr">环境</a>
-                                            </dd>
-                                            <dd class="dd3"><span class="icon-shoucang"></span>集多种环保技术，加大清洁能源利用</dd>
-                                        </dl>
-                                    </li>
-                                </ul>
-                                <div class="poster-btn poster-next-btn"></div>
-                            </div>
+                              <dd class="dd1">
+                                 <div>
+                                    <a href="javascript:">蓝天科技（452112）</a>
+                                    <p>清洁能源供热服务 政策加码市场风口</p>
+                                 </div>
+                              </dd>
+                              <dd class="dd2 row">
+                                 <span class="icon-deng"></span>环保理念
+                                 <a href="javascript:" class="a1 fr">概念</a>
+                                 <a href="javascript:" class="a1 fr">环境</a>
+                              </dd>
+                              <dd class="dd3"><span class="icon-shoucang"></span>集多种环保技术，加大清洁能源利用</dd>
+                           </dl>
+                        </li>
+                     </ul>
+                     <div class="poster-btn poster-next-btn"></div>
+                  </div>
+               </div>
+               <div class="found-le-f hidden-xs">
+                  <img src="https://img.sandbox.qixinyun.com/hzlh-equity-o1.jpg" class="img-responsive" alt="">
+               </div>
+            </div>
+            <div class="found-rt fr row">
+               <div class="col-xs-6 visible-xs dtu">
+                  <img src="https://img.sandbox.qixinyun.com/hzlh-equity-o2.png" class="img-responsive" alt="">
+               </div>
+               <div class="col-xs-6 col-sm-12">
+                  <div class="found-r-t">
+                     <span>发现</span>
+                  </div>
+                  <div class="found-r-f row">
+                     <a class="col-sm-4 col-md-12" href="javascript:">
+                        <img src="https://img.sandbox.qixinyun.com/hzlh-found-01.jpg" alt="">
+                        <div class="ts">
+                           <div class="d1">
+                              <p class="tit">融资中国2017股权投资产业峰会（上午场）</p>
+                              <div class="d2">
+                                 <p>主讲人：微直播</p>
+                                 <p>直播时间：07-26 09:00</p>
+                                 <p>直播类型：论坛活动</p>
+                              </div>
+                           </div>
                         </div>
-                        <div class="found-le-f">
-                            <img src="images/hzlh-equity-o1.jpg" class="img-responsive" alt="">
+                     </a>
+                     <a class="col-sm-4 col-md-12" href="javascript:">
+                        <img src="https://img.sandbox.qixinyun.com/hzlh-found-02.jpg" alt="">
+                        <div class="ts">
+                           <div class="d1">
+                              <p class="tit">融资中国2017股权投资产业峰会（上午场）</p>
+                              <div class="d2">
+                                 <p>主讲人：微直播</p>
+                                 <p>直播时间：07-26 09:00</p>
+                                 <p>直播类型：论坛活动</p>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                    <div class="found-rt fr">
-                        <div class="found-r-t">
-                            <span>发现</span>
+                     </a>
+                     <a class="col-sm-4 col-md-12 hidden-xs" href="javascript:">
+                        <img src="https://img.sandbox.qixinyun.com/hzlh-found-03.jpg" alt="">
+                        <div class="ts">
+                           <div class="d1">
+                              <p class="tit">融资中国2017股权投资产业峰会（上午场）</p>
+                              <div class="d2">
+                                 <p>主讲人：微直播</p>
+                                 <p>直播时间：07-26 09:00</p>
+                                 <p>直播类型：论坛活动</p>
+                              </div>
+                           </div>
                         </div>
-                        <div class="found-r-f">
-                            <a href="javascript:">
-                                <img src="images/hzlh-found-01.jpg" alt="">
-                                <div class="ts">
-                                    <div class="d1">
-                                        <p class="tit">融资中国2017股权投资产业峰会（上午场）</p>
-                                        <div class="d2">
-                                            <p>主讲人：微直播</p>
-                                            <p>直播时间：07-26 09:00</p>
-                                            <p>直播类型：论坛活动</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="javascript:">
-                                <img src="images/hzlh-found-02.jpg" alt="">
-                                <div class="ts">
-                                    <div class="d1">
-                                        <p class="tit">融资中国2017股权投资产业峰会（上午场）</p>
-                                        <div class="d2">
-                                            <p>主讲人：微直播</p>
-                                            <p>直播时间：07-26 09:00</p>
-                                            <p>直播类型：论坛活动</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="javascript:">
-                                <img src="images/hzlh-found-03.jpg" alt="">
-                                <div class="ts">
-                                    <div class="d1">
-                                        <p class="tit">融资中国2017股权投资产业峰会（上午场）</p>
-                                        <div class="d2">
-                                            <p>主讲人：微直播</p>
-                                            <p>直播时间：07-26 09:00</p>
-                                            <p>直播类型：论坛活动</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--精品路演-->
+   <div class="quality">
+      <div class="container">
+         <div class="qua-top">
+            <span>精品路演</span>
+         </div>
+         <div class="qua-sec row">
+            <div class="col-xs-12 col-sm-3 qua-s1">
+               <a href="javascript:">
+                  <img src="https://img.sandbox.qixinyun.com/hzlh-qua-01.jpg" alt="">
+                  <div class="d1">
+                     <img src="https://img.sandbox.qixinyun.com/hzlh-play.png" alt="">
+                     <p class="p1">蓝天科技（452112）</p>
+                     <p class="p2">清洁能源供热服务</p>
+                     <p class="p2">政策加码市场风口</p>
+                  </div>
+               </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 qua-s2">
+               <div class="qua-s2-s">
+                  <div class="dd1">
+                     <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-qua-02.jpg" alt=""></a>
+                  </div>
+                  <div class="dd2">
+                     <a href="javascript:" class="a1">铜师傅铜木主义餐桌椅 美国黑胡桃+黄铜</a>
+                     <div class="bq">
+                        <span>原创</span>
+                        <span>日常生活</span>
+                        <span>家具</span>
+                     </div>
+                     <div class="nums qua-num">
+                        <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 0;">
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--精品路演-->
-        <div class="quality">
-            <div class="container">
-                <div class="qua-top">
-                    <span>精品路演</span>
-                </div>
-                <div class="qua-sec row">
-                    <div class="col-md-3 qua-s1">
-                        <a href="javascript:">
-                            <img src="images/hzlh-qua-01.jpg" alt="">
-                            <div class="d1">
-                                <img src="images/hzlh-play.png" alt="">
-                                <p class="p1">蓝天科技（452112）</p>
-                                <p class="p2">清洁能源供热服务</p>
-                                <p class="p2">政策加码市场风口</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 qua-s2">
-                        <div class="qua-s2-s">
-                            <div class="dd1">
-                                <a href="javascript:"><img src="images/hzlh-qua-02.jpg" alt=""></a>
-                            </div>
-                            <div class="dd2">
-                                <a href="javascript:" class="a1">铜师傅铜木主义餐桌椅 美国黑胡桃+黄铜</a>
-                                <div class="bq">
-                                    <span>原创</span>
-                                    <span>日常生活</span>
-                                    <span>家具</span>
-                                </div>
-                                <div class="nums">
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                            <span class="sr-only">60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="num-d row">
+                           <div class="col-xs-6">
+                              <span class="s1">45223</span>
+                              <p>观看人数</p>
+                           </div>
+                           <div class="col-xs-6">
+                              <span class="s2">25321</span>
+                              <p>支持人数</p>
+                           </div>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
+            <div class="col-xs-12 col-sm-3 qua-s2">
+               <div class="qua-s2-s">
+                  <div class="dd1">
+                     <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-qua-03.jpg" alt=""></a>
+                  </div>
+                  <div class="dd2">
+                     <a href="javascript:" class="a1">铜师傅铜木主义餐桌椅 美国黑胡桃+黄铜</a>
+                     <div class="bq">
+                        <span>原创</span>
+                        <span>日常生活</span>
+                        <span>家具</span>
+                     </div>
+                     <div class="nums qua-num">
+                        <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 0;">
+                           </div>
+                        </div>
+                        <div class="num-d row">
+                           <div class="col-xs-6">
+                              <span class="s1">45223</span>
+                              <p>观看人数</p>
+                           </div>
+                           <div class="col-xs-6">
+                              <span class="s2">25321</span>
+                              <p>支持人数</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 qua-s2">
+               <div class="qua-s2-s">
+                  <div class="dd1">
+                     <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-qua-04.jpg" alt=""></a>
+                  </div>
+                  <div class="dd2">
+                     <a href="javascript:" class="a1">铜师傅铜木主义餐桌椅 美国黑胡桃+黄铜</a>
+                     <div class="bq">
+                        <span>原创</span>
+                        <span>日常生活</span>
+                        <span>家具</span>
+                     </div>
+                     <div class="nums qua-num">
+                        <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 0;">
+                           </div>
+                        </div>
+                        <div class="num-d row">
+                           <div class="col-xs-6">
+                              <span class="s1">45223</span>
+                              <p>观看人数</p>
+                           </div>
+                           <div class="col-xs-6">
+                              <span class="s2">25321</span>
+                              <p>支持人数</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--最新上线-->
+   <div class="newest">
+      <div class="container">
+         <div class="qua-top">
+            <span>最新上线</span>
+         </div>
+         <div class="newest-sec row">
+            <div class="col-xs-12 col-sm-3 qua-s2">
+               <div class="qua-s2-s">
+                  <div class="dd1">
+                     <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-newe-01.jpg" alt=""></a>
+                  </div>
+                  <div class="dd2">
+                     <a href="javascript:" class="a1">铜师傅铜木主义餐桌椅 美国黑胡桃+黄铜</a>
+                     <div class="bq">
+                        <span>原创</span>
+                        <span>日常生活</span>
+                        <span>家具</span>
+                     </div>
+                     <div class="nums newest-num">
+                        <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 0;">
+                           </div>
+                        </div>
+                        <div class="num-d row">
+                           <div class="col-xs-4">
+                              <span class="s1">0%</span>
+                              <p>达成率</p>
+                           </div>
+                           <div class="col-xs-4">
+                              <span>0</span>
+                              <p>已筹金额</p>
+                           </div>
+                           <div class="col-xs-4">
+                              <span>0</span>
+                              <p>支持人数</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 qua-s2">
+               <div class="qua-s2-s">
+                  <div class="dd1">
+                     <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-newe-02.jpg" alt=""></a>
+                  </div>
+                  <div class="dd2">
+                     <a href="javascript:" class="a1">铜师傅铜木主义餐桌椅 美国黑胡桃+黄铜</a>
+                     <div class="bq">
+                        <span>原创</span>
+                        <span>日常生活</span>
+                        <span>家具</span>
+                     </div>
+                     <div class="nums newest-num">
+                        <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 0;">
+                           </div>
+                        </div>
+                        <div class="num-d row">
+                           <div class="col-xs-4">
+                              <span class="s1">32%</span>
+                              <p>达成率</p>
+                           </div>
+                           <div class="col-xs-4">
+                              <span>6495</span>
+                              <p>已筹金额</p>
+                           </div>
+                           <div class="col-xs-4">
+                              <span>234</span>
+                              <p>支持人数</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 qua-s2">
+               <div class="qua-s2-s">
+                  <div class="dd1">
+                     <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-newe-03.jpg" alt=""></a>
+                  </div>
+                  <div class="dd2">
+                     <a href="javascript:" class="a1">铜师傅铜木主义餐桌椅 美国黑胡桃+黄铜</a>
+                     <div class="bq">
+                        <span>原创</span>
+                        <span>日常生活</span>
+                        <span>家具</span>
+                     </div>
+                     <div class="nums newest-num">
+                        <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 0;">
+                           </div>
+                        </div>
+                        <div class="num-d row">
+                           <div class="col-xs-4">
+                              <span class="s1">144%</span>
+                              <p>达成率</p>
+                           </div>
+                           <div class="col-xs-4">
+                              <span>288747</span>
+                              <p>已筹金额</p>
+                           </div>
+                           <div class="col-xs-4">
+                              <span>1208</span>
+                              <p>支持人数</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 qua-s2">
+               <div class="qua-s2-s">
+                  <div class="dd1">
+                     <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-newe-04.jpg" alt=""></a>
+                  </div>
+                  <div class="dd2">
+                     <a href="javascript:" class="a1">铜师傅铜木主义餐桌椅 美国黑胡桃+黄铜</a>
+                     <div class="bq">
+                        <span>原创</span>
+                        <span>日常生活</span>
+                        <span>家具</span>
+                     </div>
+                     <div class="nums newest-num">
+                        <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 0;">
+                           </div>
+                        </div>
+                        <div class="num-d row">
+                           <div class="col-xs-4">
+                              <span class="s1">54%</span>
+                              <p>达成率</p>
+                           </div>
+                           <div class="col-xs-4">
+                              <span>18684</span>
+                              <p>已筹金额</p>
+                           </div>
+                           <div class="col-xs-4">
+                              <span>1859</span>
+                              <p>支持人数</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="bjc"></div>
+   </div>
+   <!--成功案例-->
+   <div class="case">
+      <div class="container">
+         <div class="qua-top">
+            <span>成功案例</span>
+         </div>
+         <div class="case-sec row">
+            <div class="col-xs-12 col-sm-3">
+               <div class="case-s">
+                  <a href="javascript:" class="a1">
+                     <img class="img-responsive" src="https://img.sandbox.qixinyun.com/hzlh-case-01.jpg" alt="">
+                     <img src="https://img.sandbox.qixinyun.com/hzlh-case-ico-01.jpg" alt="" class="img2">
+                  </a>
+                  <div class="case-d">
+                     <div class="d1">
+                        <a href="javascript:">爱尔威智能科技</a>
+                        <p>一家全球范围内都有着出色表现的智能出行方案解决商</p>
+                     </div>
+                     <div class="d2">
+                        <p>获得筹款：<span>10,164,364.00元</span></p>
+                        <p>支持人数：<span>3513人</span></p>
+                     </div>
+                     <div class="d3">
+                        <p>坐立两用的智能平衡车，重点解决了第一代平衡车在实用性和安全性上的痛点问题。</p>
+                     </div>
+                     <a href="javascript:" class="a2">查看项目</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+               <div class="case-s">
+                  <a href="javascript:" class="a1">
+                     <img class="img-responsive" src="https://img.sandbox.qixinyun.com/hzlh-case-01.jpg" alt="">
+                     <img src="https://img.sandbox.qixinyun.com/hzlh-case-ico-02.jpg" alt="" class="img2">
+                  </a>
+                  <div class="case-d">
+                     <div class="d1">
+                        <a href="javascript:">爱尔威智能科技</a>
+                        <p>一家全球范围内都有着出色表现的智能出行方案解决商</p>
+                     </div>
+                     <div class="d2">
+                        <p>获得筹款：<span>10,164,364.00元</span></p>
+                        <p>支持人数：<span>3513人</span></p>
+                     </div>
+                     <div class="d3">
+                        <p>坐立两用的智能平衡车，重点解决了第一代平衡车在实用性和安全性上的痛点问题。</p>
+                     </div>
+                     <a href="javascript:" class="a2">查看项目</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+               <div class="case-s">
+                  <a href="javascript:" class="a1">
+                     <img class="img-responsive" src="https://img.sandbox.qixinyun.com/hzlh-case-01.jpg" alt="">
+                     <img src="https://img.sandbox.qixinyun.com/hzlh-case-ico-01.jpg" alt="" class="img2">
+                  </a>
+                  <div class="case-d">
+                     <div class="d1">
+                        <a href="javascript:">爱尔威智能科技</a>
+                        <p>一家全球范围内都有着出色表现的智能出行方案解决商</p>
+                     </div>
+                     <div class="d2">
+                        <p>获得筹款：<span>10,164,364.00元</span></p>
+                        <p>支持人数：<span>3513人</span></p>
+                     </div>
+                     <div class="d3">
+                        <p>坐立两用的智能平衡车，重点解决了第一代平衡车在实用性和安全性上的痛点问题。</p>
+                     </div>
+                     <a href="javascript:" class="a2">查看项目</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+               <div class="case-s">
+                  <a href="javascript:" class="a1">
+                     <img class="img-responsive" src="https://img.sandbox.qixinyun.com/hzlh-case-01.jpg" alt="">
+                     <img src="https://img.sandbox.qixinyun.com/hzlh-case-ico-02.jpg" alt="" class="img2">
+                  </a>
+                  <div class="case-d">
+                     <div class="d1">
+                        <a href="javascript:">爱尔威智能科技</a>
+                        <p>一家全球范围内都有着出色表现的智能出行方案解决商</p>
+                     </div>
+                     <div class="d2">
+                        <p>获得筹款：<span>10,164,364.00元</span></p>
+                        <p>支持人数：<span>3513人</span></p>
+                     </div>
+                     <div class="d3">
+                        <p>坐立两用的智能平衡车，重点解决了第一代平衡车在实用性和安全性上的痛点问题。</p>
+                     </div>
+                     <a href="javascript:" class="a2">查看项目</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
 
-    <!--股权路演底部-->
-    <footer>
-        <div class="container">
+<!--股权路演底部-->
+<footer>
+   <div class="container">
+      <p>北京市公安局海淀分局备案第1101083696号　京ICP证050368号　京ICP备05038339号</p>
+      <p>Copyright © 2004-2017 www.caigou.com.cn 中国教育装备采购网 版权所有</p>
+   </div>
+</footer>
 
-        </div>
-    </footer>
+<!--登录弹窗-->
+<div class="model">
+   <form action="">
+      <p class="title">汇众联合账号登录</p>
+      <div class="d1">
+         <span class="s1 icon-login"></span>
+         <input type="text" placeholder="请输入账号">
+         <span class="s2 fr">x</span>
+      </div>
+      <div class="d1">
+         <span class="s1 icon-password"></span>
+         <input type="password" placeholder="请输入密码">
+         <span class="s2 fr">x</span>
+      </div>
+      <div class="d2">
+         <label for="jm"><input type="checkbox" id="jm"> 记住密码</label>
+      </div>
+      <input type="submit" value="立即登录" class="sub">
+      <div class="d3">
+         <p>可使用以下方式登录</p>
+         <ul class="row">
+            <li class="fl">
+               <a href="javascript:" class="icon-phone"></a>
+            </li>
+            <li class="fl">
+               <a href="javascript:" class="icon-qq"></a>
+            </li>
+            <li class="fl">
+               <a href="javascript:" class="icon-weibo"></a>
+            </li>
+         </ul>
+      </div>
+   </form>
+</div>
 
-    <!--登录弹窗-->
-    <div class="model">
-        <form action="">
-            <p class="title">汇众联合账号登录</p>
-            <div class="d1">
-                <span class="s1 icon-login"></span>
-                <input type="text" placeholder="请输入账号">
-                <span class="s2 fr">x</span>
-            </div>
-            <div class="d1">
-                <span class="s1 icon-password"></span>
-                <input type="password" placeholder="请输入密码">
-                <span class="s2 fr">x</span>
-            </div>
-            <div class="d2">
-                <label for="jm"><input type="checkbox" id="jm"> 记住密码</label>
-            </div>
-            <input type="submit" value="立即登录" class="sub">
-            <div class="d3">
-                <p>可使用以下方式登录</p>
-                <ul class="row">
-                    <li class="fl">
-                        <a href="javascript:" class="icon-phone"></a>
-                    </li>
-                    <li class="fl">
-                        <a href="javascript:" class="icon-qq"></a>
-                    </li>
-                    <li class="fl">
-                        <a href="javascript:" class="icon-weibo"></a>
-                    </li>
-                </ul>
-            </div>
-        </form>
-    </div>
-
-    <!--本页js-->
-    <script src="js/PicCarousel.js"></script>
-    <script>
-        $(".B_Demo").PicCarousel({
-            "width": 880, //幻灯片的宽度
-            "height": 467, //幻灯片的高度
-            "posterWidth": 348, //幻灯片第一帧的宽度
-            "posterHeight": 467, //幻灯片第一张的高度
-            "scale": 0.8, //记录显示比例关系
-            "speed": 1000, //记录幻灯片滚动速度
-            "autoPlay": true, //是否开启自动播放
-            "delay": 1000, //自动播放间隔
-            "verticalAlign": "center" //图片对齐位置
-        });
-    </script>
+<!--本页js-->
+<script src="js/equity.js"></script>
+<script src="js/PicCarousel.js"></script>
+<script>
+   $(".B_Demo").PicCarousel({
+      "width": 880, //幻灯片的宽度
+      "height": 467, //幻灯片的高度
+      "posterWidth": 348, //幻灯片第一帧的宽度
+      "posterHeight": 467, //幻灯片第一张的高度
+      "scale": 0.8, //记录显示比例关系
+      "speed": 1000, //记录幻灯片滚动速度
+//      "autoPlay": true, //是否开启自动播放
+      "delay": 1000, //自动播放间隔
+      "verticalAlign": "center" //图片对齐位置
+   });
+</script>
 </body>
 
 </html>

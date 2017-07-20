@@ -16,12 +16,14 @@ a:hover, a:focus {
             line-height: 32px;
             div.container {
                div.row {
+                  > a {
+                     color: #fff;
+                  }
                   ul {
                      li {
                         margin-left: 30px;
                         a {
                            display: block;
-                           font-size: 16px;
                            color: #fff;
                         }
                      }
@@ -34,6 +36,11 @@ a:hover, a:focus {
             div.container {
                div.head-fh {
                   padding: 30px 0;
+                  a.logo{
+                     display: inline-block;
+                     vertical-align: middle;
+                     margin-right: 15px;
+                  }
                   div.search {
                      width: 350px;
                      height: 37px;
@@ -98,6 +105,10 @@ a:hover, a:focus {
                         margin-left: 60px;
                         > a {
                            display: block;
+                           span {
+                              color: #999;
+                              margin-right: 5px;
+                           }
                         }
                      }
                   }
@@ -273,6 +284,54 @@ a:hover, a:focus {
       }
       .progress {
          height: 6px;
+         margin-bottom: 10px;
+         .progress-bar {
+            background-color: @color1;
+         }
+      }
+      .qua-s2 {
+         div.qua-s2-s {
+            border: 1px solid #ededed;
+            background: #fff;
+            height: 369px;
+            div.dd1 {
+               a {
+                  display: block;
+                  img {
+                     width: 100%;
+                  }
+               }
+            }
+            div.dd2 {
+               padding: 10px 15px;
+               a.a1 {
+                  display: block;
+                  height: 50px;
+               }
+               div.bq {
+                  margin: 12px 0;
+                  span {
+                     display: inline-block;
+                     vertical-align: middle;
+                     background: #f0f0f0;
+                     color: @color1;
+                     padding: 0 8px;
+                     margin-right: 5px;
+                     font-size: 12px;
+                  }
+               }
+               div.nums {
+                  div.num-d {
+                     div {
+                        text-align: center;
+                        &:last-child {
+                           border-left: 1px dashed #eee;
+                        }
+                     }
+                  }
+               }
+            }
+         }
       }
       div.quality {
          padding: 25px 0;
@@ -310,35 +369,120 @@ a:hover, a:focus {
                         }
                      }
                   }
-                  &.qua-s2 {
-                     div.qua-s2-s {
-                        border: 1px solid #ededed;
-                        background: #fff;
-                        height: 369px;
-                        div.dd1 {
-                           a {
-                              display: block;
-                              img {
-                                 width: 100%;
+               }
+            }
+         }
+      }
+      //   最新上线
+      div.newest {
+         padding: 35px 0;
+         position: relative;
+         div.container {
+            div.newest-sec {
+               margin-left: -12px;
+               margin-right: -12px;
+               > div {
+                  padding: 5px 12px;
+               }
+               div.qua-s2 {
+                  div.qua-s2-s {
+                     div.dd2 {
+                        div.nums {
+                           div.num-d {
+                              div {
+                                 text-align: center;
+                                 &:last-child {
+                                    border-left: none;
+                                 }
+                                 p {
+                                    font-size: 12px;
+                                    color: #999;
+                                 }
                               }
                            }
                         }
-                        div.dd2 {
-                           padding: 10px 15px;
-                           a.a1 {
-                              display: block;
+                     }
+                  }
+               }
+            }
+         }
+         div.bjc {
+            position: absolute;
+            width: 100%;
+            height: 160px;
+            bottom: 0;
+            left: 0;
+            background: #fdfdfd;
+            z-index: -1;
+         }
+      }
+      //   成功案例
+      div.case {
+         padding: 35px 0;
+         div.container {
+            div.case-sec {
+               margin-left: -12px;
+               margin-right: -12px;
+               > div {
+                  padding: 5px 12px;
+                  div.case-s {
+                     background: #f2f3f3;
+                     height: 495px;
+                     a.a1 {
+                        display: block;
+                        position: relative;
+                        img.img2 {
+                           position: absolute;
+                           width: 66px;
+                           height: 66px;
+                           left: 50%;
+                           margin-left: -33px;
+                           bottom: -33px;
+                           border: 3px solid rgba(255, 255, 255, 0.6);
+                           border-radius: 50%;
+                        }
+                     }
+                     div.case-d {
+                        padding: 20px;
+                        div.d1 {
+                           text-align: center;
+                           padding: 15px;
+                           a {
+                              font-size: 18px;
                            }
-                           div.bq {
-                              margin: 12px 0;
+                           p {
+                              font-size: 12px;
+                              color: #999;
+                              line-height: 120%;
+                           }
+                        }
+                        div.d2 {
+                           margin-bottom: 15px;
+                           p {
                               span {
-                                 display: inline-block;
-                                 vertical-align: middle;
-                                 background: #f0f0f0;
-                                 color: @color1;
-                                 padding: 0 8px;
-                                 margin-right: 5px;
-                                 font-size: 12px;
+                                 color: red;
                               }
+                           }
+                        }
+                        div.d3 {
+                           margin-bottom: 40px;
+                           p {
+                              font-size: 12px;
+                              line-height: 150%;
+                           }
+                        }
+                        a.a2 {
+                           display: block;
+                           width: 142px;
+                           height: 32px;
+                           line-height: 32px;
+                           background: @color1;
+                           color: #fff;
+                           margin: auto;
+                           text-align: center;
+                           font-size: 16px;
+                           &:hover {
+                              box-shadow: 0 0 10px #666;
                            }
                         }
                      }
@@ -348,14 +492,315 @@ a:hover, a:focus {
          }
       }
    }
+
+   //   footer
+   footer {
+      background: @color1;
+      padding: 10px 0;
+      div.container {
+         text-align: center;
+         p {
+            color: #fff;
+            line-height: 150%;
+         }
+      }
+   }
 }
 
 //平板
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
+   //   主体
+   section {
+      //   发现
+      div.found {
+         div.container {
+            div.row {
+               div.found-le {
+                  width: 100%;
+               }
+               div.found-rt {
+                  width: 100%;
+                  div.found-r-f {
+                     margin-left: -8px;
+                     margin-right: -8px;
+                     a {
+                        padding: 0 8px;
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   精品路演
+      div.quality {
+         div.container {
+            overflow-x: scroll;
+            div.qua-sec {
+               width: 1200px;
+            }
+         }
+      }
+      //   最新上线
+      div.newest {
+         div.container {
+            overflow-x: scroll;
+            div.newest-sec {
+               width: 1200px;
+            }
+         }
+      }
+      //   成功案例
+      div.case {
+         div.container {
+            overflow-x: scroll;
+            div.case-sec {
+               width: 1200px;
+            }
+         }
+      }
+   }
 }
 
 //手机
 @media screen and (max-width: 767px) {
+   //   头部
+   header.sj {
+      div.head-sj-top {
+         background: @color1;
+         height: 40px;
+         position: relative;
+         a.logo {
+            display: inline-block;
+            height: 100%;
+            padding: 8px 10px;
+            img {
+               height: 100%;
+            }
+         }
+         button {
+            padding: 4px 10px;
+            span {
+               background: #fff;
+            }
+         }
+         ul.secs {
+            display: none;
+            position: absolute;
+            min-width: 120px;
+            top: 100%;
+            right: 0;
+            background: @color1;
+            text-align: center;
+            > li {
+               border-bottom: 1px solid #fafafa;
+               &:last-child {
+                  border-bottom: none;
+               }
+               > a {
+                  display: block;
+                  padding: 5px 10px;
+                  color: #fff;
+                  span {
+                     margin-right: 5px;
+                  }
+               }
+            }
+         }
+      }
+      div.head-sj-fot {
+         background: #f7f7f7;
+         height: 40px;
+         position: relative;
+         > ul {
+            line-height: 40px;
+            li {
+               margin-right: 10px;
+               > a {
+                  display: block;
+                  padding: 0 10px;
+               }
+               div.btn-group {
+                  display: block;
+                  div.dropdown-toggle {
+                     box-shadow: none;
+                     cursor: pointer;
+                     span {
+                        color: #999;
+                     }
+                  }
+                  .dropdown-menu {
+                     border-color: @color1;
+                     &:before {
+                        border-bottom-color: @color1;
+                     }
+                     > li {
+                        > a {
+                           color: @color1;
+                           &:hover {
+                              background-color: @color1;
+                              color: #fff;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+         .search-wrapper {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            &.active {
+               .input-holder {
+                  .search-input {
+                     right: 0;
+                     padding: 0 50px 0 15px;
+                     width: 100%;
+                     -webkit-transition: all 0.3s linear;
+                     -moz-transition: all 0.3s linear;
+                     -o-transition: all 0.3s linear;
+                     transition: all 0.3s linear;
+                     opacity: 1;
+                  }
+                  .search-icon {
+                     margin-right: 4px;
+                     -webkit-transition: all 0.3s linear;
+                     -moz-transition: all 0.3s linear;
+                     -o-transition: all 0.3s linear;
+                     transition: all 0.3s linear;
+                     span {
+                        color: @color1;
+                     }
+                  }
+               }
+            }
+            .input-holder {
+               position: relative;
+               height: 40px;
+               width: 100%;
+               .search-input {
+                  width: 0;
+                  height: 40px;
+                  padding: 0;
+                  color: #555;
+                  opacity: 0;
+                  position: absolute;
+                  top: 0;
+                  right: 5px;
+                  background: #fff;
+                  -webkit-box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                  box-sizing: border-box;
+                  border: none;
+                  outline: none;
+                  font-size: 14px;
+                  -webkit-transition: all 0.3s linear;
+                  -moz-transition: all 0.3s linear;
+                  -o-transition: all 0.3s linear;
+                  transition: all 0.3s linear;
+                  border-radius: 50px;
+               }
+               .search-icon {
+                  width: 40px;
+                  height: 40px;
+                  border: none;
+                  padding: 5px;
+                  outline: none;
+                  position: relative;
+                  background: none;
+                  z-index: 2;
+                  float: right;
+                  cursor: pointer;
+                  -webkit-transition: all 0.3s linear;
+                  -moz-transition: all 0.3s linear;
+                  -o-transition: all 0.3s linear;
+                  transition: all 0.3s linear;
+                  span {
+                     text-align: center;
+                     font-size: 24px;
+                     color: @color1;
+                  }
+               }
+            }
+            .close {
+               position: absolute;
+               z-index: 1;
+               width: 26px;
+               height: 26px;
+               top: 4px;
+               left: -50px;
+               opacity: 0;
+               cursor: pointer;
+               font-size: 14px;
+               color: red;
+               line-height: 26px;
+               text-align: center;
+            }
+         }
+      }
+   }
 
+   //   主体
+   section {
+      padding-top: 80px;
+      //   发现
+      div.found {
+         div.container {
+            > div.row {
+               margin-left: -3%;
+               margin-right: -3%;
+               div.found-le {
+                  width: 100%;
+               }
+               div.found-rt {
+                  width: 100%;
+                  padding: 3% 3% 0;
+                  div.dtu {
+                     padding-right: 9%;
+                  }
+               }
+            }
+         }
+      }
+      //   精品路演
+      div.quality {
+         padding: 15px 0;
+         div.container {
+            div.qua-sec {
+               .qua-s2 {
+                  div.qua-s2-s {
+                     height: auto;
+                  }
+               }
+            }
+         }
+      }
+      //   最新上线
+      div.newest {
+         padding: 15px 0;
+         div.container {
+            div.newest-sec {
+               div.qua-s2 {
+                  div.qua-s2-s {
+                     height: auto;
+                  }
+               }
+            }
+         }
+      }
+      //   成功案例
+      div.case {
+         padding: 15px 0;
+         div.container {
+            div.case-sec {
+               > div {
+                  div.case-s {
+                     height: auto;
+                  }
+               }
+            }
+         }
+      }
+   }
 }

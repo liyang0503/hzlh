@@ -1,0 +1,144 @@
+a:hover,
+a:focus {
+  color: #0099ff;
+}
+@font-face {
+  font-family: 'dsccrystal';
+  src: url('../font/CRISTAL.ttf?81tnxi') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '腾祥魅黑简';
+  src: url('../font/TTMEIHEIJ.ttf?81tnxi') format('truetype');
+}
+@media screen and (min-width: 320px) {
+  header {
+    height: 450px;
+    background-image: url("../images/hzlh-finance-bj.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  header div.container ul.ul-dz {
+    padding: 15px 0;
+  }
+  header div.container ul.ul-dz li {
+    padding: 0 8px;
+  }
+  header div.container ul.ul-dz li a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+  header div.container ul.ul-dz li a:hover {
+    border-color: #fff;
+  }
+  header div.container div.head-sec > div {
+    padding: 8% 4% 0;
+  }
+  header div.container div.head-sec > div.head-le div {
+    background: rgba(102, 102, 102, 0.9);
+    border-radius: 4px;
+    color: #fff;
+    height: 200px;
+    position: relative;
+  }
+  header div.container div.head-sec > div.head-le div span {
+    position: absolute;
+  }
+  header div.container div.head-sec > div.head-le div span.s3 {
+    font-size: 30px;
+    width: 100%;
+    padding: 0 15px;
+    left: 5px;
+    bottom: 15px;
+  }
+  header div.container div.head-sec > div.head-le div span.s4 {
+    font-size: 118px;
+    font-family: dsccrystal;
+    line-height: 100%;
+    top: 15px;
+    right: -24px;
+    -webkit-transform: scaleX(0.7);
+    -moz-transform: scaleX(0.7);
+    -ms-transform: scaleX(0.7);
+    -o-transform: scaleX(0.7);
+    transform: scaleX(0.7);
+    letter-spacing: 5px;
+    font-style: italic;
+  }
+  header div.container div.head-sec > div.head-le div span.s1 {
+    font-size: 66px;
+    font-family: 腾祥魅黑简;
+    left: 15px;
+    line-height: 100%;
+    top: 15px;
+  }
+  header div.container div.head-sec > div.head-le div span.s2 {
+    font-size: 30px;
+    top: 95px;
+    left: 158px;
+    line-height: 100%;
+  }
+  header div.container div.head-sec > div.head-rt div {
+    height: 88px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 22px;
+    box-shadow: 0 0 25px 1px #333;
+  }
+  header div.container div.head-sec > div.head-rt div span,
+  header div.container div.head-sec > div.head-rt div a {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  header div.container div.head-sec > div.head-rt div span {
+    line-height: 88px;
+    font-size: 24px;
+  }
+  header div.container div.head-sec > div.head-rt div a {
+    width: 168px;
+    height: 40px;
+    line-height: 40px;
+    background: #ff5d25;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: -35px;
+  }
+  nav {
+    box-shadow: 0 0 10px #999;
+    height: 50px;
+  }
+  nav div.row ul.ul1 li {
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    line-height: 48px;
+    padding: 0 15px;
+    margin-right: 5px;
+  }
+  nav div.row ul.ul1 li:hover,
+  nav div.row ul.ul1 li.active {
+    color: #0099ff;
+    border-color: #0099ff;
+  }
+  footer {
+    background: #0099ff;
+    padding: 10px 0;
+  }
+  footer div.container {
+    text-align: center;
+  }
+  footer div.container p {
+    color: #fff;
+    line-height: 150%;
+  }
+}

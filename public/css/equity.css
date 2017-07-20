@@ -8,12 +8,14 @@ a:focus {
     height: 32px;
     line-height: 32px;
   }
+  header.pc-ipad div.head-top div.container div.row > a {
+    color: #fff;
+  }
   header.pc-ipad div.head-top div.container div.row ul li {
     margin-left: 30px;
   }
   header.pc-ipad div.head-top div.container div.row ul li a {
     display: block;
-    font-size: 16px;
     color: #fff;
   }
   header.pc-ipad div.head-fot {
@@ -21,6 +23,11 @@ a:focus {
   }
   header.pc-ipad div.head-fot div.container div.head-fh {
     padding: 30px 0;
+  }
+  header.pc-ipad div.head-fot div.container div.head-fh a.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
   }
   header.pc-ipad div.head-fot div.container div.head-fh div.search {
     width: 350px;
@@ -80,6 +87,10 @@ a:focus {
   }
   header.pc-ipad div.head-fot div.container div.head-f ul.h-list2 > li > a {
     display: block;
+  }
+  header.pc-ipad div.head-fot div.container div.head-f ul.h-list2 > li > a span {
+    color: #999;
+    margin-right: 5px;
   }
   section div.found {
     padding-bottom: 10px;
@@ -232,6 +243,46 @@ a:focus {
   }
   section .progress {
     height: 6px;
+    margin-bottom: 10px;
+  }
+  section .progress .progress-bar {
+    background-color: #2ac8be;
+  }
+  section .qua-s2 div.qua-s2-s {
+    border: 1px solid #ededed;
+    background: #fff;
+    height: 369px;
+  }
+  section .qua-s2 div.qua-s2-s div.dd1 a {
+    display: block;
+  }
+  section .qua-s2 div.qua-s2-s div.dd1 a img {
+    width: 100%;
+  }
+  section .qua-s2 div.qua-s2-s div.dd2 {
+    padding: 10px 15px;
+  }
+  section .qua-s2 div.qua-s2-s div.dd2 a.a1 {
+    display: block;
+    height: 50px;
+  }
+  section .qua-s2 div.qua-s2-s div.dd2 div.bq {
+    margin: 12px 0;
+  }
+  section .qua-s2 div.qua-s2-s div.dd2 div.bq span {
+    display: inline-block;
+    vertical-align: middle;
+    background: #f0f0f0;
+    color: #2ac8be;
+    padding: 0 8px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  section .qua-s2 div.qua-s2-s div.dd2 div.nums div.num-d div {
+    text-align: center;
+  }
+  section .qua-s2 div.qua-s2-s div.dd2 div.nums div.num-d div:last-child {
+    border-left: 1px dashed #eee;
   }
   section div.quality {
     padding: 25px 0;
@@ -269,33 +320,353 @@ a:focus {
     padding: 8px 0;
     margin: 10px auto;
   }
-  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s {
-    border: 1px solid #ededed;
-    background: #fff;
-    height: 369px;
+  section div.newest {
+    padding: 35px 0;
+    position: relative;
   }
-  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd1 a {
+  section div.newest div.container div.newest-sec {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  section div.newest div.container div.newest-sec > div {
+    padding: 5px 12px;
+  }
+  section div.newest div.container div.newest-sec div.qua-s2 div.qua-s2-s div.dd2 div.nums div.num-d div {
+    text-align: center;
+  }
+  section div.newest div.container div.newest-sec div.qua-s2 div.qua-s2-s div.dd2 div.nums div.num-d div:last-child {
+    border-left: none;
+  }
+  section div.newest div.container div.newest-sec div.qua-s2 div.qua-s2-s div.dd2 div.nums div.num-d div p {
+    font-size: 12px;
+    color: #999;
+  }
+  section div.newest div.bjc {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    bottom: 0;
+    left: 0;
+    background: #fdfdfd;
+    z-index: -1;
+  }
+  section div.case {
+    padding: 35px 0;
+  }
+  section div.case div.container div.case-sec {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  section div.case div.container div.case-sec > div {
+    padding: 5px 12px;
+  }
+  section div.case div.container div.case-sec > div div.case-s {
+    background: #f2f3f3;
+    height: 495px;
+  }
+  section div.case div.container div.case-sec > div div.case-s a.a1 {
     display: block;
+    position: relative;
   }
-  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd1 a img {
+  section div.case div.container div.case-sec > div div.case-s a.a1 img.img2 {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 50%;
+    margin-left: -33px;
+    bottom: -33px;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d {
+    padding: 20px;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d div.d1 {
+    text-align: center;
+    padding: 15px;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d div.d1 a {
+    font-size: 18px;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d div.d1 p {
+    font-size: 12px;
+    color: #999;
+    line-height: 120%;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d div.d2 {
+    margin-bottom: 15px;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d div.d2 p span {
+    color: red;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d div.d3 {
+    margin-bottom: 40px;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d div.d3 p {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d a.a2 {
+    display: block;
+    width: 142px;
+    height: 32px;
+    line-height: 32px;
+    background: #2ac8be;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+  }
+  section div.case div.container div.case-sec > div div.case-s div.case-d a.a2:hover {
+    box-shadow: 0 0 10px #666;
+  }
+  footer {
+    background: #2ac8be;
+    padding: 10px 0;
+  }
+  footer div.container {
+    text-align: center;
+  }
+  footer div.container p {
+    color: #fff;
+    line-height: 150%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section div.found div.container div.row div.found-le {
     width: 100%;
   }
-  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd2 {
-    padding: 10px 15px;
+  section div.found div.container div.row div.found-rt {
+    width: 100%;
   }
-  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd2 a.a1 {
+  section div.found div.container div.row div.found-rt div.found-r-f {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  section div.found div.container div.row div.found-rt div.found-r-f a {
+    padding: 0 8px;
+  }
+  section div.quality div.container {
+    overflow-x: scroll;
+  }
+  section div.quality div.container div.qua-sec {
+    width: 1200px;
+  }
+  section div.newest div.container {
+    overflow-x: scroll;
+  }
+  section div.newest div.container div.newest-sec {
+    width: 1200px;
+  }
+  section div.case div.container {
+    overflow-x: scroll;
+  }
+  section div.case div.container div.case-sec {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  header.sj div.head-sj-top {
+    background: #2ac8be;
+    height: 40px;
+    position: relative;
+  }
+  header.sj div.head-sj-top a.logo {
+    display: inline-block;
+    height: 100%;
+    padding: 8px 10px;
+  }
+  header.sj div.head-sj-top a.logo img {
+    height: 100%;
+  }
+  header.sj div.head-sj-top button {
+    padding: 4px 10px;
+  }
+  header.sj div.head-sj-top button span {
+    background: #fff;
+  }
+  header.sj div.head-sj-top ul.secs {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    top: 100%;
+    right: 0;
+    background: #2ac8be;
+    text-align: center;
+  }
+  header.sj div.head-sj-top ul.secs > li {
+    border-bottom: 1px solid #fafafa;
+  }
+  header.sj div.head-sj-top ul.secs > li:last-child {
+    border-bottom: none;
+  }
+  header.sj div.head-sj-top ul.secs > li > a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+  }
+  header.sj div.head-sj-top ul.secs > li > a span {
+    margin-right: 5px;
+  }
+  header.sj div.head-sj-fot {
+    background: #f7f7f7;
+    height: 40px;
+    position: relative;
+  }
+  header.sj div.head-sj-fot > ul {
+    line-height: 40px;
+  }
+  header.sj div.head-sj-fot > ul li {
+    margin-right: 10px;
+  }
+  header.sj div.head-sj-fot > ul li > a {
+    display: block;
+    padding: 0 10px;
+  }
+  header.sj div.head-sj-fot > ul li div.btn-group {
     display: block;
   }
-  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd2 div.bq {
-    margin: 12px 0;
+  header.sj div.head-sj-fot > ul li div.btn-group div.dropdown-toggle {
+    box-shadow: none;
+    cursor: pointer;
   }
-  section div.quality div.container div.qua-sec > div.qua-s2 div.qua-s2-s div.dd2 div.bq span {
-    display: inline-block;
-    vertical-align: middle;
-    background: #f0f0f0;
+  header.sj div.head-sj-fot > ul li div.btn-group div.dropdown-toggle span {
+    color: #999;
+  }
+  header.sj div.head-sj-fot > ul li div.btn-group .dropdown-menu {
+    border-color: #2ac8be;
+  }
+  header.sj div.head-sj-fot > ul li div.btn-group .dropdown-menu:before {
+    border-bottom-color: #2ac8be;
+  }
+  header.sj div.head-sj-fot > ul li div.btn-group .dropdown-menu > li > a {
     color: #2ac8be;
-    padding: 0 8px;
-    margin-right: 5px;
-    font-size: 12px;
+  }
+  header.sj div.head-sj-fot > ul li div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #2ac8be;
+    color: #fff;
+  }
+  header.sj div.head-sj-fot .search-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  header.sj div.head-sj-fot .search-wrapper.active .input-holder .search-input {
+    right: 0;
+    padding: 0 50px 0 15px;
+    width: 100%;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    opacity: 1;
+  }
+  header.sj div.head-sj-fot .search-wrapper.active .input-holder .search-icon {
+    margin-right: 4px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  header.sj div.head-sj-fot .search-wrapper.active .input-holder .search-icon span {
+    color: #2ac8be;
+  }
+  header.sj div.head-sj-fot .search-wrapper .input-holder {
+    position: relative;
+    height: 40px;
+    width: 100%;
+  }
+  header.sj div.head-sj-fot .search-wrapper .input-holder .search-input {
+    width: 0;
+    height: 40px;
+    padding: 0;
+    color: #555;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    border-radius: 50px;
+  }
+  header.sj div.head-sj-fot .search-wrapper .input-holder .search-icon {
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    position: relative;
+    background: none;
+    z-index: 2;
+    float: right;
+    cursor: pointer;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  header.sj div.head-sj-fot .search-wrapper .input-holder .search-icon span {
+    text-align: center;
+    font-size: 24px;
+    color: #2ac8be;
+  }
+  header.sj div.head-sj-fot .search-wrapper .close {
+    position: absolute;
+    z-index: 1;
+    width: 26px;
+    height: 26px;
+    top: 4px;
+    left: -50px;
+    opacity: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: red;
+    line-height: 26px;
+    text-align: center;
+  }
+  section {
+    padding-top: 80px;
+  }
+  section div.found div.container > div.row {
+    margin-left: -3%;
+    margin-right: -3%;
+  }
+  section div.found div.container > div.row div.found-le {
+    width: 100%;
+  }
+  section div.found div.container > div.row div.found-rt {
+    width: 100%;
+    padding: 3% 3% 0;
+  }
+  section div.found div.container > div.row div.found-rt div.dtu {
+    padding-right: 9%;
+  }
+  section div.quality {
+    padding: 15px 0;
+  }
+  section div.quality div.container div.qua-sec .qua-s2 div.qua-s2-s {
+    height: auto;
+  }
+  section div.newest {
+    padding: 15px 0;
+  }
+  section div.newest div.container div.newest-sec div.qua-s2 div.qua-s2-s {
+    height: auto;
+  }
+  section div.case {
+    padding: 15px 0;
+  }
+  section div.case div.container div.case-sec > div div.case-s {
+    height: auto;
   }
 }
