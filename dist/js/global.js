@@ -21,7 +21,7 @@ jQuery.fn.size = function () {
 };
 
 function msg() {
-   layer.msg('error：数据请求失败！');
+   layer.msg('错误：数据请求失败！');
 }
 
 
