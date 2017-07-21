@@ -3,34 +3,34 @@ a:focus {
   color: #2ac8be;
 }
 @media screen and (min-width: 320px) {
-  div.btn-group {
-    display: block;
-  }
-  div.btn-group div.dropdown-toggle {
-    box-shadow: none;
-    cursor: pointer;
-    line-height: 100%;
-  }
-  div.btn-group div.dropdown-toggle span {
-    color: #999;
-  }
-  div.btn-group .dropdown-menu {
-    border-color: #2ac8be;
-  }
-  div.btn-group .dropdown-menu:before {
-    border-bottom-color: #2ac8be;
-  }
-  div.btn-group .dropdown-menu > li > a {
-    color: #2ac8be;
-  }
-  div.btn-group .dropdown-menu > li > a:hover {
-    background-color: #2ac8be;
-    color: #fff;
-  }
   header.pc-ipad div.head-top {
     background: #393939;
     height: 32px;
     line-height: 32px;
+  }
+  header.pc-ipad div.head-top div.btn-group {
+    display: block;
+  }
+  header.pc-ipad div.head-top div.btn-group div.dropdown-toggle {
+    box-shadow: none;
+    cursor: pointer;
+    line-height: 100%;
+  }
+  header.pc-ipad div.head-top div.btn-group div.dropdown-toggle span {
+    color: #999;
+  }
+  header.pc-ipad div.head-top div.btn-group .dropdown-menu {
+    border-color: #2ac8be;
+  }
+  header.pc-ipad div.head-top div.btn-group .dropdown-menu:before {
+    border-bottom-color: #2ac8be;
+  }
+  header.pc-ipad div.head-top div.btn-group .dropdown-menu > li > a {
+    color: #2ac8be;
+  }
+  header.pc-ipad div.head-top div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #2ac8be;
+    color: #fff;
   }
   header.pc-ipad div.head-top div.container div.row > a {
     color: #fff;

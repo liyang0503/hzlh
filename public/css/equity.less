@@ -6,32 +6,6 @@ a:hover, a:focus {
 
 //公共部分
 @media screen and (min-width: 320px) {
-   div.btn-group {
-      display: block;
-      div.dropdown-toggle {
-         box-shadow: none;
-         cursor: pointer;
-         line-height: 100%;
-         span {
-            color: #999;
-         }
-      }
-      .dropdown-menu {
-         border-color: @color1;
-         &:before {
-            border-bottom-color: @color1;
-         }
-         > li {
-            > a {
-               color: @color1;
-               &:hover {
-                  background-color: @color1;
-                  color: #fff;
-               }
-            }
-         }
-      }
-   }
 
    //   头部
    header {
@@ -41,6 +15,32 @@ a:hover, a:focus {
             background: #393939;
             height: 32px;
             line-height: 32px;
+            div.btn-group {
+               display: block;
+               div.dropdown-toggle {
+                  box-shadow: none;
+                  cursor: pointer;
+                  line-height: 100%;
+                  span {
+                     color: #999;
+                  }
+               }
+               .dropdown-menu {
+                  border-color: @color1;
+                  &:before {
+                     border-bottom-color: @color1;
+                  }
+                  > li {
+                     > a {
+                        color: @color1;
+                        &:hover {
+                           background-color: @color1;
+                           color: #fff;
+                        }
+                     }
+                  }
+               }
+            }
             div.container {
                div.row {
                   > a {
