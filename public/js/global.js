@@ -21,7 +21,7 @@ jQuery.fn.size = function () {
 };
 
 function msg() {
-   layer.msg('功能开发中');
+   layer.msg('error：数据请求失败！');
 }
 
 
