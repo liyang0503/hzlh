@@ -1,0 +1,503 @@
+a:hover,
+a:focus {
+  color: #33a9fa;
+}
+@media screen and (min-width: 320px) {
+  div.btn-group {
+    display: block;
+  }
+  div.btn-group div.dropdown-toggle {
+    box-shadow: none;
+    cursor: pointer;
+    line-height: 100%;
+  }
+  div.btn-group div.dropdown-toggle span {
+    color: #999;
+  }
+  div.btn-group .dropdown-menu {
+    border-color: #33a9fa;
+  }
+  div.btn-group .dropdown-menu:before {
+    border-bottom-color: #33a9fa;
+  }
+  div.btn-group .dropdown-menu > li > a {
+    color: #33a9fa;
+  }
+  div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #33a9fa;
+    color: #fff;
+  }
+  header {
+    background: #282828;
+    height: 32px;
+    line-height: 32px;
+  }
+  header div.container a.a1 {
+    color: #fff;
+  }
+  header div.container ul.ul1 > li {
+    margin-left: 25px;
+  }
+  header div.container ul.ul1 > li > a {
+    display: block;
+    color: #fff;
+  }
+  header div.container ul.ul1 > li div.btn-group div.dropdown-toggle {
+    line-height: 32px;
+    color: #fff;
+  }
+  header div.container ul.ul1 > li div.btn-group div.dropdown-toggle span {
+    color: #fff;
+  }
+  nav {
+    height: 60px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-tal-nav-bj.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  nav div.container > div.row a.logo {
+    line-height: 60px;
+  }
+  nav div.container > div.row ul.tal-t-ul {
+    width: 870px;
+    padding: 0 170px;
+  }
+  nav div.container > div.row ul.tal-t-ul li {
+    width: 25%;
+    text-align: center;
+    padding: 0 20px;
+  }
+  nav div.container > div.row ul.tal-t-ul li a {
+    display: block;
+    height: 60px;
+    border-bottom: 3px solid transparent;
+    line-height: 57px;
+    color: #fff;
+    font-size: 16px;
+  }
+  nav div.container > div.row ul.tal-t-ul li a:hover {
+    border-color: #fff;
+  }
+  nav div.container > div.row > div {
+    line-height: 60px;
+    margin-left: 30px;
+  }
+  nav div.container > div.row > div select {
+    border: none;
+    color: #fff;
+    background: none;
+  }
+  nav div.container > div.row > div select option {
+    background: #33a9fa;
+  }
+  section {
+    padding: 25px 0;
+  }
+  section div.container > div.row div.talent-le {
+    width: 315px;
+    background: #fafafa;
+    padding-bottom: 20px;
+  }
+  section div.container > div.row div.talent-le p.tit {
+    font-size: 24px;
+    font-weight: bold;
+    color: #33a9fa;
+    padding: 15px 35px 0;
+    letter-spacing: 1px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li a.a1 {
+    display: block;
+    font-size: 18px;
+    padding: 10px 33px;
+    border: 2px solid transparent;
+    border-right: none;
+    position: relative;
+    z-index: 10;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li a.a1 > span {
+    float: right;
+    line-height: 32px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li a.a1 > span:before {
+    color: #666;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li ul.ul1 {
+    padding: 0 35px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li ul.ul1 li {
+    padding-right: 15px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li div.sub {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 313px;
+    width: 730px;
+    background: #fff;
+    border: 2px solid #c3c5c9;
+    z-index: 1;
+    min-height: 60px;
+    padding: 15px 20px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li div.sub div.row {
+    margin-bottom: 10px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li div.sub div.row > span {
+    width: 80px;
+    text-align: right;
+    margin-right: 20px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li div.sub div.row > ul {
+    width: 575px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li div.sub div.row > ul li {
+    border-right: 1px solid #ccc;
+    margin: 3px 0;
+    margin-bottom: 10px;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li div.sub div.row > ul li:last-child {
+    border-right: none;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li div.sub div.row > ul li a {
+    display: block;
+    padding: 0 10px;
+    line-height: 130%;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li:hover a.a1 {
+    color: #33a9fa;
+    background: #fff;
+    border-color: #c3c5c9;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li:hover a.a1 > span:before {
+    color: #33a9fa;
+  }
+  section div.container > div.row div.talent-le ul.tal-le-ul > li:hover div.sub {
+    display: block;
+  }
+  section div.container > div.row div.talent-rt {
+    width: 870px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top {
+    background: #fafafa;
+    padding: 23px 35px;
+    margin-bottom: 30px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.search {
+    border: 5px solid #eee;
+    background: #fff;
+    margin-bottom: 23px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.search input {
+    border: none;
+    height: 35px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.search input.in1 {
+    width: 650px;
+    padding: 2px 12px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.search input.in2 {
+    float: right;
+    width: 135px;
+    background: #33a9fa;
+    color: #fff;
+    font-size: 16px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.gg {
+    margin-bottom: 23px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.gg a {
+    display: block;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 {
+    padding: 30px 0;
+    background: #fff;
+    margin-bottom: 23px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 > li {
+    padding: 0 25px;
+    border-right: 1px solid #ccc;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 > li:last-child {
+    border-right: none;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 > li a.tit {
+    font-size: 16px;
+    display: block;
+    padding: 3px 0;
+    margin-bottom: 15px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 > li ul li a {
+    display: block;
+    padding: 3px 0;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.gg2 {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 23px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.gg2 a {
+    padding: 0 5px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.gg2 a img {
+    display: block;
+    width: 100%;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian ul.tuijian-tit {
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian ul.tuijian-tit li {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    margin-right: 20px;
+    padding: 0 8px;
+    cursor: pointer;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian ul.tuijian-tit li:hover,
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian ul.tuijian-tit li.active {
+    color: #33a9fa;
+    border-color: #33a9fa;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec {
+    display: none;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec.active {
+    display: block;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s {
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t {
+    padding: 15px 20px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t div.tl a {
+    color: #33a9fa;
+    font-size: 16px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t div.tl a span {
+    font-size: 12px;
+    color: #333;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t div.tl p {
+    font-size: 16px;
+    color: #999;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t div.tr a {
+    color: #33a9fa;
+    font-size: 16px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t div.tr p {
+    color: #999;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-f {
+    background: #f0f0f0;
+    padding: 6px 20px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-f a {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #33a9fa;
+    border-radius: 5px;
+    padding: 0 15px;
+    color: #33a9fa;
+    margin-right: 20px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-f span {
+    float: right;
+    color: #999;
+    font-size: 16px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.gds a {
+    display: block;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background: #33a9fa;
+    color: #fff;
+    text-align: center;
+    margin: 30px auto 10px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.gds a:hover {
+    box-shadow: 0 0 10px -1px #666;
+  }
+  section div.container > div.row div.talent-rt div.talent-link {
+    position: relative;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > span {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > ul {
+    width: 700px;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > ul > li {
+    padding: 7px 0;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > ul > li > a {
+    display: block;
+    padding: 0 8px;
+    border-left: 1px solid #aaa;
+    line-height: 100%;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > ul > li:first-child > a {
+    border-left: none;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > ul > li.gd {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 0;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > ul > li.gd .dropdown-menu {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 118%;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > ul > li.gd .dropdown-menu:before,
+  section div.container > div.row div.talent-rt div.talent-link > ul > li.gd .dropdown-menu:after {
+    display: none !important;
+  }
+  footer {
+    background: #33a9fa;
+    padding: 10px 0;
+  }
+  footer div.container {
+    text-align: center;
+  }
+  footer div.container p {
+    color: #fff;
+    line-height: 150%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav div.container > div.row ul.tal-t-ul {
+    width: 70%;
+    padding: 0 10%;
+  }
+  section div.container > div.row div.talent-rt {
+    width: 100%;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top {
+    padding: 23px 12px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.search input.in1 {
+    width: 75%;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 > li {
+    padding: 0 10px;
+  }
+  section div.container > div.row div.talent-rt div.talent-link > ul {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    height: 45px;
+  }
+  nav div.container > div.row {
+    position: relative;
+  }
+  nav div.container > div.row a.logo {
+    line-height: 42px;
+  }
+  nav div.container > div.row > div {
+    line-height: 45px;
+  }
+  nav div.container > div.row span.nav-ico {
+    font-size: 22px;
+    padding: 10px 5px;
+  }
+  nav div.container > div.row span.nav-ico:before {
+    color: #fff;
+  }
+  nav div.container > div.row ul.nav-t-list {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    background: #33a9fa;
+    top: 100%;
+    right: 0;
+    padding: 3px 0;
+  }
+  nav div.container > div.row ul.nav-t-list > li {
+    text-align: center;
+    padding: 3px 0;
+  }
+  nav div.container > div.row ul.nav-t-list > li > a {
+    color: #fff;
+    display: block;
+  }
+  nav div.container > div.row ul.nav-t-list > li > div .dropdown-toggle {
+    color: #fff;
+  }
+  nav div.container > div.row ul.nav-t-list > li > div .dropdown-toggle span {
+    color: #fff;
+  }
+  ul.tal-t-ul {
+    text-align: center;
+  }
+  ul.tal-t-ul li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  ul.tal-t-ul li a {
+    display: block;
+    padding: 8px;
+  }
+  ul.tal-t-ul li.on a {
+    color: #33a9fa;
+  }
+  section {
+    padding: 0 0 15px;
+  }
+  section div.container > div.row div.talent-rt {
+    width: 100%;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top {
+    padding: 10px 12px;
+    margin-bottom: 0;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.search input.in1 {
+    width: 70%;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.search input.in2 {
+    width: 80px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 {
+    padding: 15px 0;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 > li {
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top ul.ul-list1 > li:nth-of-type(2) {
+    border: none;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.gg2 {
+    overflow-x: scroll;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.gg2 div.row {
+    width: 706px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t {
+    padding: 10px 15px;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t div.tr {
+    float: left;
+    width: 100%;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-t div.tr a {
+    font-weight: bold;
+  }
+  section div.container > div.row div.talent-rt div.talent-r-top div.tuijian div.tui-sec div.tui-s div.tui-s-f {
+    padding: 6px 15px;
+  }
+}

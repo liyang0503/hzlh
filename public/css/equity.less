@@ -6,6 +6,33 @@ a:hover, a:focus {
 
 //公共部分
 @media screen and (min-width: 320px) {
+   div.btn-group {
+      display: block;
+      div.dropdown-toggle {
+         box-shadow: none;
+         cursor: pointer;
+         line-height: 100%;
+         span {
+            color: #999;
+         }
+      }
+      .dropdown-menu {
+         border-color: @color1;
+         &:before {
+            border-bottom-color: @color1;
+         }
+         > li {
+            > a {
+               color: @color1;
+               &:hover {
+                  background-color: @color1;
+                  color: #fff;
+               }
+            }
+         }
+      }
+   }
+
    //   头部
    header {
       //   pc-ipad
@@ -19,12 +46,21 @@ a:hover, a:focus {
                   > a {
                      color: #fff;
                   }
-                  ul {
-                     li {
+                  > ul {
+                     > li {
                         margin-left: 30px;
-                        a {
+                        > a {
                            display: block;
                            color: #fff;
+                        }
+                        div.btn-group {
+                           div.dropdown-toggle {
+                              line-height: 32px;
+                              color: #fff;
+                              span {
+                                 color: #fff;
+                              }
+                           }
                         }
                      }
                   }
@@ -36,7 +72,7 @@ a:hover, a:focus {
             div.container {
                div.head-fh {
                   padding: 30px 0;
-                  a.logo{
+                  a.logo {
                      display: inline-block;
                      vertical-align: middle;
                      margin-right: 15px;
