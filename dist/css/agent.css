@@ -1,0 +1,175 @@
+a:hover,
+a:focus {
+  color: #33a9fa;
+}
+@media screen and (min-width: 320px) {
+  div.btn-group {
+    display: block;
+  }
+  div.btn-group div.dropdown-toggle {
+    box-shadow: none;
+    cursor: pointer;
+    line-height: 100%;
+  }
+  div.btn-group div.dropdown-toggle span {
+    color: #999;
+  }
+  div.btn-group .dropdown-menu {
+    border-color: #33a9fa;
+  }
+  div.btn-group .dropdown-menu:before {
+    border-bottom-color: #33a9fa;
+  }
+  div.btn-group .dropdown-menu > li > a {
+    color: #33a9fa;
+  }
+  div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #33a9fa;
+    color: #fff;
+  }
+  header {
+    background: #282828;
+    height: 32px;
+    line-height: 32px;
+  }
+  header div.container a.a1 {
+    color: #fff;
+  }
+  header div.container ul.ul1 > li {
+    margin-left: 25px;
+  }
+  header div.container ul.ul1 > li > a {
+    display: block;
+    color: #fff;
+  }
+  header div.container ul.ul1 > li div.btn-group div.dropdown-toggle {
+    line-height: 32px;
+    color: #fff;
+  }
+  header div.container ul.ul1 > li div.btn-group div.dropdown-toggle span {
+    color: #fff;
+  }
+  nav {
+    height: 60px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-tal-nav-bj.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  nav div.container > div.row a.logo {
+    line-height: 60px;
+  }
+  nav div.container > div.row ul.tal-t-ul {
+    width: 870px;
+    padding: 0 170px;
+  }
+  nav div.container > div.row ul.tal-t-ul li {
+    width: 25%;
+    text-align: center;
+    padding: 0 20px;
+  }
+  nav div.container > div.row ul.tal-t-ul li a {
+    display: block;
+    height: 60px;
+    border-bottom: 3px solid transparent;
+    line-height: 57px;
+    color: #fff;
+    font-size: 16px;
+  }
+  nav div.container > div.row ul.tal-t-ul li a:hover {
+    border-color: #fff;
+  }
+  nav div.container > div.row > div {
+    line-height: 60px;
+    margin-left: 30px;
+  }
+  nav div.container > div.row > div select {
+    border: none;
+    color: #fff;
+    background: none;
+  }
+  nav div.container > div.row > div select option {
+    background: #33a9fa;
+  }
+  section div.agent-top {
+    min-height: 238px;
+    background-image: url("../images/hzlh-agent-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+  }
+  footer {
+    background: #33a9fa;
+    padding: 10px 0;
+  }
+  footer div.container {
+    text-align: center;
+  }
+  footer div.container p {
+    color: #fff;
+    line-height: 150%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav div.container > div.row ul.tal-t-ul {
+    width: 70%;
+    padding: 0 10%;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    height: 45px;
+  }
+  nav div.container > div.row {
+    position: relative;
+  }
+  nav div.container > div.row a.logo {
+    line-height: 42px;
+  }
+  nav div.container > div.row > div {
+    line-height: 45px;
+  }
+  nav div.container > div.row span.nav-ico {
+    font-size: 22px;
+    padding: 10px 5px;
+  }
+  nav div.container > div.row span.nav-ico:before {
+    color: #fff;
+  }
+  nav div.container > div.row ul.nav-t-list {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    background: #33a9fa;
+    top: 100%;
+    right: 0;
+    padding: 3px 0;
+  }
+  nav div.container > div.row ul.nav-t-list > li {
+    text-align: center;
+    padding: 3px 0;
+  }
+  nav div.container > div.row ul.nav-t-list > li > a {
+    color: #fff;
+    display: block;
+  }
+  nav div.container > div.row ul.nav-t-list > li > div .dropdown-toggle {
+    color: #fff;
+  }
+  nav div.container > div.row ul.nav-t-list > li > div .dropdown-toggle span {
+    color: #fff;
+  }
+  ul.tal-t-ul {
+    text-align: center;
+  }
+  ul.tal-t-ul li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  ul.tal-t-ul li a {
+    display: block;
+    padding: 8px;
+  }
+  ul.tal-t-ul li.on a {
+    color: #33a9fa;
+  }
+}

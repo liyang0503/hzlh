@@ -1,0 +1,229 @@
+@color3: #33a9fa;
+
+a:hover, a:focus {
+   color: @color3;
+}
+
+//公共部分
+@media screen and (min-width: 320px) {
+   div.btn-group {
+      display: block;
+      div.dropdown-toggle {
+         box-shadow: none;
+         cursor: pointer;
+         line-height: 100%;
+         span {
+            color: #999;
+         }
+      }
+      .dropdown-menu {
+         border-color: @color3;
+         &:before {
+            border-bottom-color: @color3;
+         }
+         > li {
+            > a {
+               color: @color3;
+               &:hover {
+                  background-color: @color3;
+                  color: #fff;
+               }
+            }
+         }
+      }
+   }
+
+   //   头部
+   header {
+      background: #282828;
+      height: 32px;
+      line-height: 32px;
+      div.container {
+         a.a1 {
+            color: #fff;
+         }
+         ul.ul1 {
+            > li {
+               margin-left: 25px;
+               > a {
+                  display: block;
+                  color: #fff;
+               }
+               div.btn-group {
+                  div.dropdown-toggle {
+                     line-height: 32px;
+                     color: #fff;
+                     span {
+                        color: #fff;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   导航
+   nav {
+      height: 60px;
+      background-image: url("https://img.sandbox.qixinyun.com/hzlh-tal-nav-bj.jpg");
+      background-size: cover;
+      background-position: center;
+      div.container {
+         > div.row {
+            a.logo {
+               line-height: 60px;
+            }
+            ul.tal-t-ul {
+               width: 870px;
+               padding: 0 170px;
+               li {
+                  width: 25%;
+                  text-align: center;
+                  padding: 0 20px;
+                  a {
+                     display: block;
+                     height: 60px;
+                     border-bottom: 3px solid transparent;
+                     line-height: 57px;
+                     color: #fff;
+                     font-size: 16px;
+                     &:hover {
+                        border-color: #fff;
+                     }
+                  }
+               }
+            }
+            > div {
+               line-height: 60px;
+               margin-left: 30px;
+               select {
+                  border: none;
+                  color: #fff;
+                  background: none;
+                  option {
+                     background: @color3;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   主体
+   section {
+      div.agent-top {
+         min-height: 238px;
+         background-image: url("../images/hzlh-agent-banner.jpg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         background-position: center top;
+      }
+   }
+
+   //   footer
+   footer {
+      background: @color3;
+      padding: 10px 0;
+      div.container {
+         text-align: center;
+         p {
+            color: #fff;
+            line-height: 150%;
+         }
+      }
+   }
+}
+
+//平板
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   //   导航
+   nav {
+      div.container {
+         > div.row {
+            ul.tal-t-ul {
+               width: 70%;
+               padding: 0 10%;
+            }
+         }
+      }
+   }
+
+   //   主体
+   section {
+
+   }
+}
+
+//手机
+@media screen and (max-width: 767px) {
+   //   导航
+   nav {
+      height: 45px;
+      div.container {
+         > div.row {
+            position: relative;
+            a.logo {
+               line-height: 42px;
+            }
+            > div {
+               line-height: 45px;
+            }
+            span.nav-ico {
+               font-size: 22px;
+               padding: 10px 5px;
+               &:before {
+                  color: #fff;
+               }
+            }
+            ul.nav-t-list {
+               display: none;
+               position: absolute;
+               min-width: 120px;
+               background: @color3;
+               top: 100%;
+               right: 0;
+               padding: 3px 0;
+               > li {
+                  text-align: center;
+                  padding: 3px 0;
+                  > a {
+                     color: #fff;
+                     display: block;
+                  }
+                  > div {
+                     .dropdown-toggle {
+                        color: #fff;
+                        span {
+                           color: #fff;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   ul.tal-t-ul {
+      text-align: center;
+      li {
+         display: inline-block;
+         vertical-align: middle;
+         a {
+            display: block;
+            padding: 8px;
+         }
+         &.on {
+            a {
+               color: @color3;
+            }
+         }
+      }
+   }
+
+   //   主体
+   section {
+
+   }
+}
