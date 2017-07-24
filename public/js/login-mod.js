@@ -1,6 +1,11 @@
 /**
  * Created by QXT on 2017/7/17.
  */
+$(function () {
+   $('.model .s2').click(function () {
+      $(this).prev('input').val('');
+   });
+});
 
 //登录弹窗
 function login() {

@@ -1,7 +1,7 @@
-@color3: #33a9fa;
+@color4: #3366cc;
 
 a:hover, a:focus {
-   color: @color3;
+   color: @color4;
 }
 
 //公共部分
@@ -17,15 +17,15 @@ a:hover, a:focus {
          }
       }
       .dropdown-menu {
-         border-color: @color3;
+         border-color: @color4;
          &:before {
-            border-bottom-color: @color3;
+            border-bottom-color: @color4;
          }
          > li {
             > a {
-               color: @color3;
+               color: @color4;
                &:hover {
-                  background-color: @color3;
+                  background-color: @color4;
                   color: #fff;
                }
             }
@@ -102,7 +102,7 @@ a:hover, a:focus {
                   color: #fff;
                   background: none;
                   option {
-                     background: @color3;
+                     background: @color4;
                   }
                }
             }
@@ -112,18 +112,383 @@ a:hover, a:focus {
 
    //   主体
    section {
+      background-color: #f8f8f8;
+      padding-bottom: 35px;
+      //主体头部
       div.agent-top {
-         min-height: 238px;
-         background-image: url("../images/hzlh-agent-banner.jpg");
+         min-height: 384px;
+         background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-banner1.jpg");
          background-repeat: no-repeat;
-         background-size: 100%;
          background-position: center top;
+         div.container {
+            div.agent-t-le {
+               width: 230px;
+               ul.agent-ul {
+                  background: #454444;
+                  > li {
+                     padding: 24px 15px 25px;
+                     border-bottom: 1px solid #999;
+                     &:last-child {
+                        border-bottom: none;
+                     }
+                     > a {
+                        display: inline-block;
+                        vertical-align: middle;
+                        color: #fff;
+                     }
+                  }
+               }
+            }
+            div.agent-t-rt {
+               width: 1200-230px;
+               div.agent-t-l-t {
+                  height: 384px;
+                  > div {
+                     margin-top: 45px;
+                     width: 252px;
+                     border: 1px solid #eee;
+                     background: #fff;
+                     div.d1 {
+                        text-align: center;
+                        padding: 18px 0 22px;
+                        border-bottom: 1px solid #eee;
+                        a {
+                           display: block;
+                           margin-bottom: 15px;
+                           img {
+                              display: block;
+                              margin: auto;
+                              width: 38px;
+                              height: 38px;
+                              border-radius: 50%;
+                           }
+                           p {
+                              font-weight: bold;
+                              color: #666;
+                           }
+                        }
+                     }
+                     div.d2 {
+                        padding: 18px 26px;
+                        background: #f7f7f7;
+                        > div {
+                           p {
+                              line-height: 130%;
+                              font-size: 12px;
+                           }
+                        }
+                        a {
+                           width: 98px;
+                           height: 30px;
+                           line-height: 30px;
+                           text-align: center;
+                           background: #fec00f;
+                           color: #fff;
+                           font-size: 16px;
+                           font-weight: bold;
+                        }
+                        &.d3 {
+                           background: #fff;
+                           a {
+                              background: #3366cc;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      div.agents-tit {
+         margin-bottom: 12px;
+         span {
+            font-size: 24px;
+            font-weight: bold;
+            border-left: 6px solid #cc3333;
+            color: @color4;
+            padding-left: 12px;
+         }
+      }
+      //中介、热门
+      div.agents {
+         margin-top: 45px;
+         div.container {
+            div.agents-sec {
+               margin-left: -9px;
+               margin-right: -9px;
+               > div {
+                  padding: 0 9px;
+                  // 中介服务
+                  div.ss {
+                     background: #fff;
+                     border-radius: 5px;
+                     p.title {
+                        height: 86px;
+                        line-height: 86px;
+                        background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-tit-1.png");
+                        background-size: cover;
+                        color: #fff;
+                        font-size: 20px;
+                        padding: 0 25px;
+                        letter-spacing: 1px;
+                        &.t2 {
+                           background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-tit-2.png");
+                        }
+                        &.t3 {
+                           background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-tit-3.png");
+                        }
+                        &.t4 {
+                           background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-tit-4.png");
+                        }
+                     }
+                     div.d1 {
+                        border: 1px solid #eee;
+                        div.d2 {
+                           padding: 12px;
+                           p.p1 {
+                              font-size: 18px;
+                              a {
+                                 font-size: 12px;
+                                 background: #de373e;
+                                 color: #fff;
+                                 display: inline-block;
+                                 vertical-align: middle;
+                                 padding: 0 12px;
+                              }
+                           }
+                           p.p2 {
+                              color: #999;
+                           }
+                           p.p3 {
+                              margin-top: 30px;
+                              span {
+                                 color: #de373e;
+                              }
+                              a {
+                                 padding: 0 10px;
+                                 border: 1px solid @color4;
+                                 color: @color4;
+                                 border-radius: 3px;
+                                 &:hover {
+                                    background: @color4;
+                                    color: #fff;
+                                 }
+                              }
+                           }
+                        }
+                        ul {
+                           li {
+                              text-align: center;
+                              border-top: 1px solid #ddd;
+                              padding: 12px 5px;
+                              &:nth-of-type(1), &:nth-of-type(3) {
+                                 border-right: 1px solid #ddd;
+                              }
+                              p.p2 {
+                                 color: #888;
+                              }
+                           }
+                        }
+                     }
+                  }
+                  //   热门服务商
+                  div.remen {
+                     border: 1px solid #ddd;
+                     background: #fff;
+                     margin-bottom: 15px;
+                     div.d1 {
+                        height: 132px;
+                        background-image: url("https://img.sandbox.qixinyun.com/hzlh-remen-bj.jpg");
+                        background-size: cover;
+                        padding: 30px 15px;
+                        position: relative;
+                        > a {
+                           margin-right: 17px;
+                           img {
+                              width: 73px;
+                              height: 71px;
+                           }
+                        }
+                        > div {
+                           padding-top: 8px;
+                           p.p1 {
+                              font-size: 16px;
+                              margin-bottom: 3px;
+                              span {
+                                 display: inline-block;
+                                 vertical-align: middle;
+                                 font-size: 12px;
+                                 background: #fec00f;
+                                 color: #fff;
+                                 line-height: 100%;
+                                 margin-left: 12px;
+                                 padding: 1px 4px;
+                              }
+                           }
+                           p.p2 {
+                              font-size: 12px;
+                              span {
+                                 color: red;
+                              }
+                           }
+                        }
+                        > span {
+                           position: absolute;
+                           width: 41px;
+                           height: 49px;
+                           background-image: url("https://img.sandbox.qixinyun.com/hzlh-remen-02.png");
+                           color: #fff;
+                           font-size: 12px;
+                           right: 12px;
+                           top: -7px;
+                           line-height: 130%;
+                           letter-spacing: 2px;
+                           padding: 5px;
+                        }
+                     }
+                     div.d2 {
+                        text-align: center;
+                        padding: 25px 0;
+                        p {
+                           font-size: 12px;
+                           margin-bottom: 25px;
+                        }
+                        a {
+                           border: 1px solid @color4;
+                           color: @color4;
+                           padding: 3px 15px;
+                           border-radius: 3px;
+                           &:hover {
+                              background: @color4;
+                              color: #fff;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   汇众服务
+      div.hzfw {
+         margin-top: 45px;
+         div.container {
+            div.hzfw-sec {
+               background: #fff;
+               ul.hzfw-le {
+                  width: 286px;
+                  li {
+                     text-align: center;
+                     padding: 10px 0;
+                     border-right: 1px solid #ccc;
+                     position: relative;
+                     a {
+                        padding: 3px 10px;
+                     }
+                     &.active, &:hover {
+                        cursor: pointer;
+                        a {
+                           background: @color4;
+                           color: #fff;
+                        }
+                     }
+                     &.active {
+                        &:before {
+                           position: absolute;
+                           top: 15px;
+                           right: -1px;
+                           content: '';
+                           border-top: 8px solid transparent;
+                           border-right: 8px solid #ccc;
+                           border-bottom: 8px solid transparent;
+                        }
+                        &:after {
+                           position: absolute;
+                           top: 16px;
+                           right: -1px;
+                           content: '';
+                           border-top: 7px solid transparent;
+                           border-right: 7px solid #fff;
+                           border-bottom: 7px solid transparent;
+                        }
+                     }
+                  }
+               }
+               div.hzfw-rt {
+                  width: 1200-286px;
+                  padding: 25px 65px;
+                  div.hzfw-s {
+                     margin-left: -15px;
+                     margin-right: -15px;
+                     display: none;
+                     &.active {
+                        display: block;
+                     }
+                     > div {
+                        padding: 0 15px;
+                        div.s {
+                           border: 1px solid #f4f4f4;
+                           height: 310px;
+                           > a {
+                              display: block;
+                              img {
+                                 width: 100%;
+                              }
+                           }
+                           div.d1 {
+                              padding: 12px;
+                              margin-bottom: 29px;
+                              p.p2 {
+                                 font-size: 12px;
+                                 color: #959595;
+                                 line-height: 135%;
+                              }
+                           }
+                           div.d2 {
+                              padding: 12px;
+                              font-size: 12px;
+                              span {
+                                 line-height: 100%;
+                                 border-left: 4px solid #db242c;
+                                 padding-left: 10px;
+                              }
+                              p {
+                                 color: #959595;
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      //   合作商
+      div.hzhzs {
+         margin-top: 45px;
+         div.container {
+            ul.hzhzs-sec {
+               background: #fff;
+               padding: 15px 0;
+               li {
+                  width: 20%;
+                  padding: 13px;
+                  a {
+                     display: block;
+                     img {
+                        display: block;
+                        width: 100%;
+                     }
+                  }
+               }
+            }
+         }
       }
    }
 
    //   footer
    footer {
-      background: @color3;
+      background: @color4;
       padding: 10px 0;
       div.container {
          text-align: center;
@@ -140,10 +505,15 @@ a:hover, a:focus {
    //   导航
    nav {
       div.container {
+         width: 98%;
          > div.row {
+            > div {
+               margin-left: 10px;
+            }
             ul.tal-t-ul {
-               width: 70%;
-               padding: 0 10%;
+               width: 60%;
+               padding-left: 0;
+               padding-right: 3%;
             }
          }
       }
@@ -151,7 +521,112 @@ a:hover, a:focus {
 
    //   主体
    section {
-
+      //主体头部
+      div.agent-top {
+         min-height: 238px;
+         background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-banner.jpg");
+         div.container {
+            width: 100%;
+            div.agent-t-le {
+               ul.agent-ul {
+                  > li {
+                     padding: 9px 15px 11px;
+                  }
+               }
+            }
+            div.agent-t-rt {
+               width: calc(~'100%' - 232px);
+               div.agent-t-l-t {
+                  height: 238px;
+                  > div {
+                     margin-top: 25px;
+                     width: auto;
+                     div.d1 {
+                        padding: 8px 0 10px;
+                        a {
+                           margin-bottom: 5px;
+                        }
+                        > p {
+                           display: none;
+                        }
+                     }
+                     div.d2 {
+                        padding: 9px 15px;
+                     }
+                  }
+               }
+               > img {
+                  height: 47px;
+               }
+            }
+         }
+      }
+      //中介、热门
+      div.agents {
+         div.container {
+            overflow-x: scroll;
+            div.agents-sec {
+               width: 1200px;
+            }
+         }
+      }
+      //   汇众服务
+      div.hzfw {
+         margin-top: 45px;
+         div.container {
+            div.hzfw-sec {
+               background: #fff;
+               ul.hzfw-le {
+                  width: 100%;
+                  li {
+                     float: left;
+                     border-right: none;
+                     border-bottom: 1px solid #ccc;
+                     padding: 10px;
+                     &.active {
+                        &:before {
+                           position: absolute;
+                           top: auto;
+                           right: auto;
+                           bottom: -1px;
+                           left: 37%;
+                           content: '';
+                           border-left: 8px solid transparent;
+                           border-bottom: 8px solid #ccc;
+                           border-right: 8px solid transparent;
+                        }
+                        &:after {
+                           position: absolute;
+                           top: auto;
+                           right: auto;
+                           bottom: -2px;
+                           left: 39%;
+                           content: '';
+                           border-left: 7px solid transparent;
+                           border-bottom: 7px solid #fff;
+                           border-right: 7px solid transparent;
+                        }
+                     }
+                  }
+               }
+               div.hzfw-rt {
+                  width: 100%;
+                  padding: 15px;
+               }
+            }
+         }
+      }
+      //   合作商
+      div.hzhzs {
+         div.container {
+            ul.hzhzs-sec {
+               li {
+                  width: 33%;
+                  margin-bottom: 12px;
+               }
+            }
+         }
+      }
    }
 }
 
@@ -180,7 +655,7 @@ a:hover, a:focus {
                display: none;
                position: absolute;
                min-width: 120px;
-               background: @color3;
+               background: @color4;
                top: 100%;
                right: 0;
                padding: 3px 0;
@@ -205,6 +680,89 @@ a:hover, a:focus {
       }
    }
 
+   //   主体
+   section {
+      //主体头部
+      div.agent-top {
+         min-height: 163px;
+         background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-banner.jpg");
+      }
+      //中介、热门
+      div.agents {
+         margin-top: 25px;
+         div.container {
+            div.agents-sec {
+               > div {
+                  // 中介服务
+                  div.ss {
+                     margin-bottom: 15px;
+                  }
+               }
+            }
+         }
+      }
+      //   汇众服务
+      div.hzfw {
+         margin-top: 25px;
+         div.container {
+            overflow-x: scroll;
+            div.hzfw-sec {
+               background: #fff;
+               width: 800px;
+               ul.hzfw-le {
+                  width: 100%;
+                  li {
+                     float: left;
+                     border-right: none;
+                     border-bottom: 1px solid #ccc;
+                     padding: 10px;
+                     &.active {
+                        &:before {
+                           position: absolute;
+                           top: auto;
+                           right: auto;
+                           bottom: -1px;
+                           left: 37%;
+                           content: '';
+                           border-left: 8px solid transparent;
+                           border-bottom: 8px solid #ccc;
+                           border-right: 8px solid transparent;
+                        }
+                        &:after {
+                           position: absolute;
+                           top: auto;
+                           right: auto;
+                           bottom: -2px;
+                           left: 39%;
+                           content: '';
+                           border-left: 7px solid transparent;
+                           border-bottom: 7px solid #fff;
+                           border-right: 7px solid transparent;
+                        }
+                     }
+                  }
+               }
+               div.hzfw-rt {
+                  width: 100%;
+                  padding: 15px;
+               }
+            }
+         }
+      }
+      //   合作商
+      div.hzhzs {
+         margin-top: 25px;
+         div.container {
+            ul.hzhzs-sec {
+               li {
+                  width: 50%;
+                  margin-bottom: 12px;
+               }
+            }
+         }
+      }
+   }
+
    ul.tal-t-ul {
       text-align: center;
       li {
@@ -216,7 +774,7 @@ a:hover, a:focus {
          }
          &.on {
             a {
-               color: @color3;
+               color: @color4;
             }
          }
       }

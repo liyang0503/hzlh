@@ -1,16 +1,16 @@
 a:hover,
 a:focus {
-  color: #0099ff;
-}
-@font-face {
-  font-family: 'dsccrystal';
-  src: url('../font/CRISTAL.ttf?81tnxi') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  color: #5893d6;
 }
 @font-face {
   font-family: '腾祥魅黑简';
-  src: url('../font/TTMEIHEIJ.ttf?81tnxi') format('truetype');
+  src: url('../font/TTMEIHEIJ.TTF') format('truetype');
+}
+@font-face {
+  font-family: 'dsccrystal';
+  src: url('../font/CRISTAL.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 @media screen and (min-width: 320px) {
   header {
@@ -32,16 +32,16 @@ a:focus {
     color: #999;
   }
   header div.container div.btn-group .dropdown-menu {
-    border-color: #0099ff;
+    border-color: #5893d6;
   }
   header div.container div.btn-group .dropdown-menu:before {
-    border-bottom-color: #0099ff;
+    border-bottom-color: #5893d6;
   }
   header div.container div.btn-group .dropdown-menu > li > a {
-    color: #0099ff;
+    color: #5893d6;
   }
   header div.container div.btn-group .dropdown-menu > li > a:hover {
-    background-color: #0099ff;
+    background-color: #5893d6;
     color: #fff;
   }
   header div.container > ul.ul-dz {
@@ -159,8 +159,8 @@ a:focus {
   }
   nav div.row ul.ul1 li:hover,
   nav div.row ul.ul1 li.active {
-    color: #0099ff;
-    border-color: #0099ff;
+    color: #5893d6;
+    border-color: #5893d6;
   }
   nav div.row ul.ul2 > li {
     padding: 11px;
@@ -182,16 +182,16 @@ a:focus {
     color: #999;
   }
   nav div.row ul.ul2 > li div.btn-group .dropdown-menu {
-    border-color: #0099ff;
+    border-color: #5893d6;
   }
   nav div.row ul.ul2 > li div.btn-group .dropdown-menu:before {
-    border-bottom-color: #0099ff;
+    border-bottom-color: #5893d6;
   }
   nav div.row ul.ul2 > li div.btn-group .dropdown-menu > li > a {
-    color: #0099ff;
+    color: #5893d6;
   }
   nav div.row ul.ul2 > li div.btn-group .dropdown-menu > li > a:hover {
-    background-color: #0099ff;
+    background-color: #5893d6;
     color: #fff;
   }
   section {
@@ -244,7 +244,7 @@ a:focus {
   }
   section div.container div.finance-sec div.row > div div.fina-s {
     border-radius: 3px;
-    box-shadow: 0 2px 5px #999;
+    box-shadow: 0 2px 5px #bbb;
   }
   section div.container div.finance-sec div.row > div div.fina-s a.a1 {
     display: block;
@@ -285,7 +285,7 @@ a:focus {
     background: #ff6640;
   }
   section div.container div.finance-sec div.row > div div.fina-s div.d1 div a:hover {
-    background: #0099ff;
+    background: #5893d6;
   }
   section div.container div.finance-sec div.xgd {
     margin: 15px 0;
@@ -294,7 +294,7 @@ a:focus {
     display: block;
     text-align: center;
     border-radius: 5px;
-    background: #0099ff;
+    background: #5893d6;
     color: #fff;
     font-size: 20px;
     padding: 5px 0;
@@ -347,7 +347,7 @@ a:focus {
     left: -30px;
   }
   footer {
-    background: #0099ff;
+    background: #5893d6;
     padding: 10px 0;
   }
   footer div.container {
@@ -559,7 +559,7 @@ a:focus {
     background: #ff6640;
   }
   section div.container div.finance-sec div.row > div div.fina-s div.d1 div a:hover {
-    background: #0099ff;
+    background: #5893d6;
   }
   section div.container div.finance-sec div.xgd {
     margin: 15px 0;
@@ -568,7 +568,7 @@ a:focus {
     display: block;
     text-align: center;
     border-radius: 5px;
-    background: #0099ff;
+    background: #5893d6;
     color: #fff;
     font-size: 20px;
     padding: 5px 0;

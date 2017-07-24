@@ -524,6 +524,7 @@ a:focus {
     right: 0;
     background: #2ac8be;
     text-align: center;
+    z-index: 10;
   }
   header.sj div.head-sj-top ul.secs > li {
     border-bottom: 1px solid #fafafa;

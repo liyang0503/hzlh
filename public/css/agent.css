@@ -1,6 +1,6 @@
 a:hover,
 a:focus {
-  color: #33a9fa;
+  color: #3366cc;
 }
 @media screen and (min-width: 320px) {
   div.btn-group {
@@ -15,16 +15,16 @@ a:focus {
     color: #999;
   }
   div.btn-group .dropdown-menu {
-    border-color: #33a9fa;
+    border-color: #3366cc;
   }
   div.btn-group .dropdown-menu:before {
-    border-bottom-color: #33a9fa;
+    border-bottom-color: #3366cc;
   }
   div.btn-group .dropdown-menu > li > a {
-    color: #33a9fa;
+    color: #3366cc;
   }
   div.btn-group .dropdown-menu > li > a:hover {
-    background-color: #33a9fa;
+    background-color: #3366cc;
     color: #fff;
   }
   header {
@@ -88,17 +88,367 @@ a:focus {
     background: none;
   }
   nav div.container > div.row > div select option {
-    background: #33a9fa;
+    background: #3366cc;
+  }
+  section {
+    background-color: #f8f8f8;
+    padding-bottom: 35px;
   }
   section div.agent-top {
-    min-height: 238px;
-    background-image: url("../images/hzlh-agent-banner.jpg");
+    min-height: 384px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-banner1.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
     background-position: center top;
   }
+  section div.agent-top div.container div.agent-t-le {
+    width: 230px;
+  }
+  section div.agent-top div.container div.agent-t-le ul.agent-ul {
+    background: #454444;
+  }
+  section div.agent-top div.container div.agent-t-le ul.agent-ul > li {
+    padding: 24px 15px 25px;
+    border-bottom: 1px solid #999;
+  }
+  section div.agent-top div.container div.agent-t-le ul.agent-ul > li:last-child {
+    border-bottom: none;
+  }
+  section div.agent-top div.container div.agent-t-le ul.agent-ul > li > a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+  }
+  section div.agent-top div.container div.agent-t-rt {
+    width: 970px;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t {
+    height: 384px;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div {
+    margin-top: 45px;
+    width: 252px;
+    border: 1px solid #eee;
+    background: #fff;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d1 {
+    text-align: center;
+    padding: 18px 0 22px;
+    border-bottom: 1px solid #eee;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d1 a {
+    display: block;
+    margin-bottom: 15px;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d1 a img {
+    display: block;
+    margin: auto;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d1 a p {
+    font-weight: bold;
+    color: #666;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d2 {
+    padding: 18px 26px;
+    background: #f7f7f7;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d2 > div p {
+    line-height: 130%;
+    font-size: 12px;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d2 a {
+    width: 98px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fec00f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d2.d3 {
+    background: #fff;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d2.d3 a {
+    background: #3366cc;
+  }
+  section div.agents-tit {
+    margin-bottom: 12px;
+  }
+  section div.agents-tit span {
+    font-size: 24px;
+    font-weight: bold;
+    border-left: 6px solid #cc3333;
+    color: #3366cc;
+    padding-left: 12px;
+  }
+  section div.agents {
+    margin-top: 45px;
+  }
+  section div.agents div.container div.agents-sec {
+    margin-left: -9px;
+    margin-right: -9px;
+  }
+  section div.agents div.container div.agents-sec > div {
+    padding: 0 9px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss {
+    background: #fff;
+    border-radius: 5px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss p.title {
+    height: 86px;
+    line-height: 86px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-tit-1.png");
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 25px;
+    letter-spacing: 1px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss p.title.t2 {
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-tit-2.png");
+  }
+  section div.agents div.container div.agents-sec > div div.ss p.title.t3 {
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-tit-3.png");
+  }
+  section div.agents div.container div.agents-sec > div div.ss p.title.t4 {
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-tit-4.png");
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 {
+    border: 1px solid #eee;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 div.d2 {
+    padding: 12px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 div.d2 p.p1 {
+    font-size: 18px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 div.d2 p.p1 a {
+    font-size: 12px;
+    background: #de373e;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 12px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 div.d2 p.p2 {
+    color: #999;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 div.d2 p.p3 {
+    margin-top: 30px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 div.d2 p.p3 span {
+    color: #de373e;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 div.d2 p.p3 a {
+    padding: 0 10px;
+    border: 1px solid #3366cc;
+    color: #3366cc;
+    border-radius: 3px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 div.d2 p.p3 a:hover {
+    background: #3366cc;
+    color: #fff;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 ul li {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding: 12px 5px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 ul li:nth-of-type(1),
+  section div.agents div.container div.agents-sec > div div.ss div.d1 ul li:nth-of-type(3) {
+    border-right: 1px solid #ddd;
+  }
+  section div.agents div.container div.agents-sec > div div.ss div.d1 ul li p.p2 {
+    color: #888;
+  }
+  section div.agents div.container div.agents-sec > div div.remen {
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 15px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 {
+    height: 132px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-remen-bj.jpg");
+    background-size: cover;
+    padding: 30px 15px;
+    position: relative;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 > a {
+    margin-right: 17px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 > a img {
+    width: 73px;
+    height: 71px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 > div {
+    padding-top: 8px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 > div p.p1 {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 > div p.p1 span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    background: #fec00f;
+    color: #fff;
+    line-height: 100%;
+    margin-left: 12px;
+    padding: 1px 4px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 > div p.p2 {
+    font-size: 12px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 > div p.p2 span {
+    color: red;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d1 > span {
+    position: absolute;
+    width: 41px;
+    height: 49px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-remen-02.png");
+    color: #fff;
+    font-size: 12px;
+    right: 12px;
+    top: -7px;
+    line-height: 130%;
+    letter-spacing: 2px;
+    padding: 5px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d2 {
+    text-align: center;
+    padding: 25px 0;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d2 p {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d2 a {
+    border: 1px solid #3366cc;
+    color: #3366cc;
+    padding: 3px 15px;
+    border-radius: 3px;
+  }
+  section div.agents div.container div.agents-sec > div div.remen div.d2 a:hover {
+    background: #3366cc;
+    color: #fff;
+  }
+  section div.hzfw {
+    margin-top: 45px;
+  }
+  section div.hzfw div.container div.hzfw-sec {
+    background: #fff;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le {
+    width: 286px;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li {
+    text-align: center;
+    padding: 10px 0;
+    border-right: 1px solid #ccc;
+    position: relative;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li a {
+    padding: 3px 10px;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li.active,
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li:hover {
+    cursor: pointer;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li.active a,
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li:hover a {
+    background: #3366cc;
+    color: #fff;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li.active:before {
+    position: absolute;
+    top: 15px;
+    right: -1px;
+    content: '';
+    border-top: 8px solid transparent;
+    border-right: 8px solid #ccc;
+    border-bottom: 8px solid transparent;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li.active:after {
+    position: absolute;
+    top: 16px;
+    right: -1px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-right: 7px solid #fff;
+    border-bottom: 7px solid transparent;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt {
+    width: 914px;
+    padding: 25px 65px;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: none;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s.active {
+    display: block;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div {
+    padding: 0 15px;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div div.s {
+    border: 1px solid #f4f4f4;
+    height: 310px;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div div.s > a {
+    display: block;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div div.s > a img {
+    width: 100%;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div div.s div.d1 {
+    padding: 12px;
+    margin-bottom: 29px;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div div.s div.d1 p.p2 {
+    font-size: 12px;
+    color: #959595;
+    line-height: 135%;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div div.s div.d2 {
+    padding: 12px;
+    font-size: 12px;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div div.s div.d2 span {
+    line-height: 100%;
+    border-left: 4px solid #db242c;
+    padding-left: 10px;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt div.hzfw-s > div div.s div.d2 p {
+    color: #959595;
+  }
+  section div.hzhzs {
+    margin-top: 45px;
+  }
+  section div.hzhzs div.container ul.hzhzs-sec {
+    background: #fff;
+    padding: 15px 0;
+  }
+  section div.hzhzs div.container ul.hzhzs-sec li {
+    width: 20%;
+    padding: 13px;
+  }
+  section div.hzhzs div.container ul.hzhzs-sec li a {
+    display: block;
+  }
+  section div.hzhzs div.container ul.hzhzs-sec li a img {
+    display: block;
+    width: 100%;
+  }
   footer {
-    background: #33a9fa;
+    background: #3366cc;
     padding: 10px 0;
   }
   footer div.container {
@@ -110,9 +460,102 @@ a:focus {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav div.container {
+    width: 98%;
+  }
+  nav div.container > div.row > div {
+    margin-left: 10px;
+  }
   nav div.container > div.row ul.tal-t-ul {
-    width: 70%;
-    padding: 0 10%;
+    width: 60%;
+    padding-left: 0;
+    padding-right: 3%;
+  }
+  section div.agent-top {
+    min-height: 238px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-banner.jpg");
+  }
+  section div.agent-top div.container {
+    width: 100%;
+  }
+  section div.agent-top div.container div.agent-t-le ul.agent-ul > li {
+    padding: 9px 15px 11px;
+  }
+  section div.agent-top div.container div.agent-t-rt {
+    width: calc(100% - 232px);
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t {
+    height: 238px;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div {
+    margin-top: 25px;
+    width: auto;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d1 {
+    padding: 8px 0 10px;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d1 a {
+    margin-bottom: 5px;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d1 > p {
+    display: none;
+  }
+  section div.agent-top div.container div.agent-t-rt div.agent-t-l-t > div div.d2 {
+    padding: 9px 15px;
+  }
+  section div.agent-top div.container div.agent-t-rt > img {
+    height: 47px;
+  }
+  section div.agents div.container {
+    overflow-x: scroll;
+  }
+  section div.agents div.container div.agents-sec {
+    width: 1200px;
+  }
+  section div.hzfw {
+    margin-top: 45px;
+  }
+  section div.hzfw div.container div.hzfw-sec {
+    background: #fff;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le {
+    width: 100%;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li {
+    float: left;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li.active:before {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: -1px;
+    left: 37%;
+    content: '';
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid #ccc;
+    border-right: 8px solid transparent;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li.active:after {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: -2px;
+    left: 39%;
+    content: '';
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    border-right: 7px solid transparent;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt {
+    width: 100%;
+    padding: 15px;
+  }
+  section div.hzhzs div.container ul.hzhzs-sec li {
+    width: 33%;
+    margin-bottom: 12px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -139,7 +582,7 @@ a:focus {
     display: none;
     position: absolute;
     min-width: 120px;
-    background: #33a9fa;
+    background: #3366cc;
     top: 100%;
     right: 0;
     padding: 3px 0;
@@ -158,6 +601,68 @@ a:focus {
   nav div.container > div.row ul.nav-t-list > li > div .dropdown-toggle span {
     color: #fff;
   }
+  section div.agent-top {
+    min-height: 163px;
+    background-image: url("https://img.sandbox.qixinyun.com/hzlh-agent-banner.jpg");
+  }
+  section div.agents {
+    margin-top: 25px;
+  }
+  section div.agents div.container div.agents-sec > div div.ss {
+    margin-bottom: 15px;
+  }
+  section div.hzfw {
+    margin-top: 25px;
+  }
+  section div.hzfw div.container {
+    overflow-x: scroll;
+  }
+  section div.hzfw div.container div.hzfw-sec {
+    background: #fff;
+    width: 800px;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le {
+    width: 100%;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li {
+    float: left;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li.active:before {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: -1px;
+    left: 37%;
+    content: '';
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid #ccc;
+    border-right: 8px solid transparent;
+  }
+  section div.hzfw div.container div.hzfw-sec ul.hzfw-le li.active:after {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: -2px;
+    left: 39%;
+    content: '';
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    border-right: 7px solid transparent;
+  }
+  section div.hzfw div.container div.hzfw-sec div.hzfw-rt {
+    width: 100%;
+    padding: 15px;
+  }
+  section div.hzhzs {
+    margin-top: 25px;
+  }
+  section div.hzhzs div.container ul.hzhzs-sec li {
+    width: 50%;
+    margin-bottom: 12px;
+  }
   ul.tal-t-ul {
     text-align: center;
   }
@@ -170,6 +675,6 @@ a:focus {
     padding: 8px;
   }
   ul.tal-t-ul li.on a {
-    color: #33a9fa;
+    color: #3366cc;
   }
 }

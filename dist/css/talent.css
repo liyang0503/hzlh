@@ -379,8 +379,12 @@ a:focus {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   nav div.container > div.row ul.tal-t-ul {
-    width: 70%;
-    padding: 0 10%;
+    width: 60%;
+    padding-left: 0;
+    padding-right: 3%;
+  }
+  nav div.container > div.row ul.tal-t-ul li {
+    padding: 0 5px;
   }
   section div.container > div.row div.talent-rt {
     width: 100%;
