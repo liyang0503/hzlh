@@ -1,0 +1,388 @@
+*,
+p,
+ul {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font: 14px/1.8 "微软雅黑";
+  color: #333;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  body {
+    font: 1.4rem/1.6 "微软雅黑";
+  }
+}
+:focus {
+  outline: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+table {
+  border-spacing: 0;
+}
+label {
+  font-weight: normal;
+  margin: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+header,
+nav,
+section,
+footer {
+  display: block;
+  width: 100%;
+}
+div.btn-group div.dropdown-toggle img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+/********************************************************************************************************************/
+/************** 登录弹窗 ****************/
+.layui-layer-page {
+  border-radius: 5px !important;
+  width: 452px !important;
+}
+div.model {
+  display: none;
+  padding: 5px 86px;
+}
+div.model p.title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+div.model div.d1 {
+  width: 100%;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #e8e8e8;
+  margin: 15px auto;
+}
+div.model div.d1 span.s1 {
+  font-size: 18px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+div.model div.d1 input {
+  width: 180px;
+  border: none;
+}
+div.model div.d1 span.s2 {
+  font-size: 18px;
+  padding: 0 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+div.model input.sub {
+  border: none;
+  background: #4749ad;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  height: 37px;
+  border-radius: 2px;
+}
+div.model div.d3 {
+  margin: 10px auto 0;
+}
+div.model div.d3 p {
+  color: #888;
+}
+div.model div.d3 ul li {
+  margin: 5px 10px 0 0;
+}
+div.model div.d3 ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #dcdcdc;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+div.model div.d3 ul li a:hover {
+  background: #ffc000;
+}
+a:hover,
+a:focus {
+  color: #4749ad;
+}
+@media screen and (min-width: 320px) {
+  div.btn-group {
+    display: block;
+  }
+  div.btn-group div.dropdown-toggle {
+    box-shadow: none;
+    cursor: pointer;
+    line-height: 100%;
+  }
+  div.btn-group div.dropdown-toggle span {
+    color: #999;
+  }
+  div.btn-group .dropdown-menu {
+    border-color: #4749ad;
+  }
+  div.btn-group .dropdown-menu:before {
+    border-bottom-color: #4749ad;
+  }
+  div.btn-group .dropdown-menu > li > a {
+    color: #4749ad;
+  }
+  div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #4749ad;
+    color: #fff;
+  }
+  header {
+    background: #282828;
+    height: 32px;
+    line-height: 32px;
+  }
+  header div.container a.a1 {
+    color: #fff;
+  }
+  header div.container ul.ul1 > li {
+    margin-left: 25px;
+  }
+  header div.container ul.ul1 > li > a {
+    display: block;
+    color: #fff;
+  }
+  header div.container ul.ul1 > li div.btn-group div.dropdown-toggle {
+    line-height: 32px;
+    color: #fff;
+  }
+  header div.container ul.ul1 > li div.btn-group div.dropdown-toggle span {
+    color: #fff;
+  }
+  nav {
+    z-index: 9999;
+    background: #4749ad;
+    transition: all 0.1s ease-in-out 0s;
+    height: 64px;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+    z-index: 1 !important;
+  }
+  nav div.container .navbar-header button span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+  }
+  nav div.container .navbar-header .navbar-brand {
+    height: 64px;
+    padding: 20px 0;
+  }
+  nav div.container .navbar-header .navbar-brand img.logo2 {
+    display: none;
+  }
+  nav div.container .navbar-collapse ul li {
+    height: 64px;
+    padding: 16px;
+  }
+  nav div.container .navbar-collapse ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  nav div.container .navbar-collapse ul li a:hover {
+    background: transparent;
+  }
+  nav div.container .navbar-collapse ul li.nav-item a {
+    border: 1px solid transparent;
+    border-left-width: 5px;
+  }
+  nav div.container .navbar-collapse ul li.nav-item:hover a,
+  nav div.container .navbar-collapse ul li.nav-item.active a {
+    border-color: #fff;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 {
+    margin-left: 10px;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li {
+    padding: 16px 5px;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li a {
+    color: #fff;
+  }
+  nav div.btn-group {
+    cursor: pointer;
+  }
+  nav div.btn-group .dropdown-toggle {
+    color: #fff;
+  }
+  nav div.btn-group .dropdown-menu {
+    border-color: #4749ad;
+  }
+  nav div.btn-group .dropdown-menu:before {
+    border-bottom-color: #4749ad;
+  }
+  nav div.btn-group .dropdown-menu > li {
+    padding: 0 !important;
+    height: auto !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a {
+    border: none !important;
+    color: #4749ad !important;
+    text-align: center !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #4749ad !important;
+    color: #fff !important;
+  }
+  section {
+    padding: 15px 0;
+  }
+  section div.container div.new-info-top {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+  section div.container > div.row div.new-info-le {
+    width: 680px;
+  }
+  section div.container > div.row div.new-info-le div.news-top {
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+  }
+  section div.container > div.row div.new-info-le div.news-top p.title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  section div.container > div.row div.new-info-le div.news-top p.p2 {
+    color: #888;
+  }
+  section div.container > div.row div.new-info-le div.news-top p.p2 span {
+    float: right;
+  }
+  section div.container > div.row div.new-info-le div.news-s img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+  }
+  section div.container > div.row div.new-info-rt {
+    width: 460px;
+  }
+  section div.container > div.row div.new-info-rt div.nr-t {
+    border-bottom: 1px solid #4749ad;
+  }
+  section div.container > div.row div.new-info-rt div.nr-t span {
+    font-weight: bold;
+    color: #4749ad;
+    font-size: 18px;
+    border-bottom: 2px solid #4749ad;
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+    top: 2px;
+  }
+  section div.container > div.row div.new-info-rt ul.nr-list {
+    padding: 12px 0;
+  }
+  section div.container > div.row div.new-info-rt ul.nr-list li a {
+    display: block;
+    padding: 5px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 3px;
+  }
+  section div.container > div.row div.new-info-rt ul.nr-list li a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 8px;
+    height: 8px;
+    background: #bfbfbf;
+    border-radius: 50%;
+  }
+  footer {
+    background: #4749ad;
+    padding: 10px 0;
+  }
+  footer div.container {
+    text-align: center;
+  }
+  footer div.container p {
+    color: #fff;
+    line-height: 150%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav div.container .navbar-collapse ul li {
+    padding: 16px 0;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 {
+    margin-left: 0;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li {
+    padding: 16px 0;
+  }
+  section div.container > div.row div.new-info-le {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    height: 50px;
+  }
+  nav div.container {
+    width: 100%;
+    padding: 0 3%;
+    background: #4749ad;
+  }
+  nav div.container.bj-col {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  nav div.container .navbar-header .navbar-brand {
+    height: 50px;
+    padding: 13px 0;
+  }
+  nav div.container .navbar-collapse ul li {
+    height: 50px;
+    padding: 5px 16px;
+  }
+  nav div.btn-group .dropdown-menu {
+    border-color: #4749ad !important;
+    background-color: #fff !important;
+    position: absolute !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a {
+    padding: 0 !important;
+  }
+  section div.container > div.row div.new-info-le {
+    width: 100%;
+  }
+}

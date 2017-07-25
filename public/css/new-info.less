@@ -1,0 +1,338 @@
+@import "global";
+
+a:hover, a:focus {
+   color: @bj;
+}
+
+//公共部分
+@media screen and (min-width: 320px) {
+   div.btn-group {
+      display: block;
+      div.dropdown-toggle {
+         box-shadow: none;
+         cursor: pointer;
+         line-height: 100%;
+         span {
+            color: #999;
+         }
+      }
+      .dropdown-menu {
+         border-color: @bj;
+         &:before {
+            border-bottom-color: @bj;
+         }
+         > li {
+            > a {
+               color: @bj;
+               &:hover {
+                  background-color: @bj;
+                  color: #fff;
+               }
+            }
+         }
+      }
+   }
+
+   //   头部
+   header {
+      background: #282828;
+      height: 32px;
+      line-height: 32px;
+      div.container {
+         a.a1 {
+            color: #fff;
+         }
+         ul.ul1 {
+            > li {
+               margin-left: 25px;
+               > a {
+                  display: block;
+                  color: #fff;
+               }
+               div.btn-group {
+                  div.dropdown-toggle {
+                     line-height: 32px;
+                     color: #fff;
+                     span {
+                        color: #fff;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //导航
+   nav {
+      z-index: 9999;
+      background: @bj;
+      transition: all .1s ease-in-out 0s;
+      height: 64px;
+      margin-bottom: 0 !important;
+      border-radius: 0 !important;
+      z-index: 1 !important;
+      div.container {
+         .navbar-header {
+            button {
+               span {
+                  display: block;
+                  width: 24px;
+                  height: 2px;
+                  border-radius: 1px;
+                  background: #fff;
+               }
+            }
+            .navbar-brand {
+               height: 64px;
+               padding: 20px 0;
+               img.logo2 {
+                  display: none;
+               }
+            }
+         }
+         .navbar-collapse {
+            ul {
+               li {
+                  height: 64px;
+                  padding: 16px;
+                  a {
+                     display: block;
+                     color: #fff;
+                     padding: 0 10px;
+                     line-height: 30px;
+                     &:hover {
+                        background: transparent;
+                     }
+                  }
+               }
+               li.nav-item {
+                  a {
+                     border: 1px solid transparent;
+                     border-left-width: 5px;
+                  }
+                  &:hover, &.active {
+                     a {
+                        border-color: #fff;
+                     }
+                  }
+               }
+               &.ul-list2 {
+                  margin-left: 10px;
+                  li {
+                     padding: 16px 5px;
+                     a {
+                        color: #fff;
+                     }
+                  }
+               }
+            }
+         }
+      }
+      div.btn-group {
+         cursor: pointer;
+         .dropdown-toggle {
+            color: #fff;
+         }
+         .dropdown-menu {
+            border-color: @bj;
+            &:before {
+               border-bottom-color: @bj;
+            }
+            > li {
+               padding: 0 !important;
+               height: auto !important;
+               > a {
+                  border: none !important;
+                  color: @bj !important;
+                  text-align: center !important;
+                  &:hover {
+                     background-color: @bj !important;
+                     color: #fff !important;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //主体
+   section {
+      padding: 15px 0;
+      div.container {
+         div.new-info-top {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+         }
+         > div.row {
+            div.new-info-le {
+               width: 680px;
+               div.news-top {
+                  margin-bottom: 15px;
+                  border-bottom: 1px dashed #ccc;
+                  padding-bottom: 5px;
+                  p.title {
+                     font-weight: bold;
+                     font-size: 24px;
+                     text-align: center;
+                     margin-bottom: 5px;
+                  }
+                  p.p2 {
+                     color: #888;
+                     span {
+                        float: right;
+                     }
+                  }
+               }
+               div.news-s {
+                  img {
+                     display: block;
+                     max-width: 100%;
+                     margin: 10px auto;
+                  }
+               }
+            }
+            div.new-info-rt {
+               width: 1200-740px;
+               div.nr-t {
+                  border-bottom: 1px solid @bj;
+                  span {
+                     font-weight: bold;
+                     color: @bj;
+                     font-size: 18px;
+                     border-bottom: 2px solid @bj;
+                     display: inline-block;
+                     padding-bottom: 2px;
+                     position: relative;
+                     top: 2px;
+                  }
+               }
+               ul.nr-list {
+                  padding: 12px 0;
+                  li {
+                     a {
+                        display: block;
+                        padding: 5px 0;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        padding-left: 3px;
+                        i {
+                           display: inline-block;
+                           vertical-align: middle;
+                           margin-right: 8px;
+                           width: 8px;
+                           height: 8px;
+                           background: #bfbfbf;
+                           border-radius: 50%;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   footer
+   footer {
+      background: @bj;
+      padding: 10px 0;
+      div.container {
+         text-align: center;
+         p {
+            color: #fff;
+            line-height: 150%;
+         }
+      }
+   }
+
+}
+
+//平板
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   //导航
+   nav {
+      div.container {
+         .navbar-collapse {
+            ul {
+               li {
+                  padding: 16px 0;
+               }
+               &.ul-list2 {
+                  margin-left: 0;
+                  li {
+                     padding: 16px 0;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //主体
+   section {
+      div.container {
+         > div.row {
+            div.new-info-le {
+               width: 100%;
+            }
+         }
+      }
+   }
+
+}
+
+//手机
+@media screen and (max-width: 767px) {
+   //导航
+   nav {
+      height: 50px;
+      div.container {
+         width: 100%;
+         padding: 0 3%;
+         background: @bj;
+         &.bj-col {
+            background: rgba(0, 0, 0, 0.8);
+         }
+         .navbar-header {
+            .navbar-brand {
+               height: 50px;
+               padding: 13px 0;
+            }
+         }
+         .navbar-collapse {
+            ul {
+               li {
+                  height: 50px;
+                  padding: 5px 16px;
+               }
+            }
+         }
+      }
+      div.btn-group {
+         .dropdown-menu {
+            border-color: @bj !important;
+            background-color: #fff !important;
+            position: absolute !important;
+            > li {
+               > a {
+                  padding: 0 !important;
+               }
+            }
+         }
+      }
+   }
+
+   //主体
+   section {
+      div.container {
+         > div.row {
+            div.new-info-le {
+               width: 100%;
+            }
+         }
+      }
+   }
+}

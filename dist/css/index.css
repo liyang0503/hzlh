@@ -54,6 +54,12 @@ footer {
   display: block;
   width: 100%;
 }
+div.btn-group div.dropdown-toggle img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
 /********************************************************************************************************************/
 /************** 登录弹窗 ****************/
 .layui-layer-page {
@@ -206,6 +212,31 @@ a:focus {
   }
   nav.scroll div.container .navbar-collapse ul.ul-list2 li a {
     color: #9b9b9f;
+  }
+  nav div.btn-group {
+    cursor: pointer;
+  }
+  nav div.btn-group .dropdown-toggle {
+    color: #9b9b9f;
+  }
+  nav div.btn-group .dropdown-menu {
+    border-color: #4749ad;
+  }
+  nav div.btn-group .dropdown-menu:before {
+    border-bottom-color: #4749ad;
+  }
+  nav div.btn-group .dropdown-menu > li {
+    padding: 0 !important;
+    height: auto !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a {
+    border: none !important;
+    color: #4749ad !important;
+    text-align: center !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #4749ad !important;
+    color: #fff !important;
   }
   header.index {
     height: 100vh;
@@ -815,6 +846,14 @@ a:focus {
   nav div.container .navbar-collapse ul li {
     height: 50px;
     padding: 5px 16px;
+  }
+  nav div.btn-group .dropdown-menu {
+    border-color: #4749ad !important;
+    background-color: #fff !important;
+    position: absolute !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a {
+    padding: 0 !important;
   }
   header.index .container .slogan-wrap .slogan p.name {
     font-size: 2.6rem;

@@ -133,13 +133,19 @@ a:focus {
     background: #f0f0f0;
     height: 475px;
     overflow: hidden;
+    padding-top: 10px;
   }
   section div.found div.container div.row div.found-le div.found-le-top dl {
     width: 100%;
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px #aaa;
     margin-bottom: 0;
+    box-shadow: 0 2px 10px #999;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
   }
   section div.found div.container div.row div.found-le div.found-le-top dl dt a {
     display: block;
@@ -188,8 +194,8 @@ a:focus {
     vertical-align: middle;
   }
   section div.found div.container div.row div.found-le div.found-le-top .poster-main {
-    width: 880px;
-    height: 467px;
+    width: 920px;
+    height: 475px;
     position: relative;
     margin: 0 auto;
   }
@@ -198,11 +204,11 @@ a:focus {
     display: block;
   }
   section div.found div.container div.row div.found-le div.found-le-top .poster-main .poster-list {
-    width: 880px;
+    width: 920px;
     height: 467px;
   }
   section div.found div.container div.row div.found-le div.found-le-top .poster-main .poster-list .poster-item {
-    width: 200px;
+    width: 348px;
     height: 475px;
     position: absolute;
     left: 0;
@@ -539,6 +545,32 @@ a:focus {
   }
   header.sj div.head-sj-top ul.secs > li > a span {
     margin-right: 5px;
+  }
+  header.sj div.head-sj-top div.btn-group {
+    display: block;
+    padding: 5px 10px;
+  }
+  header.sj div.head-sj-top div.btn-group div.dropdown-toggle {
+    box-shadow: none;
+    cursor: pointer;
+    line-height: 100%;
+    color: #fff;
+  }
+  header.sj div.head-sj-top div.btn-group div.dropdown-toggle span {
+    color: #fff;
+  }
+  header.sj div.head-sj-top div.btn-group .dropdown-menu {
+    border-color: #2ac8be;
+  }
+  header.sj div.head-sj-top div.btn-group .dropdown-menu:before {
+    border-bottom-color: #2ac8be;
+  }
+  header.sj div.head-sj-top div.btn-group .dropdown-menu > li > a {
+    color: #2ac8be;
+  }
+  header.sj div.head-sj-top div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #2ac8be;
+    color: #fff;
   }
   header.sj div.head-sj-fot {
     background: #f7f7f7;

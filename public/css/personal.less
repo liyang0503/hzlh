@@ -1,0 +1,402 @@
+@import "global";
+
+a:hover, a:focus {
+   color: @bj;
+}
+
+//公共部分
+@media screen and (min-width: 320px) {
+   //导航
+   nav {
+      z-index: 9999;
+      background: @bj;
+      transition: all .1s ease-in-out 0s;
+      height: 64px;
+      margin-bottom: 0 !important;
+      border-radius: 0 !important;
+      div.container {
+         .navbar-header {
+            button {
+               span {
+                  display: block;
+                  width: 24px;
+                  height: 2px;
+                  border-radius: 1px;
+                  background: #fff;
+               }
+            }
+            .navbar-brand {
+               height: 64px;
+               padding: 20px 0;
+               img.logo2 {
+                  display: none;
+               }
+            }
+         }
+         .navbar-collapse {
+            ul {
+               li {
+                  height: 64px;
+                  padding: 16px;
+                  a {
+                     display: block;
+                     color: #fff;
+                     padding: 0 10px;
+                     line-height: 30px;
+                     &:hover {
+                        background: transparent;
+                     }
+                  }
+               }
+               li.nav-item {
+                  a {
+                     border: 1px solid transparent;
+                     border-left-width: 5px;
+                  }
+                  &:hover, &.active {
+                     a {
+                        border-color: #fff;
+                     }
+                  }
+               }
+               &.ul-list2 {
+                  margin-left: 10px;
+                  li {
+                     padding: 16px 5px;
+                     a {
+                        color: #fff;
+                     }
+                  }
+               }
+            }
+         }
+      }
+      div.btn-group {
+         cursor: pointer;
+         .dropdown-toggle {
+            color: #fff;
+         }
+         .dropdown-menu {
+            border-color: @bj;
+            &:before {
+               border-bottom-color: @bj;
+            }
+            > li {
+               padding: 0 !important;
+               height: auto !important;
+               > a {
+                  border: none !important;
+                  color: @bj !important;
+                  text-align: center !important;
+                  &:hover {
+                     background-color: @bj !important;
+                     color: #fff !important;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //主体
+   section {
+      background: #fafafa;
+      min-height: 86.7vh;
+      padding: 30px 0;
+      div.container {
+         div.row {
+            div.per-le {
+               background: #fff;
+               width: 230px;
+               min-height: 600px;
+               div.per-le-top {
+                  padding: 12px;
+                  div.d1 {
+                     padding: 15px 15px 0 15px;
+                     img {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                     }
+                     div {
+                        margin-left: 12px;
+                        padding-top: 10px;
+                     }
+                  }
+                  > a {
+                     display: block;
+                     color: @bj;
+                     padding-left: 10px;
+                  }
+                  hr {
+                     margin: 10px auto;
+                     border-top-color: @bj;
+                  }
+               }
+               ul.per-ul {
+                  > li {
+                     > a {
+                        display: block;
+                        padding-left: 50px;
+                        margin-right: -8px;
+                        cursor: pointer;
+                     }
+                     &.active, &:hover {
+                        > a {
+                           background: @bj;
+                           color: #fff;
+                        }
+                     }
+                     ul.sub {
+                        padding-left: 55px;
+                        li {
+                           a {
+                              display: block;
+                              i {
+                                 display: inline-block;
+                                 vertical-align: middle;
+                                 width: 3px;
+                                 height: 3px;
+                                 background: @bj;
+                                 border-radius: 50%;
+                                 margin-right: 5px;
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+            div.per-rt {
+               background: #fff;
+               width: 1200-255px;
+               min-height: 600px;
+               padding: 20px;
+               p.tit {
+                  color: @bj;
+                  font-weight: bold;
+               }
+               div.d1 {
+                  margin: 10px auto;
+                  img {
+                     width: 60px;
+                     height: 60px;
+                     border-radius: 50%;
+                     margin-right: 10px;
+                  }
+               }
+               div.per-r-s {
+                  margin-top: 20px;
+                  div.d2 {
+                     width: 60%;
+                     padding: 15px 0;
+                     border-bottom: 1px solid @bj;
+                     &:last-child {
+                        border-bottom: none;
+                     }
+                     span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 86px;
+                        color: @bj;
+                     }
+                     input {
+                        height: 26px;
+                        border: 1px solid #ccc;
+                        width: 260px;
+                        padding: 2px 8px;
+                     }
+                     select {
+                        border-color: #ccc;
+                     }
+                  }
+               }
+               div.d3 {
+                  padding-left: 90px;
+                  margin-top: 10px;
+                  a {
+                     display: block;
+                     width: 90px;
+                     height: 26px;
+                     line-height: 26px;
+                     text-align: center;
+                     background: @bj;
+                     color: #fff;
+                     cursor: pointer;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   footer
+   footer {
+      background: @bj;
+      padding: 10px 0;
+      div.container {
+         text-align: center;
+         p {
+            color: #fff;
+            line-height: 150%;
+         }
+      }
+   }
+
+}
+
+//平板
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   //导航
+   nav {
+      div.container {
+         .navbar-collapse {
+            ul {
+               li {
+                  padding: 16px 0;
+               }
+               &.ul-list2 {
+                  margin-left: 0;
+                  li {
+                     padding: 16px 0;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //主体
+   section {
+      min-height: 87.7vh;
+      div.container {
+         div.row {
+            div.per-rt {
+               width: calc(~'100%' - 255px);
+               div.per-r-s {
+                  margin-top: 20px;
+                  div.d2 {
+                     width: 100%;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+}
+
+//手机
+@media screen and (max-width: 767px) {
+   //导航
+   nav {
+      height: 50px;
+      div.container {
+         width: 100%;
+         padding: 0 3%;
+         background: @bj;
+         &.bj-col {
+            background: rgba(0, 0, 0, 0.8);
+         }
+         .navbar-header {
+            .navbar-brand {
+               height: 50px;
+               padding: 13px 0;
+            }
+         }
+         .navbar-collapse {
+            ul {
+               li {
+                  height: 50px;
+                  padding: 5px 16px;
+               }
+            }
+         }
+      }
+      div.btn-group {
+         .dropdown-menu {
+            border-color: @bj !important;
+            background-color: #fff !important;
+            position: absolute !important;
+            > li {
+               > a {
+                  padding: 0 !important;
+               }
+            }
+         }
+      }
+   }
+
+   //   主体
+   section {
+      background: #fafafa;
+      min-height: 60px;
+      padding: 0;
+      padding-bottom: 20px;
+      div.title {
+         position: relative;
+         background: #fff;
+         line-height: 40px;
+         padding: 0 50px;
+         text-align: center;
+         a {
+            position: absolute;
+            top: 0;
+            padding: 0 12px;
+            &.a1 {
+               left: 0;
+            }
+            &.a2 {
+               right: 0;
+            }
+         }
+      }
+      div.d1 {
+         margin: 20px 0;
+         border-top: 1px solid #ccc;
+         border-bottom: 1px solid #ccc;
+         background: #fff;
+         padding: 8px 12px;
+         line-height: 45px;
+         img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            margin-right: 30px;
+         }
+         span {
+            margin-top: 15px;
+         }
+      }
+      ul {
+         border-top: 1px solid #ccc;
+         border-bottom: 1px solid #ccc;
+         background: #fff;
+         padding: 0 12px;
+         li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            &:last-child {
+               border-bottom: none;
+            }
+            > span {
+               display: inline-block;
+               vertical-align: middle;
+               width: 75px;
+            }
+            input {
+               border: none;
+               color: #999;
+            }
+            a {
+               display: inline-block;
+               color: #999;
+               width: calc(~'100%' - 80px);
+               span {
+                  margin-top: 5px;
+               }
+            }
+         }
+      }
+   }
+}

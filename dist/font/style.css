@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?akumzq');
-  src:  url('fonts/icomoon.eot?akumzq#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?akumzq') format('truetype'),
-    url('fonts/icomoon.woff?akumzq') format('woff'),
-    url('fonts/icomoon.svg?akumzq#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?xudn1m');
+  src:  url('fonts/icomoon.eot?xudn1m#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xudn1m') format('truetype'),
+    url('fonts/icomoon.woff?xudn1m') format('woff'),
+    url('fonts/icomoon.svg?xudn1m#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,52 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-guanz:before {
+  content: "\e92d";
+}
+.icon-liu:before {
+  content: "\e92e";
+}
+.icon-shouc:before {
+  content: "\e92f";
+}
+.icon-wos:before {
+  content: "\e930";
+}
+.icon-bianj:before {
+  content: "\e922";
+}
+.icon-jieb:before {
+  content: "\e923";
+}
+.icon-qww:before {
+  content: "\e924";
+  color: #000;
+}
+.icon-aix:before {
+  content: "\e925";
+}
+.icon-diz:before {
+  content: "\e926";
+}
+.icon-fenx:before {
+  content: "\e927";
+}
+.icon-gouwc:before {
+  content: "\e928";
+}
+.icon-jil:before {
+  content: "\e929";
+}
+.icon-add:before {
+  content: "\e92a";
+}
+.icon-jt:before {
+  content: "\e92b";
+}
+.icon-liaot:before {
+  content: "\e92c";
+}
 .icon-next:before {
   content: "\e920";
   color: #8a8a8a;

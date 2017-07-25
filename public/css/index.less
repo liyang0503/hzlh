@@ -115,6 +115,32 @@ a:hover, a:focus {
             }
          }
       }
+
+      div.btn-group {
+         cursor: pointer;
+         .dropdown-toggle {
+            color: #9b9b9f;
+         }
+         .dropdown-menu {
+            border-color: @bj;
+            &:before {
+               border-bottom-color: @bj;
+            }
+            > li {
+               padding: 0 !important;
+               height: auto !important;
+               > a {
+                  border: none !important;
+                  color: @bj !important;
+                  text-align: center !important;
+                  &:hover {
+                     background-color: @bj !important;
+                     color: #fff !important;
+                  }
+               }
+            }
+         }
+      }
    }
 
    //首页头部
@@ -828,6 +854,18 @@ a:hover, a:focus {
                li {
                   height: 50px;
                   padding: 5px 16px;
+               }
+            }
+         }
+      }
+      div.btn-group {
+         .dropdown-menu {
+            border-color: @bj !important;
+            background-color: #fff !important;
+            position: absolute !important;
+            > li {
+               > a {
+                  padding: 0 !important;
                }
             }
          }

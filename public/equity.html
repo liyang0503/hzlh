@@ -50,7 +50,8 @@
                <li class="fl">
                   <div class="btn-group">
                      <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        企信云 <span class="glyphicon glyphicon-menu-down"></span>
+                        <img src="https://img.sandbox.qixinyun.com/hzlh-agent-dl.png" alt="">企信云 <span
+                        class="glyphicon glyphicon-menu-down"></span>
                      </div>
                      <ul class="dropdown-menu">
                         <li><a href="javascript:">个人中心</a></li>
@@ -125,7 +126,23 @@
          <span class="icon-bar"></span>
       </button>
       <ul class="secs">
-         <li><a href="index.html">汇众联合首页</a></li>
+         <li><a href="javascript:login()">登录</a></li>
+         <li><a href="javascript:register()">注册</a></li>
+         <li>
+            <div class="btn-group">
+               <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="https://img.sandbox.qixinyun.com/hzlh-agent-dl.png" alt="">企信云 <span
+                  class="glyphicon glyphicon-menu-down"></span>
+               </div>
+               <ul class="dropdown-menu">
+                  <li><a href="javascript:">个人中心</a></li>
+                  <li><a href="javascript:">个人中心</a></li>
+                  <li><a href="javascript:">个人中心</a></li>
+               </ul>
+            </div>
+         </li>
+         <li><a href="javascript:">退出</a></li>
+         <li><a href="index.html">汇众联合</a></li>
          <li><a href="javascript:"><span class="icon-bianji"></span>发布项目</a></li>
          <li><a href="javascript:">我的路演</a></li>
       </ul>
@@ -173,7 +190,8 @@
                         <li class="poster-item">
                            <dl>
                               <dt>
-                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-01.png" alt=""></a>
+                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-01.png"
+                                                            alt=""></a>
                               </dt>
                               <dd class="dd1">
                                  <div>
@@ -192,7 +210,8 @@
                         <li class="poster-item">
                            <dl>
                               <dt>
-                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-02.png" alt=""></a>
+                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-02.png"
+                                                            alt=""></a>
                               </dt>
                               <dd class="dd1">
                                  <div>
@@ -211,7 +230,8 @@
                         <li class="poster-item">
                            <dl>
                               <dt>
-                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-03.png" alt=""></a>
+                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-03.png"
+                                                            alt=""></a>
                               </dt>
                               <dd class="dd1">
                                  <div>
@@ -230,6 +250,7 @@
                      </ul>
                      <div class="poster-btn poster-next-btn"></div>
                   </div>
+
                </div>
                <div class="found-le-f hidden-xs">
                   <img src="https://img.sandbox.qixinyun.com/hzlh-equity-o1.jpg" class="img-responsive" alt="">
@@ -707,17 +728,17 @@
 <!--本页js-->
 <script src="js/equity.js"></script>
 <script src="js/PicCarousel.js"></script>
-<script>
+<script type="text/javascript">
    $(".B_Demo").PicCarousel({
-      "width": 880, //幻灯片的宽度
-      "height": 467, //幻灯片的高度
-      "posterWidth": 348, //幻灯片第一帧的宽度
-      "posterHeight": 467, //幻灯片第一张的高度
-      "scale": 0.8, //记录显示比例关系
-      "speed": 1000, //记录幻灯片滚动速度
-//      "autoPlay": true, //是否开启自动播放
-      "delay": 1000, //自动播放间隔
-      "verticalAlign": "center" //图片对齐位置
+      "width": 920,		//幻灯片的宽度
+      "height": 457,		//幻灯片的高度
+      "posterWidth": 348,	//幻灯片第一帧的宽度
+      "posterHeight": 475, //幻灯片第一张的高度
+      "scale": 0.9,		//记录显示比例关系
+      "speed": 1000,		//记录幻灯片滚动速度
+      "autoPlay": true,	//是否开启自动播放
+      "delay": 3000,		//自动播放间隔
+      "verticalAlign": "center"	//图片对齐位置
    });
 </script>
 </body>

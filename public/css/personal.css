@@ -1,0 +1,468 @@
+*,
+p,
+ul {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font: 14px/1.8 "微软雅黑";
+  color: #333;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  body {
+    font: 1.4rem/1.6 "微软雅黑";
+  }
+}
+:focus {
+  outline: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+table {
+  border-spacing: 0;
+}
+label {
+  font-weight: normal;
+  margin: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+header,
+nav,
+section,
+footer {
+  display: block;
+  width: 100%;
+}
+div.btn-group div.dropdown-toggle img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+/********************************************************************************************************************/
+/************** 登录弹窗 ****************/
+.layui-layer-page {
+  border-radius: 5px !important;
+  width: 452px !important;
+}
+div.model {
+  display: none;
+  padding: 5px 86px;
+}
+div.model p.title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+div.model div.d1 {
+  width: 100%;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #e8e8e8;
+  margin: 15px auto;
+}
+div.model div.d1 span.s1 {
+  font-size: 18px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+div.model div.d1 input {
+  width: 180px;
+  border: none;
+}
+div.model div.d1 span.s2 {
+  font-size: 18px;
+  padding: 0 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+div.model input.sub {
+  border: none;
+  background: #4749ad;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  height: 37px;
+  border-radius: 2px;
+}
+div.model div.d3 {
+  margin: 10px auto 0;
+}
+div.model div.d3 p {
+  color: #888;
+}
+div.model div.d3 ul li {
+  margin: 5px 10px 0 0;
+}
+div.model div.d3 ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #dcdcdc;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+div.model div.d3 ul li a:hover {
+  background: #ffc000;
+}
+a:hover,
+a:focus {
+  color: #4749ad;
+}
+@media screen and (min-width: 320px) {
+  nav {
+    z-index: 9999;
+    background: #4749ad;
+    transition: all 0.1s ease-in-out 0s;
+    height: 64px;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+  }
+  nav div.container .navbar-header button span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+  }
+  nav div.container .navbar-header .navbar-brand {
+    height: 64px;
+    padding: 20px 0;
+  }
+  nav div.container .navbar-header .navbar-brand img.logo2 {
+    display: none;
+  }
+  nav div.container .navbar-collapse ul li {
+    height: 64px;
+    padding: 16px;
+  }
+  nav div.container .navbar-collapse ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  nav div.container .navbar-collapse ul li a:hover {
+    background: transparent;
+  }
+  nav div.container .navbar-collapse ul li.nav-item a {
+    border: 1px solid transparent;
+    border-left-width: 5px;
+  }
+  nav div.container .navbar-collapse ul li.nav-item:hover a,
+  nav div.container .navbar-collapse ul li.nav-item.active a {
+    border-color: #fff;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 {
+    margin-left: 10px;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li {
+    padding: 16px 5px;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li a {
+    color: #fff;
+  }
+  nav div.btn-group {
+    cursor: pointer;
+  }
+  nav div.btn-group .dropdown-toggle {
+    color: #fff;
+  }
+  nav div.btn-group .dropdown-menu {
+    border-color: #4749ad;
+  }
+  nav div.btn-group .dropdown-menu:before {
+    border-bottom-color: #4749ad;
+  }
+  nav div.btn-group .dropdown-menu > li {
+    padding: 0 !important;
+    height: auto !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a {
+    border: none !important;
+    color: #4749ad !important;
+    text-align: center !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a:hover {
+    background-color: #4749ad !important;
+    color: #fff !important;
+  }
+  section {
+    background: #fafafa;
+    min-height: 86.7vh;
+    padding: 30px 0;
+  }
+  section div.container div.row div.per-le {
+    background: #fff;
+    width: 230px;
+    min-height: 600px;
+  }
+  section div.container div.row div.per-le div.per-le-top {
+    padding: 12px;
+  }
+  section div.container div.row div.per-le div.per-le-top div.d1 {
+    padding: 15px 15px 0 15px;
+  }
+  section div.container div.row div.per-le div.per-le-top div.d1 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  section div.container div.row div.per-le div.per-le-top div.d1 div {
+    margin-left: 12px;
+    padding-top: 10px;
+  }
+  section div.container div.row div.per-le div.per-le-top > a {
+    display: block;
+    color: #4749ad;
+    padding-left: 10px;
+  }
+  section div.container div.row div.per-le div.per-le-top hr {
+    margin: 10px auto;
+    border-top-color: #4749ad;
+  }
+  section div.container div.row div.per-le ul.per-ul > li > a {
+    display: block;
+    padding-left: 50px;
+    margin-right: -8px;
+    cursor: pointer;
+  }
+  section div.container div.row div.per-le ul.per-ul > li.active > a,
+  section div.container div.row div.per-le ul.per-ul > li:hover > a {
+    background: #4749ad;
+    color: #fff;
+  }
+  section div.container div.row div.per-le ul.per-ul > li ul.sub {
+    padding-left: 55px;
+  }
+  section div.container div.row div.per-le ul.per-ul > li ul.sub li a {
+    display: block;
+  }
+  section div.container div.row div.per-le ul.per-ul > li ul.sub li a i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 3px;
+    background: #4749ad;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  section div.container div.row div.per-rt {
+    background: #fff;
+    width: 945px;
+    min-height: 600px;
+    padding: 20px;
+  }
+  section div.container div.row div.per-rt p.tit {
+    color: #4749ad;
+    font-weight: bold;
+  }
+  section div.container div.row div.per-rt div.d1 {
+    margin: 10px auto;
+  }
+  section div.container div.row div.per-rt div.d1 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  section div.container div.row div.per-rt div.per-r-s {
+    margin-top: 20px;
+  }
+  section div.container div.row div.per-rt div.per-r-s div.d2 {
+    width: 60%;
+    padding: 15px 0;
+    border-bottom: 1px solid #4749ad;
+  }
+  section div.container div.row div.per-rt div.per-r-s div.d2:last-child {
+    border-bottom: none;
+  }
+  section div.container div.row div.per-rt div.per-r-s div.d2 span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 86px;
+    color: #4749ad;
+  }
+  section div.container div.row div.per-rt div.per-r-s div.d2 input {
+    height: 26px;
+    border: 1px solid #ccc;
+    width: 260px;
+    padding: 2px 8px;
+  }
+  section div.container div.row div.per-rt div.per-r-s div.d2 select {
+    border-color: #ccc;
+  }
+  section div.container div.row div.per-rt div.d3 {
+    padding-left: 90px;
+    margin-top: 10px;
+  }
+  section div.container div.row div.per-rt div.d3 a {
+    display: block;
+    width: 90px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: #4749ad;
+    color: #fff;
+    cursor: pointer;
+  }
+  footer {
+    background: #4749ad;
+    padding: 10px 0;
+  }
+  footer div.container {
+    text-align: center;
+  }
+  footer div.container p {
+    color: #fff;
+    line-height: 150%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav div.container .navbar-collapse ul li {
+    padding: 16px 0;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 {
+    margin-left: 0;
+  }
+  nav div.container .navbar-collapse ul.ul-list2 li {
+    padding: 16px 0;
+  }
+  section {
+    min-height: 87.7vh;
+  }
+  section div.container div.row div.per-rt {
+    width: calc(100% - 255px);
+  }
+  section div.container div.row div.per-rt div.per-r-s {
+    margin-top: 20px;
+  }
+  section div.container div.row div.per-rt div.per-r-s div.d2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    height: 50px;
+  }
+  nav div.container {
+    width: 100%;
+    padding: 0 3%;
+    background: #4749ad;
+  }
+  nav div.container.bj-col {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  nav div.container .navbar-header .navbar-brand {
+    height: 50px;
+    padding: 13px 0;
+  }
+  nav div.container .navbar-collapse ul li {
+    height: 50px;
+    padding: 5px 16px;
+  }
+  nav div.btn-group .dropdown-menu {
+    border-color: #4749ad !important;
+    background-color: #fff !important;
+    position: absolute !important;
+  }
+  nav div.btn-group .dropdown-menu > li > a {
+    padding: 0 !important;
+  }
+  section {
+    background: #fafafa;
+    min-height: 60px;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  section div.title {
+    position: relative;
+    background: #fff;
+    line-height: 40px;
+    padding: 0 50px;
+    text-align: center;
+  }
+  section div.title a {
+    position: absolute;
+    top: 0;
+    padding: 0 12px;
+  }
+  section div.title a.a1 {
+    left: 0;
+  }
+  section div.title a.a2 {
+    right: 0;
+  }
+  section div.d1 {
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    padding: 8px 12px;
+    line-height: 45px;
+  }
+  section div.d1 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  section div.d1 span {
+    margin-top: 15px;
+  }
+  section ul {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    padding: 0 12px;
+  }
+  section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  section ul li:last-child {
+    border-bottom: none;
+  }
+  section ul li > span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 75px;
+  }
+  section ul li input {
+    border: none;
+    color: #999;
+  }
+  section ul li a {
+    display: inline-block;
+    color: #999;
+    width: calc(100% - 80px);
+  }
+  section ul li a span {
+    margin-top: 5px;
+  }
+}
