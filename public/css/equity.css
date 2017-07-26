@@ -133,7 +133,6 @@ a:focus {
     background: #f0f0f0;
     height: 475px;
     overflow: hidden;
-    padding-top: 10px;
   }
   section div.found div.container div.row div.found-le div.found-le-top dl {
     width: 100%;
@@ -193,26 +192,19 @@ a:focus {
     color: #f7b238;
     vertical-align: middle;
   }
-  section div.found div.container div.row div.found-le div.found-le-top .poster-main {
-    width: 920px;
+  section div.found div.container div.row div.found-le div.found-le-top .roundabout_box {
     height: 475px;
-    position: relative;
-    margin: 0 auto;
-  }
-  section div.found div.container div.row div.found-le div.found-le-top .poster-main a,
-  section div.found div.container div.row div.found-le div.found-le-top .poster-main img {
-    display: block;
-  }
-  section div.found div.container div.row div.found-le div.found-le-top .poster-main .poster-list {
     width: 920px;
-    height: 467px;
+    margin: auto;
   }
-  section div.found div.container div.row div.found-le div.found-le-top .poster-main .poster-list .poster-item {
+  section div.found div.container div.row div.found-le div.found-le-top .roundabout_box ul {
+    margin: auto;
+    width: 720px;
+    height: 475px;
+  }
+  section div.found div.container div.row div.found-le div.found-le-top .roundabout_box ul li {
     width: 348px;
-    height: 475px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    height: 465px;
   }
   section div.found div.container div.row div.found-rt {
     width: 265px;

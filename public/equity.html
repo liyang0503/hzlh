@@ -184,14 +184,14 @@
          <div class="row">
             <div class="found-le fl">
                <div class="found-le-top">
-                  <div class="poster-main B_Demo">
-                     <div class="poster-btn poster-prev-btn"></div>
-                     <ul class="poster-list">
-                        <li class="poster-item">
+                  <div id="" class="roundabout_box">
+                     <ul>
+                        <li>
                            <dl>
                               <dt>
-                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-01.png"
-                                                            alt=""></a>
+                                 <a href="javascript:">
+                                    <img src="https://img.sandbox.qixinyun.com/hzlh-found-01.png" alt="">
+                                 </a>
                               </dt>
                               <dd class="dd1">
                                  <div>
@@ -207,11 +207,12 @@
                               <dd class="dd3"><span class="icon-shoucang"></span>集多种环保技术，加大清洁能源利用</dd>
                            </dl>
                         </li>
-                        <li class="poster-item">
+                        <li>
                            <dl>
                               <dt>
-                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-02.png"
-                                                            alt=""></a>
+                                 <a href="javascript:">
+                                    <img src="https://img.sandbox.qixinyun.com/hzlh-found-02.png" alt="">
+                                 </a>
                               </dt>
                               <dd class="dd1">
                                  <div>
@@ -227,11 +228,12 @@
                               <dd class="dd3"><span class="icon-shoucang"></span>集多种环保技术，加大清洁能源利用</dd>
                            </dl>
                         </li>
-                        <li class="poster-item">
+                        <li>
                            <dl>
                               <dt>
-                                 <a href="javascript:"><img src="https://img.sandbox.qixinyun.com/hzlh-found-03.png"
-                                                            alt=""></a>
+                                 <a href="javascript:">
+                                    <img src="https://img.sandbox.qixinyun.com/hzlh-found-03.png" alt="">
+                                 </a>
                               </dt>
                               <dd class="dd1">
                                  <div>
@@ -248,9 +250,8 @@
                            </dl>
                         </li>
                      </ul>
-                     <div class="poster-btn poster-next-btn"></div>
                   </div>
-
+                  <div class="clear"></div>
                </div>
                <div class="found-le-f hidden-xs">
                   <img src="https://img.sandbox.qixinyun.com/hzlh-equity-o1.jpg" class="img-responsive" alt="">
@@ -727,18 +728,22 @@
 
 <!--本页js-->
 <script src="js/equity.js"></script>
-<script src="js/PicCarousel.js"></script>
+<script src="js/jquery.roundabout.min.js"></script>
 <script type="text/javascript">
-   $(".B_Demo").PicCarousel({
-      "width": 920,		//幻灯片的宽度
-      "height": 457,		//幻灯片的高度
-      "posterWidth": 348,	//幻灯片第一帧的宽度
-      "posterHeight": 475, //幻灯片第一张的高度
-      "scale": 0.9,		//记录显示比例关系
-      "speed": 1000,		//记录幻灯片滚动速度
-      "autoPlay": true,	//是否开启自动播放
-      "delay": 3000,		//自动播放间隔
-      "verticalAlign": "center"	//图片对齐位置
+   $(document).ready(function () {
+      $('.roundabout_box ul').roundabout({
+         duration: 800,
+         minScale: 0.8,
+         autoplay: true,
+         autoplayDuration: 3000,
+         minOpacity: 0.6,
+         maxOpacity: 1,
+         reflect: true,
+         startingChild: 3,
+         autoplayInitialDelay: 3000,
+         autoplayPauseOnHover: true,
+         enableDrag: true
+      });
    });
 </script>
 </body>

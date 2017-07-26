@@ -3,9 +3,6 @@
  */
 
 $(function () {
-   //发现动效
-   // found();
-
    //   精品路演
    $('.qua-num').each(function () {
       var s1 = $(this).find('.s1').text();
@@ -25,18 +22,6 @@ $(function () {
    });
 
 });
-
-//动效
-function found() {
-   $('.poster-item').each(function () {
-      if ($(this).css('zIndex') == 0) {
-         $(this).find('dl').css({transform: 'scale(0.85)'});
-      } else {
-         $(this).find('dl').css({transform: 'scale(1)'});
-      }
-   });
-   setTimeout(found, 3000);
-}
 
 //手机搜索
 function searchToggle(obj, e) {
