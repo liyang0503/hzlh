@@ -261,6 +261,7 @@ a:focus {
   }
   section {
     padding: 15px 0;
+    min-height: 83.4vh;
   }
   section div.container div.new-info-top {
     border-bottom: 1px solid #ccc;
