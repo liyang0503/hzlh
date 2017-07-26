@@ -196,6 +196,7 @@ a:focus {
     height: 475px;
     width: 920px;
     margin: auto;
+    padding-left: 10px;
   }
   section div.found div.container div.row div.found-le div.found-le-top .roundabout_box ul {
     margin: auto;
@@ -603,7 +604,7 @@ a:focus {
     color: #fff;
   }
   header.sj div.head-sj-fot .search-wrapper {
-    width: 100%;
+    width: 40px;
     position: absolute;
     top: 0;
     right: 0;
@@ -699,6 +700,23 @@ a:focus {
   }
   section div.found div.container > div.row div.found-le {
     width: 100%;
+  }
+  section div.found div.container > div.row div.found-le div.found-le-top {
+    height: 425px;
+  }
+  section div.found div.container > div.row div.found-le div.found-le-top .roundabout_box {
+    height: 425px;
+    width: 100%;
+    margin: auto;
+  }
+  section div.found div.container > div.row div.found-le div.found-le-top .roundabout_box ul {
+    margin: auto;
+    width: 60%;
+    height: 425px;
+  }
+  section div.found div.container > div.row div.found-le div.found-le-top .roundabout_box ul li {
+    width: 300px;
+    height: 425px;
   }
   section div.found div.container > div.row div.found-rt {
     width: 100%;

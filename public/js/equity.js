@@ -26,12 +26,13 @@ $(function () {
 //手机搜索
 function searchToggle(obj, e) {
    var container = $(obj).closest('.search-wrapper');
-
    if (!container.hasClass('active')) {
+      $('.search-wrapper').css({width: "100%"});
       container.addClass('active');
       e.preventDefault();
    }
    else if (container.hasClass('active') && $(obj).closest('.input-holder').length == 0) {
+      $('.search-wrapper').css({width: "40px"});
       container.removeClass('active');
       // clear input
       container.find('.search-input').val('');
