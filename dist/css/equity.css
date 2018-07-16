@@ -462,7 +462,7 @@ a:focus {
     line-height: 150%;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   section div.found div.container div.row div.found-le {
     width: 100%;
   }
